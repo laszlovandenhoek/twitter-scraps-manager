@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Tweets Archive</h1>
+
+    <div id="tweet-preview"></div>
+
+    <div class="filter-options">
+        <label>
+            <input type="checkbox" id="hide-archived" checked> Hide Archived tweets
+        </label>
+        <label>
+            <input type="checkbox" id="hide-categorized" checked> Hide Categorized tweets
+        </label>
+    </div>
+
+    <div class="tweets-table">
+        <table>
+            <thead>
+            <tr>
+                <th>Screen Name</th>
+                <th>Created At</th>
+                <th>REST ID</th>
+                <th>Text</th>
+                <th>Category</th>
+                <th>Important</th>
+                <th>Archived</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="tweets-body">
+            <!-- Rows will be appended here dynamically -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<datalist id="categories">
+    <!-- Options will be appended here dynamically -->
+</datalist>
+
+<script src="scripts.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</body>
+
+</html>
