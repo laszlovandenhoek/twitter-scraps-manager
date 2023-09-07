@@ -1,6 +1,6 @@
 use std::sync::Arc;
 
-use deadpool_postgres::{Manager, Pool};
+use deadpool_postgres::{Manager, ManagerConfig, Pool, RecyclingMethod};
 use serde::Deserialize;
 use serde::Serialize;
 use tokio_postgres::Config;
@@ -63,7 +63,7 @@ mod handlers {
         };
 
         if pagination.hide_categorized.unwrap_or(true) {
-            where_clauses.push("category is null")
+            where_clauses.push("(category is null OR category = '')")
         }
 
         let query = format!("SELECT * FROM tweets WHERE {} ORDER BY sort_index DESC LIMIT $1 OFFSET $2", where_clauses.join(" AND "));
@@ -99,6 +99,7 @@ mod handlers {
         let mut counter = 1;
 
         if let Some(ref category) = update.category {
+            //FIXME: handle setting null
             set_clauses.push(format!("category = ${}", counter));
             values.push(category);
             counter += 1;
@@ -133,7 +134,7 @@ mod handlers {
     pub async fn get_categories(pool: Arc<Pool>) -> Result<impl warp::Reply, warp::Rejection> {
         let client = pool.get().await.unwrap();
 
-        let stmt = client.prepare("SELECT DISTINCT category FROM tweets WHERE category IS NOT NULL").await.unwrap();
+        let stmt = client.prepare("SELECT category FROM tweets WHERE category IS NOT NULL GROUP BY category ORDER BY count(*) DESC").await.unwrap();
         let rows = client.query(&stmt, &[]).await.unwrap();
 
         let categories: Vec<String> = rows.iter().map(|row| {
@@ -168,8 +169,12 @@ async fn main() {
     cfg.password(&database_password);
     cfg.dbname(&database_name);
 
-    let mgr = Manager::new(cfg, tokio_postgres::NoTls);
-    let pool = Arc::new(Pool::new(mgr, 16));
+    let mgrcfg = ManagerConfig {
+        recycling_method: RecyclingMethod::Verified,
+    };
+
+    let mgr = Manager::from_config(cfg, tokio_postgres::NoTls, mgrcfg );
+    let pool = Arc::new(Pool::builder(mgr).max_size(16).build().unwrap());
     let with_pool = warp::any().map(move || Arc::clone(&pool));
 
     let tweets = warp::path("tweets")
