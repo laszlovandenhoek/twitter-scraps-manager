@@ -21,6 +21,15 @@ pub struct Tweet {
     archived: bool,
 }
 
+#[derive(Serialize)]
+pub struct Info {
+    total: i64,
+    categorized: i64,
+    uncategorized: i64,
+    archived: i64,
+    important: i64,
+}
+
 #[derive(Deserialize)]
 pub struct Pagination {
     page_size: Option<i64>,
@@ -41,7 +50,7 @@ mod handlers {
 
     use deadpool_postgres::Pool;
 
-    use crate::{Pagination, Tweet, UpdateTweet};
+    use crate::{Info, Pagination, Tweet, UpdateTweet};
 
     #[derive(Debug)]
     struct CustomRejection(String);
@@ -143,6 +152,34 @@ mod handlers {
 
         Ok(warp::reply::json(&categories))
     }
+
+    pub async fn get_info(pool: Arc<Pool>) -> Result<impl warp::Reply, warp::Rejection> {
+        let client = pool.get().await.unwrap();
+
+        let stmt = client.prepare("
+select total.num                     as total,
+       uncategorized.num             as uncategorized,
+       total.num - uncategorized.num as categorized,
+       archived.num                  as archived,
+       important.num                 as important
+from (select count(*) num from tweets) as total,
+     (select count(*) num from tweets where category is null or category = '') as uncategorized,
+     (select count(*) num from tweets where archived = true) as archived,
+     (select count(*) num from tweets where important = true) as important").await.unwrap();
+        let rows = client.query(&stmt, &[]).await.unwrap();
+
+        let info = rows.get(0).map(|row| {
+            Info {
+                total: row.get(0),
+                uncategorized: row.get(1),
+                categorized: row.get(2),
+                archived: row.get(3),
+                important: row.get(4),
+            }
+        });
+
+        Ok(warp::reply::json(&info))
+    }
 }
 
 #[tokio::main]
@@ -173,7 +210,7 @@ async fn main() {
         recycling_method: RecyclingMethod::Verified,
     };
 
-    let mgr = Manager::from_config(cfg, tokio_postgres::NoTls, mgrcfg );
+    let mgr = Manager::from_config(cfg, tokio_postgres::NoTls, mgrcfg);
     let pool = Arc::new(Pool::builder(mgr).max_size(16).build().unwrap());
     let with_pool = warp::any().map(move || Arc::clone(&pool));
 
@@ -194,13 +231,22 @@ async fn main() {
         .and(with_pool.clone())
         .and_then(handlers::get_categories);
 
+    let info = warp::path("info")
+        .and(warp::get())
+        .and(with_pool.clone())
+        .and_then(handlers::get_info);
+
     let cors = warp::cors()
         .allow_any_origin()
         .allow_methods(vec![Method::GET, Method::POST, Method::PATCH, Method::OPTIONS]) // Add any other methods you want to allow here
         .allow_headers(vec!["Content-Type", "User-Agent", "Authorization"]) // Add any other headers you expect
         .build();
 
-    let routes = tweets.or(update).or(categories).with(cors);
+    let routes = tweets
+        .or(update)
+        .or(categories)
+        .or(info)
+        .with(cors);
 
     warp::serve(routes).run(([127, 0, 0, 1], 3030)).await;
 }

@@ -25,14 +25,14 @@ function forceReload() {
     tbody.innerHTML = '';
 
     // Fetch tweets based on the checkbox state
-    fetchTweets();
+    updateInfo().then(fetchTweets);
 }
 
 hideArchivedCheckbox.addEventListener('change', forceReload);
 hideCategorizedCheckbox.addEventListener('change', forceReload);
 
 // Fetch categories
-refreshCategories().then(fetchTweets);
+refreshCategories().then(updateInfo).then(fetchTweets);
 
 function refreshCategories() {
     return fetch(`${apiUrl}/categories`)
@@ -86,6 +86,14 @@ function fetchTweets() {
         });
 }
 
+function updateInfo() {
+    return fetch(`${apiUrl}/info`)
+        .then(response => response.json())
+        .then(info => {
+            document.getElementById("stats").innerText = `${info.categorized} + ${info.uncategorized} = ${info.total} tweets; ${info.important} important; ${info.archived} archived.`
+        });
+}
+
 function updateTweet(id, category, important, archived) {
     const data = {
         category,
@@ -93,8 +101,8 @@ function updateTweet(id, category, important, archived) {
         archived
     };
 
-        let row = document.getElementById(id);
-        row.style.backgroundColor = 'aquamarine';
+    let row = document.getElementById(id);
+    row.style.backgroundColor = 'aquamarine';
 
     fetch(`${apiUrl}/tweets/${id}`, {
         method: 'PATCH',
