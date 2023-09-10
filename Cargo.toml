@@ -14,3 +14,5 @@ tokio-postgres = { version = "0.7", features = ["with-chrono-0_4", "with-uuid-0_
 chrono = { version = "0.4", features = ["serde"] }
 tokio = { version = "1", features = ["full"] }
 dotenv = "0.15"
+include_dir = "0.7"
+mime_guess = "2"
