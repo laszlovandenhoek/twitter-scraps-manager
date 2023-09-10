@@ -75,9 +75,13 @@ async fn main() {
         .and(with_pool.clone())
         .and_then(handlers::get_info);
 
-    // let static_content = warp::path::param::<String>()
-    //     .and(warp::get())
-    //     .and_then(handlers::get_static);
+    let static_content = warp::path::param::<String>()
+        .and(warp::get())
+        .and_then(handlers::get_static);
+
+    let root = warp::path!()
+        .and(warp::get())
+        .and_then(|| handlers::get_static("index.html".to_string()));
 
     let cors = warp::cors()
         .allow_any_origin()
@@ -89,7 +93,8 @@ async fn main() {
         .or(update)
         .or(categories)
         .or(info)
-        // .or(static_content)
+        .or(static_content)
+        .or(root)
         .with(cors);
 
     warp::serve(routes).run(([0, 0, 0, 0], 3030)).await;
@@ -125,4 +130,3 @@ fn get_pool() -> Result<Pool, BuildError> {
     let mgr = Manager::from_config(cfg, tokio_postgres::NoTls, mgrcfg);
     return Pool::builder(mgr).max_size(16).build();
 }
-

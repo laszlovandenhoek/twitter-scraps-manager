@@ -136,18 +136,15 @@ from (select count(*) num from tweets) as total,
     Ok(warp::reply::json(&info))
 }
 
-// pub async fn get_static(file_path: String) -> Result<impl warp::Reply, warp::Rejection> {
-//     if let Some(file) = STATIC_DIR.get_file(&file_path) {
-//         let mime = mime_guess::from_path(&file_path).first_or_octet_stream();
-//         Ok(warp::reply::with_header(
-//             file.contents(),
-//             "content-type",
-//             mime.as_ref(),
-//         ))
-//     } else {
-//         Ok(warp::reply::with_status(
-//             "Not Found",
-//             warp::http::StatusCode::NOT_FOUND
-//         ))
-//     }
-// }
+pub async fn get_static(file_path: String) -> Result<impl warp::Reply, warp::Rejection> {
+    if let Some(file) = STATIC_DIR.get_file(&file_path) {
+        let mime = mime_guess::from_path(&file_path).first_or_octet_stream();
+        Ok(warp::reply::with_header(
+            file.contents(),
+            "content-type",
+            mime.as_ref(),
+        ))
+    } else {
+        Err(warp::reject::not_found())
+    }
+}
