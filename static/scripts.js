@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3030";
+const apiUrl = `${window.location.protocol}//${window.location.host}`;
 const tbody = document.getElementById("tweets-body");
 const hideArchivedCheckbox = document.getElementById("hide-archived");
 const hideCategorizedCheckbox = document.getElementById("hide-categorized");
