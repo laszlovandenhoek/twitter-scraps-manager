@@ -112,15 +112,17 @@ pub async fn get_info(pool: Arc<Pool>) -> Result<impl warp::Reply, warp::Rejecti
     let client = pool.get().await.unwrap();
 
     let stmt = client.prepare("
-select total.num                     as total,
-   uncategorized.num             as uncategorized,
-   total.num - uncategorized.num as categorized,
-   archived.num                  as archived,
-   important.num                 as important
+select
+    total.num                     as total,
+    uncategorized.num             as uncategorized,
+    total.num - uncategorized.num as categorized,
+    archived.num                  as archived,
+    important.num                 as important
 from (select count(*) num from tweets) as total,
- (select count(*) num from tweets where category is null or category = '') as uncategorized,
- (select count(*) num from tweets where archived = true) as archived,
- (select count(*) num from tweets where important = true) as important").await.unwrap();
+     (select count(*) num from tweets where category is null or category = '') as uncategorized,
+     (select count(*) num from tweets where archived = true) as archived,
+     (select count(*) num from tweets where important = true) as important"
+    ).await.unwrap();
     let rows = client.query(&stmt, &[]).await.unwrap();
 
     let info = rows.get(0).map(|row| {
