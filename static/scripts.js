@@ -110,7 +110,7 @@ function updateTweet(id, category, important, archived) {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify(data),
-    }).then(r => {
+    }).then(_ => {
         row.style = undefined;
     }, rejection => {
         console.log(rejection)
