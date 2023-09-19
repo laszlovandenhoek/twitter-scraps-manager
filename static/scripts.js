@@ -67,9 +67,7 @@ function fetchTweets() {
                 row.id = tweet.rest_id;
 
                 row.innerHTML = `
-                    <td>${tweet.screen_name}</td>
-                    <td>${tweet.created_at}</td>
-                    <td>${tweet.rest_id}</td>
+                    <td><p>${tweet.screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
                     <td>${tweet.full_text.replaceAll("\n", "<br>")}</td>
                     <td><input list="categories" name="category" placeholder="Select or type a category" onchange="updateTweet('${tweet.rest_id}', this.value)" value="${tweet.category ? tweet.category : ''}"></td>
