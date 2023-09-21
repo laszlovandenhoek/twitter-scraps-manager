@@ -5,6 +5,7 @@ const hideCategorizedCheckbox = document.getElementById("hide-categorized");
 const textSearch = document.getElementById("text-search");
 const clearSearch = document.getElementById("clear-search");
 const tweetPreviewDiv = document.getElementById('tweet-preview');
+const title = document.getElementById("title");
 
 const pageSize = 20;
 
@@ -19,25 +20,26 @@ window.addEventListener('scroll', () => {
 });
 
 
-function forceReload() {
-    // Reset the current page
-    currentPage = 1;
-    isLoading = false;
-    isBottomed = false;
+function reload() {
+    if (!isLoading) {
+        // Reset the current page
+        currentPage = 1;
+        isBottomed = false;
 
-    // Clear the current list of tweets
-    tbody.innerHTML = '';
+        // Clear the current list of tweets
+        tbody.innerHTML = '';
 
-    // Fetch tweets based on the checkbox state
-    updateInfo().then(fetchTweets);
+        // Fetch tweets based on the checkbox state
+        updateInfo().then(fetchTweets);
+    }
 }
 
-hideArchivedCheckbox.addEventListener('change', forceReload);
-hideCategorizedCheckbox.addEventListener('change', forceReload);
-textSearch.addEventListener("input", forceReload);
+hideArchivedCheckbox.addEventListener('change', reload);
+hideCategorizedCheckbox.addEventListener('change', reload);
+textSearch.addEventListener("input", reload);
 clearSearch.addEventListener("click", () => {
     textSearch.value = '';
-    forceReload();
+    reload();
 })
 
 // Fetch categories
@@ -69,6 +71,8 @@ function fetchTweets() {
     if (isLoading) return; // Prevent fetching if already fetching
 
     isLoading = true;
+
+    title.style = "background: aquamarine";
 
     let url = `${apiUrl}/tweets?page_number=${currentPage}&page_size=${pageSize}&hide_archived=${hideArchived}&hide_categorized=${hideCategorized}`;
 
@@ -116,6 +120,9 @@ function fetchTweets() {
             }
 
             isLoading = false;
+
+            title.style = '';
+
         });
 }
 
@@ -148,7 +155,7 @@ function updateTweet(id, category, important, archived) {
     }, rejection => {
         console.log(rejection)
         row.style.backgroundColor = 'red';
-        setTimeout(forceReload, 1000);
+        setTimeout(reload, 1000);
     }).then(refreshCategories);
 }
 
@@ -171,6 +178,6 @@ function previewTweet(screen_name, rest_id) {
 
     window.twttr.widgets.load();
 
-    forceReload();
+    reload();
 
 }
