@@ -33,11 +33,12 @@ pub struct Info {
 }
 
 #[derive(Deserialize)]
-pub struct Pagination {
+pub struct Parameters {
     page_size: Option<i64>,
     page_number: Option<i64>,
     hide_archived: Option<bool>,
     hide_categorized: Option<bool>,
+    search: Option<String>
 }
 
 #[derive(Deserialize)]
@@ -55,7 +56,7 @@ async fn main() {
 
     let tweets = warp::path("tweets")
         .and(warp::get())
-        .and(warp::query::<Pagination>())
+        .and(warp::query::<Parameters>())
         .and(with_pool.clone())
         .and_then(handlers::get_tweets);
 

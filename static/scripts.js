@@ -2,15 +2,18 @@ const apiUrl = `${window.location.protocol}//${window.location.host}`;
 const tbody = document.getElementById("tweets-body");
 const hideArchivedCheckbox = document.getElementById("hide-archived");
 const hideCategorizedCheckbox = document.getElementById("hide-categorized");
+const textSearch = document.getElementById("text-search");
+const clearSearch = document.getElementById("clear-search");
 const tweetPreviewDiv = document.getElementById('tweet-preview');
 
 const pageSize = 20;
 
 let currentPage = 1;
 let isLoading = false;
+let isBottomed = false;
 
 window.addEventListener('scroll', () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500 && !isLoading) {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500 && !isLoading && !isBottomed) {
         fetchTweets();
     }
 });
@@ -20,6 +23,7 @@ function forceReload() {
     // Reset the current page
     currentPage = 1;
     isLoading = false;
+    isBottomed = false;
 
     // Clear the current list of tweets
     tbody.innerHTML = '';
@@ -30,6 +34,11 @@ function forceReload() {
 
 hideArchivedCheckbox.addEventListener('change', forceReload);
 hideCategorizedCheckbox.addEventListener('change', forceReload);
+textSearch.addEventListener("input", forceReload);
+clearSearch.addEventListener("click", () => {
+    textSearch.value = '';
+    forceReload();
+})
 
 // Fetch categories
 refreshCategories().then(updateInfo).then(fetchTweets);
@@ -48,15 +57,24 @@ function refreshCategories() {
         });
 }
 
+function highlighted(matched) {
+    return `<span style="background: yellow">${matched}</span>`;
+}
+
 function fetchTweets() {
     hideArchived = hideArchivedCheckbox.checked;
     hideCategorized = hideCategorizedCheckbox.checked;
+    text = textSearch.value;
 
     if (isLoading) return; // Prevent fetching if already fetching
 
     isLoading = true;
 
     let url = `${apiUrl}/tweets?page_number=${currentPage}&page_size=${pageSize}&hide_archived=${hideArchived}&hide_categorized=${hideCategorized}`;
+
+    if (text !== undefined && text !== '') {
+        url = `${url}&search=${text}`;
+    }
 
     fetch(url)
         .then(response => response.json())
@@ -66,10 +84,19 @@ function fetchTweets() {
 
                 row.id = tweet.rest_id;
 
+                let full_text = tweet.full_text.replaceAll("\n", "<br>");
+                let screen_name = tweet.screen_name;
+
+                if (textSearch.value !== '') {
+                    let regex = new RegExp(textSearch.value, 'gi');
+                    full_text = full_text.replace(regex, highlighted);
+                    screen_name = screen_name.replace(regex, highlighted)
+                }
+
                 row.innerHTML = `
-                    <td><p>${tweet.screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
+                    <td><p>${screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
-                    <td>${tweet.full_text.replaceAll("\n", "<br>")}</td>
+                    <td>${full_text}</td>
                     <td><input list="categories" name="category" placeholder="Select or type a category" onchange="updateTweet('${tweet.rest_id}', this.value)" value="${tweet.category ? tweet.category : ''}"></td>
                     <td><input type="checkbox" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"></td>
                     <td><input type="checkbox" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"></td>
@@ -79,7 +106,15 @@ function fetchTweets() {
                 tbody.appendChild(row);
             });
 
-            currentPage++; // Increment the page for the next fetch
+            if (tweets.length < pageSize) {
+                isBottomed = true;
+                const row = document.createElement("tr");
+                row.innerHTML = `<td colspan="7" style="text-align: center">That's all, folks!</td>`;
+                tbody.appendChild(row);
+            } else {
+                currentPage++; // Increment the page for the next fetch
+            }
+
             isLoading = false;
         });
 }

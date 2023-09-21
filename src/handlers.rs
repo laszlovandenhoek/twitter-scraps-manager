@@ -3,7 +3,7 @@ use std::sync::Arc;
 use deadpool_postgres::Pool;
 use include_dir::{Dir, include_dir};
 
-use crate::{Info, Pagination, Tweet, UpdateTweet};
+use crate::{Info, Parameters, Tweet, UpdateTweet};
 
 #[derive(Debug)]
 struct CustomRejection(String);
@@ -12,28 +12,37 @@ impl warp::reject::Reject for CustomRejection {}
 
 const STATIC_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/static");
 
-pub async fn get_tweets(pagination: Pagination, pool: Arc<Pool>) -> Result<impl warp::Reply, warp::Rejection> {
+pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl warp::Reply, warp::Rejection> {
     let client = pool.get().await.unwrap();
 
-    let size = pagination.page_size.unwrap_or(10);
-    let number = pagination.page_number.unwrap_or(1);
+    let size = parameters.page_size.unwrap_or(10);
+    let number = parameters.page_number.unwrap_or(1);
     let offset = (number - 1) * size;
 
     let mut where_clauses = Vec::new();
     where_clauses.push("1 = 1");
 
-    if pagination.hide_archived.unwrap_or(true) {
+    if parameters.hide_archived.unwrap_or(true) {
         where_clauses.push("archived = false");
     };
 
-    if pagination.hide_categorized.unwrap_or(true) {
-        where_clauses.push("(category is null OR category = '')")
+    if parameters.hide_categorized.unwrap_or(true) {
+        where_clauses.push("(category is null OR category = '')");
     }
+
+    if parameters.search.is_some() {
+        where_clauses.push("(screen_name ILIKE $3 OR full_text ILIKE $3 OR category ILIKE $3)");
+    };
 
     let query = format!("SELECT * FROM tweets WHERE {} ORDER BY sort_index DESC LIMIT $1 OFFSET $2", where_clauses.join(" AND "));
 
     let stmt = client.prepare(&query).await.unwrap();
-    let rows = client.query(&stmt, &[&size, &offset]).await.unwrap();
+
+    let rows = if parameters.search.is_some() {
+        client.query(&stmt, &[&size, &offset, &format!("%{}%", parameters.search.unwrap())]).await.unwrap()
+    } else {
+        client.query(&stmt, &[&size, &offset]).await.unwrap()
+    };
 
     // Convert rows to your Tweet struct and then to JSON
     let tweets: Vec<Tweet> = rows.iter().map(|row| {
