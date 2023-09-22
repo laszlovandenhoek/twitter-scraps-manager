@@ -104,9 +104,11 @@ function fetchTweets() {
                     <td><p>${screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
                     <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')">${full_text}</td>
-                    <td><input list="categories" name="category" placeholder="Select or type a category" onchange="updateTweet('${tweet.rest_id}', this.value)" value="${tweet.category ? tweet.category : ''}"></td>
-                    <td><input type="checkbox" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"></td>
-                    <td><input type="checkbox" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"></td>
+                    <td>
+                        <p><input list="categories" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value)" value="${tweet.category ? tweet.category : ''}"></p>
+                        <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
+                        <p><input type="checkbox" id="isArchived-${tweet.rest_id}" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"><label for="isArchived-${tweet.rest_id}">Archived</label></p>
+                    </td>
                 `;
 
                 tbody.appendChild(row);
@@ -115,7 +117,7 @@ function fetchTweets() {
             if (tweets.length < pageSize) {
                 isBottomed = true;
                 const row = document.createElement("tr");
-                row.innerHTML = `<td colspan="7" style="text-align: center">That's all, folks!</td>`;
+                row.innerHTML = `<td colspan="4" style="text-align: center">That's all, folks!</td>`;
                 tbody.appendChild(row);
             } else {
                 currentPage++; // Increment the page for the next fetch
