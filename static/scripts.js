@@ -22,6 +22,9 @@ window.addEventListener('scroll', () => {
 
 function reload() {
     if (!isLoading) {
+        // Clear preview
+        tweetPreviewDiv.innerHTML = '';
+
         // Reset the current page
         currentPage = 1;
         isBottomed = false;
@@ -100,11 +103,10 @@ function fetchTweets() {
                 row.innerHTML = `
                     <td><p>${screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
-                    <td>${full_text}</td>
+                    <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')">${full_text}</td>
                     <td><input list="categories" name="category" placeholder="Select or type a category" onchange="updateTweet('${tweet.rest_id}', this.value)" value="${tweet.category ? tweet.category : ''}"></td>
                     <td><input type="checkbox" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"></td>
                     <td><input type="checkbox" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"></td>
-                    <td><button onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')">Preview</button></td>
                 `;
 
                 tbody.appendChild(row);
@@ -163,6 +165,13 @@ function previewTweet(screen_name, rest_id) {
 
     const url = `https://twitter.com/${screen_name}/status/${rest_id}`;
 
+    let row = document.getElementById(rest_id);
+
+    tbody.removeChild(row);
+    tbody.prepend(row);
+
+    row.style = "background: silver";
+
     let bq = document.createElement("blockquote");
     bq.className = "twitter-tweet";
 
@@ -178,6 +187,6 @@ function previewTweet(screen_name, rest_id) {
 
     window.twttr.widgets.load();
 
-    reload();
+    window.scrollTo({top: 0, behavior: 'instant'});
 
 }
