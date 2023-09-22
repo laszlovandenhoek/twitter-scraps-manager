@@ -105,7 +105,7 @@ function fetchTweets() {
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
                     <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')">${full_text}</td>
                     <td>
-                        <p><input list="categories" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value)" value="${tweet.category ? tweet.category : ''}"></p>
+                        <p><input list="categories" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value.trim())" value="${tweet.category ? tweet.category : ''}"></p>
                         <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
                         <p><input type="checkbox" id="isArchived-${tweet.rest_id}" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"><label for="isArchived-${tweet.rest_id}">Archived</label></p>
                     </td>
