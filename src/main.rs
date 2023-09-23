@@ -38,7 +38,7 @@ pub struct Parameters {
     page_number: Option<i64>,
     hide_archived: Option<bool>,
     hide_categorized: Option<bool>,
-    search: Option<String>
+    search: Option<String>,
 }
 
 #[derive(Deserialize)]
@@ -90,13 +90,17 @@ async fn main() {
         .allow_headers(vec!["Content-Type", "User-Agent", "Authorization"]) // Add any other headers you expect
         .build();
 
+    env_logger::init();
+    let log = warp::log("root");
+
     let routes = tweets
         .or(update)
         .or(categories)
         .or(info)
         .or(static_content)
         .or(root)
-        .with(cors);
+        .with(cors)
+        .with(log);
 
     warp::serve(routes).run(([0, 0, 0, 0], 3030)).await;
 }
