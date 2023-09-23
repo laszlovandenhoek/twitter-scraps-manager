@@ -3169,7 +3169,7 @@ https://t.co/uk1mqXpZ8z https://t.co/Q2UkGKydnh",f,t,,f,f
 - Imagen-video [6 Oct 2022]
 
 Anything missing?",f,t,,f,f
-1578719372293550080,1746165026010405563,mthmulders,2022-10-08 12:10:04,"@mariofusco There are people here in the Netherlands saying it's ""not my war"". Oh, how wrong y'all are, for all of the above. And even before that: can I remind you of flight MH-17 for a minute? Saying it's not your war is like dancing on the graves of the innocent souls who died that day.",f,t,,f,f
+1578719372293550080,1746165026010405563,mthmulders,2022-10-08 12:10:04,"@mariofusco There are people here in the Netherlands saying it's ""not my war"". Oh, how wrong y'all are, for all of the above. And even before that: can I remind you of flight MH-17 for a minute? Saying it's not your war is like dancing on the graves of the innocent souls who died that day.",f,t,relatable,f,f
 1579190678852358145,1746284251946458862,fasterthanlime,2022-10-09 19:22:52,"""My hobbies? I'd say I like to do extremely deep dives into highly technical topics, and then quickly forget anything that would make me useful, remembering barely enough to be pedantic whenever the occasion presents itself""",f,t,,f,f
 1579710303541301248,1746474516078133489,simonw,2022-10-11 05:47:40,@intrcnnctd @genmon Have you played with @Tailscale yet? Makes it absurdly easy to run something like a Raspberry Pi on your home network and securely connect to it from your phone or laptop anyway in the world without any complex router shenanigans,f,t,,f,f
 1579830653126086656,1746483719179886267,lintool,2022-10-11 13:45:54,"DAAM... You saw it here first! Attribution maps for Stable Diffusion based on upscaling and aggregating cross-attention activations in the latent denoising subnetwork: https://t.co/r9GAKeG4Ww  example for ""an angry, bald man doing research"" below - demo at https://t.co/5JojSVAWzQ https://t.co/hiRuIMHH4T",f,t,,f,f
@@ -4094,10 +4094,10 @@ Today, our group is releasing new work showing how the SOTA accuracy of Allegro 
 https://t.co/S0DHUjQ9LI #compchem
 
 1/🧵 https://t.co/TYSv6uzLcJ",f,t,,f,f
-1649433082750185472,1763861408486644631,mathildepapillo,2023-04-21 15:21:06,Topological Deep Learning is an immensely powerful and fast emerging field. Our new literature review https://t.co/MLp4AaV8vf is out and here’s why I’m very excited about it🧵1/5,f,t,,f,f
+1649433082750185472,1763861408486644631,mathildepapillo,2023-04-21 15:21:06,Topological Deep Learning is an immensely powerful and fast emerging field. Our new literature review https://t.co/MLp4AaV8vf is out and here’s why I’m very excited about it🧵1/5,f,t,learn,f,f
 1649681191094853632,1763874841927643362,davisblalock,2023-04-22 07:47:00,"""UniverSeg: Universal Medical Image Segmentation""
 
-What if we could train a single neural net to highlight important structures in any medical image given just a few examples? [1/13] https://t.co/dgUxzRSuKb",f,t,,f,f
+What if we could train a single neural net to highlight important structures in any medical image given just a few examples? [1/13] https://t.co/dgUxzRSuKb",f,t,paper,f,f
 1649792913109397508,1763892178693077684,johnjnay,2023-04-22 15:10:56,"LlamaAcademy: Fine-tuning LLMs to Learn How to Talk to APIs
 
 Pipeline: 
@@ -4109,33 +4109,33 @@ LLM can then read new API docs (Stripe Notion etc), gen code
 
 Instead of hosting API docs, host API implementation
 
-https://t.co/Uq2oZG8uty",f,t,,f,f
+https://t.co/Uq2oZG8uty",f,t,cool demo,f,f
 1649790435533922307,1763949455798237526,rachel_l_woods,2023-04-22 15:01:06,"I told my husband ChatGPT can write his resident call schedule in &lt;30 minutes. 
 
 A task that he said normally takes 100+ hours
 
-Will report back in hopefully &lt;30 minutes",f,t,,f,f
-1649192527881469952,1763949596312813387,LethalityJane,2023-04-20 23:25:13,"Ah but what if the baby is also neurodivergent, who is allowed to be on the airplane then https://t.co/nSzp7xwNFh",f,t,,f,f
-1649858349075247104,1763949832369728033,SpencrGreenberg,2023-04-22 19:30:57,Who is the smartest/most interesting/most brilliant living polymath you can think of? I'm trying to make a list of modern polymaths. Thanks!,f,t,,f,f
+Will report back in hopefully &lt;30 minutes",f,t,practical application of ChatGPT,f,f
+1649192527881469952,1763949596312813387,LethalityJane,2023-04-20 23:25:13,"Ah but what if the baby is also neurodivergent, who is allowed to be on the airplane then https://t.co/nSzp7xwNFh",f,t,fun,f,f
+1649858349075247104,1763949832369728033,SpencrGreenberg,2023-04-22 19:30:57,Who is the smartest/most interesting/most brilliant living polymath you can think of? I'm trying to make a list of modern polymaths. Thanks!,f,t,replies,f,f
 1649843909017899009,1763980938900492665,aakashg0,2023-04-22 18:33:35,"If you aren't learning AI, you're falling behind.
 
 Luckily, Harvard (4.5% acceptance rate) &amp; Stanford ($78,898 yearly tuition) offer free courses.
 
 No application or fee required.
 
-Here are 10 FREE courses you don't want to miss:",t,f,,f,f
+Here are 10 FREE courses you don't want to miss:",t,f,learn,f,f
 1650001584485552130,1763981991165778211,jonathanfly,2023-04-23 05:00:07,"Bark Text-to-Audio Model
 
 Full Text Input: ""Why was six afraid of seven?""
 
-Ignore Bark's ""I'm done with this input"" token and tell Bark to just keep generating more audio anyway. https://t.co/eIPzrdqqaP",f,t,,f,f
+Ignore Bark's ""I'm done with this input"" token and tell Bark to just keep generating more audio anyway. https://t.co/eIPzrdqqaP",f,t,cool demo,f,f
 1650047574592864262,1763982385907408714,davisblalock,2023-04-23 08:02:52,"""FP8 versus INT8 for efficient deep learning inference""
 
 Is fp8 just plain better than int8? 
 
- No. There are tradeoffs between the two at various levels of the stack, and this paper digs into their strengths and weaknesses. [1/11] https://t.co/Rwv8gUQlaZ",t,t,,f,f
+ No. There are tradeoffs between the two at various levels of the stack, and this paper digs into their strengths and weaknesses. [1/11] https://t.co/Rwv8gUQlaZ",t,t,explainer,f,f
 1650110045781393410,1763982494000116029,mmitchell_ai,2023-04-23 12:11:07,"I replicated this (my screenshot below).
-Really great example of gender bias, for those of you who need a canonical example to make the point. https://t.co/hKt4HSBzh3",f,t,,f,f
+Really great example of gender bias, for those of you who need a canonical example to make the point. https://t.co/hKt4HSBzh3",f,t,bias,f,f
 1650308865555148800,1764035800250753594,_akhaliq,2023-04-24 01:21:09,"Scaling Transformer to 1M tokens and beyond with RMT
 
 Recurrent Memory Transformer retains information across up to 2 million tokens. 
@@ -4143,12 +4143,12 @@ Recurrent Memory Transformer retains information across up to 2 million tokens.
 During inference, the model effectively utilized memory for up to 4,096 segments with a total length of 2,048,000 tokens—significantly exceeding the largest input size reported for transformer models (64K tokens for CoLT5 (Ainslie et al., 2023), and 32K tokens for GPT-4 (OpenAI, 2023)). This augmentation maintains the base model’s memory size at 3.6 GB in our experiments
 
 abs: https://t.co/P4KJKpvdx2
-github: https://t.co/RQFpBEpTf9",f,t,,f,f
+github: https://t.co/RQFpBEpTf9",f,t,paper,f,f
 1650155041502666752,1764044982923096912,omarsar0,2023-04-23 15:09:54,"Not sure how I missed it, but this is a great overview of efficient NLP methods.
 
 While models are scaled for performance, there is also a need to increase efficiency in modern NLP models. This survey paper covers methods and findings in efficient NLP. 
 
-https://t.co/lZ9dyX6OUb https://t.co/2k1VqEwtXm",t,t,,f,f
+https://t.co/lZ9dyX6OUb https://t.co/2k1VqEwtXm",t,t,overview,f,f
 1650695811464941571,1764126560585296016,_akhaliq,2023-04-25 02:58:44,"Track Anything: Segment Anything Meets Videos
 
 Track-Anything is a flexible and interactive tool for video object tracking and segmentation
@@ -4160,20 +4160,20 @@ suitable for:
 - Object-centric downstream video tasks, such as video inpainting and editing.
 
 abs: https://t.co/lzNS23Zcqt
-github: https://t.co/V9A34bUjMB",t,t,,f,f
-1650515409483841540,1764126739523562647,BlancheMinerva,2023-04-24 15:01:53,Paper link: https://t.co/3HIWkDwTBh,t,f,,f,f
+github: https://t.co/V9A34bUjMB",t,t,cool demo,f,f
+1650515409483841540,1764126739523562647,BlancheMinerva,2023-04-24 15:01:53,Paper link: https://t.co/3HIWkDwTBh,t,f,paper,f,f
 1560883183088025601,1764132561248573444,francoisfleuret,2022-08-20 06:55:25,"Reminder that my deep learning course @unige_en is entirely available on-line. 1000+ slides, ~20h of screen-casts.
 
 Full of examples in @PyTorch
 
-https://t.co/6OVyjPdwrC https://t.co/faJ5GZ1FmG",t,f,,f,f
+https://t.co/6OVyjPdwrC https://t.co/faJ5GZ1FmG",t,f,learn,f,f
 1650268405881085952,1764132956286077248,dylfreed,2023-04-23 22:40:23,"I'm excited to announce Semantra: an open source multi-tool for semantic search 🎉 https://t.co/5GRSIvxruh
 
 - Launch a local search engine over text and PDF files
 - Search by concepts/meaning
 - Refine results via tagging and adding/subtracting queries
 
-Try it out now 🚀📚🔍 https://t.co/4W4g0GqIXR",t,f,,f,f
+Try it out now 🚀📚🔍 https://t.co/4W4g0GqIXR",t,f,cool demo,f,f
 1650616909379796992,1764134202355104887,johnjnay,2023-04-24 21:45:12,"Using LLMs at Work
 
 -Experiment: staggered intro of LLM w/ 5,179 customer support agents
@@ -4184,7 +4184,7 @@ Try it out now 🚀📚🔍 https://t.co/4W4g0GqIXR",t,f,,f,f
 
 -Improved customer sentiment &amp; employee retention
 
-https://t.co/k2W8qxgP6h https://t.co/Jn6HwKXvKo",t,f,,f,f
+https://t.co/k2W8qxgP6h https://t.co/Jn6HwKXvKo",t,f,business,f,f
 1650884245823320065,1764166817499847831,julien_c,2023-04-25 15:27:30,"Some people said that closed APIs were winning...
 
 but we will never give up the fight for open source AI ⚔️⚔️
@@ -4197,9 +4197,9 @@ Powered by Open Assistant's latest model – the best open source chat model rig
 
 Try it out now:
 
-https://t.co/npBD1NRvQL",f,t,,f,f
+https://t.co/npBD1NRvQL",f,t,open source models,f,f
 1650918296383021056,1764180043599884542,simran_s_arora,2023-04-25 17:42:49,"We’re super excited about these directions &amp; would love feedback! This is work with amazing collaborators: @bclyang @EyubogluSabri  @Avanika15 @AndrewHojel @ImmanuelTrummer @HazyResearch. Thanks @StanfordCRFM @StanfordHAI @StanfordAILab for the support!
-📜 https://t.co/vPc8iO44Da",t,f,,f,f
+📜 https://t.co/vPc8iO44Da",t,f,paper,t,f
 1650961890447851520,1764183824277181025,mckaywrigley,2023-04-25 20:36:02,"Meet Repo Chat!
 
 It performs Q&amp;A on your code repos.
@@ -4211,38 +4211,38 @@ How it works:
 - perform document retrieval + q&amp;a powered by Langchain
 - input via Python CLI
 
-GitHub: https://t.co/JHNehZkIt1 https://t.co/bsP0XLlOA5",t,f,,f,f
-1650771375693389825,1764183969199333763,IntuitMachine,2023-04-25 07:59:00,"Well, the cat is now out of the bag!  https://t.co/7ao1SiuU2X https://t.co/fGSLbjeavt",t,f,,f,f
+GitHub: https://t.co/JHNehZkIt1 https://t.co/bsP0XLlOA5",t,f,embeddings,f,t
+1650771375693389825,1764183969199333763,IntuitMachine,2023-04-25 07:59:00,"Well, the cat is now out of the bag!  https://t.co/7ao1SiuU2X https://t.co/fGSLbjeavt",t,f,paper,f,f
 1651034567803826178,1764217899259489006,omarsar0,2023-04-26 01:24:50,"AudioGPT - connecting ChatGPT with audio foundation models
 
 This new paper proposes AudioGPT, which connects ChatGPT with audio foundational models to handle challenging audio tasks and a modality transformation interface to enable spoken dialogue.
 
-https://t.co/iI27a5BQTR https://t.co/tRv6NPtbNc",t,f,,f,f
-1650975287205842944,1764271771753998275,Teknium1,2023-04-25 21:29:16,"Well, here's a dataset of 2.58m gpt3.5-turbo prompt:response pairs - almost 52x larger than Alpaca's dataset. If only we had gpt4 instead of 3 here xD But nonetheless, intensely useful:  https://t.co/c5rEz4EKY4",f,t,,f,f
+https://t.co/iI27a5BQTR https://t.co/tRv6NPtbNc",t,f,paper,f,f
+1650975287205842944,1764271771753998275,Teknium1,2023-04-25 21:29:16,"Well, here's a dataset of 2.58m gpt3.5-turbo prompt:response pairs - almost 52x larger than Alpaca's dataset. If only we had gpt4 instead of 3 here xD But nonetheless, intensely useful:  https://t.co/c5rEz4EKY4",f,t,dataset,f,f
 1651397902118400002,1764309509330873873,omarsar0,2023-04-27 01:28:36,"Harnessing the Power of LLMs in Practice
 
 A great comprehensive and practical guide for practitioners working with LLMs. 
 
 Discusses many use cases with practical applications and limitations of LLMs in real-world scenarios.
 
-https://t.co/nUeCSzN2pX https://t.co/fMqXJGYQGo",t,f,,f,f
+https://t.co/nUeCSzN2pX https://t.co/fMqXJGYQGo",t,f,paper,f,f
 1651399634017832961,1764309950264117732,_akhaliq,2023-04-27 01:35:28,"Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System
 
 Experimental results show that SCM system enables LLMs, which are not optimized for multi-turn dialogue, to achieve multi-turn dialogue capabilities that are comparable to ChatGPT, and to outperform ChatGPT in scenarios involving ultra-long document summarization or longterm conversations
 
 abs: https://t.co/dcvtqsNPv8
-github: https://t.co/Lb91lXudah",t,f,,f,f
+github: https://t.co/Lb91lXudah",t,f,paper,f,f
 1651405613736271873,1764313335810581943,_akhaliq,2023-04-27 01:59:14,"Ray Conditioning: Trading Photo-consistency for Photo-realism in Multi-view Image Generation
 
 abs: https://t.co/3zJFG2YelS 
-project page: https://t.co/isNUrKgJ1m https://t.co/vcbfLo1z0D",f,t,,f,f
+project page: https://t.co/isNUrKgJ1m https://t.co/vcbfLo1z0D",f,t,cool demo,f,f
 1651343725602422785,1764313350582455731,jerryjliu0,2023-04-26 21:53:19,"Honestly I'm super excited about the evolution of finetuning vs. retrieval (re: @karpathy's post a week ago) 
 
 There's performance/compute, but a bunch of other dimensions to consider:
 - data prep work
 - accessibility to ML research vs SWE's
 - Ease of tuning/eval
-- hosting cost",f,t,,f,f
+- hosting cost",f,t,finetune,f,t
 1651194442072883205,1764318370710698821,svpino,2023-04-26 12:00:07,"@Datagran is Zappier for data scientists, where you can automate workflows:
 
 • Connect to multiple sources
@@ -4251,10 +4251,10 @@ There's performance/compute, but a bunch of other dimensions to consider:
 
 @Datagran does all the plumbing while you focus on your code and model.
 
-Huge efficiency gains. https://t.co/oUPFRfuLD8",t,f,,f,f
+Huge efficiency gains. https://t.co/oUPFRfuLD8",t,f,business,f,f
 1651403635190820865,1764337358118506216,emollick,2023-04-27 01:51:22,"This is a new contender for best ""accessible to the very interested non-expert"" introductory paper on Large Language Model AIs. Worth it for the AI family tree alone: https://t.co/U7i6Ws4OKA
 
-If you want to go deeper, next up is Wolfram's dive into LLMs: https://t.co/7LY5893IWs https://t.co/8Mc1BBzEFC",t,f,,f,f
+If you want to go deeper, next up is Wolfram's dive into LLMs: https://t.co/7LY5893IWs https://t.co/8Mc1BBzEFC",t,f,reference,f,f
 1651568107192983553,1764353022138621127,marktenenholtz,2023-04-27 12:44:56,"I built a ChatGPT app that lets you chat with any codebase!
 
 99% of projects just copy/paste Langchain tutorials. This goes well beyond that.
