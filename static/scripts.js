@@ -33,7 +33,7 @@ function reload() {
         tbody.innerHTML = '';
 
         // Fetch tweets based on the checkbox state
-        updateInfo().then(fetchTweets);
+        fetchTweets();
     }
 }
 
@@ -177,7 +177,9 @@ function updateTweet(id, category, important, archived) {
         console.log(rejection)
         row.classList.add('error');
         setTimeout(reload, 1000);
-    }).then(refreshCategories);
+    }).then(updateInfo).then(category !== undefined ?
+        refreshCategories :
+        Promise.resolve("categories unchanged"));
 }
 
 function previewTweet(screen_name, rest_id) {
