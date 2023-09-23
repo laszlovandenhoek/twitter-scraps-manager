@@ -4068,32 +4068,32 @@ can teach a lot about some complex ideas in modern machine learning including ov
 Let's assume A is n-by-p. So we have n data points and p parameters
 
 1/n https://t.co/ot4or8rTgl",f,t,,f,f
-1649060478910357504,1763782112011513732,jefrankle,2023-04-20 14:40:30,"72 hrs ago, @togethercompute released the RedPajama dataset. Like everyone, we at @MosaicML were very excited about the idea of a fully open-source Llama. So excited, in fact, that we've already trained a 1B model on 200B tokens! It's on HF (Apache2) here: https://t.co/mkrGQ3N7IU",f,t,,f,f
+1649060478910357504,1763782112011513732,jefrankle,2023-04-20 14:40:30,"72 hrs ago, @togethercompute released the RedPajama dataset. Like everyone, we at @MosaicML were very excited about the idea of a fully open-source Llama. So excited, in fact, that we've already trained a 1B model on 200B tokens! It's on HF (Apache2) here: https://t.co/mkrGQ3N7IU",f,t,open source models,f,f
 1649147091573432321,1763790304584750291,willdepue,2023-04-20 20:24:40,"⚡️Introducing WebGPT⚡️
 
 Just this month, Chrome announced WebGPU's release. What does this mean? Near-native GPU speeds, from the web!
 
 I took the opportunity to build WebGPT: a package to run GPT models entirely on the browser. 
 
-Here's why this is a big deal:",f,t,,f,f
+Here's why this is a big deal:",f,t,cool demo,f,f
 1649164356926439431,1763791173084062724,maccaw,2023-04-20 21:33:17,"This is the best text to speech I've heard - bravo! 
 
 We are officially at indistinguishable from a human levels.
 
-https://t.co/RqpV2GilyK",f,t,,f,f
+https://t.co/RqpV2GilyK",f,t,cool demo,f,f
 1649459065549111296,1763812484510909014,gordic_aleksa,2023-04-21 17:04:21,"Oh my. OpenAI's Whisper just got 70x faster!!! 😱🤯 Highly optimized Whisper implementation for both GPU &amp; TPU: 
 https://t.co/5YFKR6VGco
 
 An hour of audio in under 15 seconds apparently? 😅 (caveat: on TPUs, still fast on GPUs!)
 
-1/ https://t.co/oO8M6htKTv",f,t,,f,f
+1/ https://t.co/oO8M6htKTv",f,t,open source models,f,f
 1649214171236691969,1763858374940514016,simonbatzner,2023-04-21 00:51:13,"🚨Deep learning for large-scale biomolecular dynamics is here!🚨
 
 Today, our group is releasing new work showing how the SOTA accuracy of Allegro can be scaled to massive biomolecular systems up to the full HIV capsid at 44 million atoms!
 
 https://t.co/S0DHUjQ9LI #compchem
 
-1/🧵 https://t.co/TYSv6uzLcJ",f,t,,f,f
+1/🧵 https://t.co/TYSv6uzLcJ",f,t,bio,f,f
 1649433082750185472,1763861408486644631,mathildepapillo,2023-04-21 15:21:06,Topological Deep Learning is an immensely powerful and fast emerging field. Our new literature review https://t.co/MLp4AaV8vf is out and here’s why I’m very excited about it🧵1/5,f,t,learn,f,f
 1649681191094853632,1763874841927643362,davisblalock,2023-04-22 07:47:00,"""UniverSeg: Universal Medical Image Segmentation""
 
