@@ -66,6 +66,18 @@ function highlighted(matched) {
     return `<span style="background: yellow">${matched}</span>`;
 }
 
+function markCategorized() {
+    let inputs = document.querySelectorAll('input[name="category"]');
+    Array.prototype.forEach.call(inputs, function (el) {
+        if (el.value) {
+            // Do something with the tr, such as adding a class
+            el.closest('tr').classList.add('categorized');
+        } else {
+            el.closest('tr').classList.remove('categorized');
+        }
+    });
+}
+
 function fetchTweets() {
     hideArchived = hideArchivedCheckbox.checked;
     hideCategorized = hideCategorizedCheckbox.checked;
@@ -75,7 +87,7 @@ function fetchTweets() {
 
     isLoading = true;
 
-    title.style = "background: aquamarine";
+    title.className = "loading";
 
     let url = `${apiUrl}/tweets?page_number=${currentPage}&page_size=${pageSize}&hide_archived=${hideArchived}&hide_categorized=${hideCategorized}`;
 
@@ -90,6 +102,7 @@ function fetchTweets() {
                 const row = document.createElement("tr");
 
                 row.id = tweet.rest_id;
+                row.className = "";
 
                 let full_text = tweet.full_text.replaceAll("\n", "<br>");
                 let screen_name = tweet.screen_name;
@@ -105,7 +118,7 @@ function fetchTweets() {
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
                     <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')">${full_text}</td>
                     <td>
-                        <p><input list="categories" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value.trim())" value="${tweet.category ? tweet.category : ''}"></p>
+                        <p><input list="categories" id="category-${tweet.rest_id}" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value.trim())" value="${tweet.category ? tweet.category : ''}"></p>
                         <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
                         <p><input type="checkbox" id="isArchived-${tweet.rest_id}" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"><label for="isArchived-${tweet.rest_id}">Archived</label></p>
                     </td>
@@ -123,9 +136,11 @@ function fetchTweets() {
                 currentPage++; // Increment the page for the next fetch
             }
 
+            markCategorized();
+
             isLoading = false;
 
-            title.style = '';
+            title.className = undefined;
 
         });
 }
@@ -146,7 +161,9 @@ function updateTweet(id, category, important, archived) {
     };
 
     let row = document.getElementById(id);
-    row.style.backgroundColor = 'aquamarine';
+    row.classList.add('loading');
+
+    markCategorized();
 
     fetch(`${apiUrl}/tweets/${id}`, {
         method: 'PATCH',
@@ -155,15 +172,20 @@ function updateTweet(id, category, important, archived) {
         },
         body: JSON.stringify(data),
     }).then(_ => {
-        row.style = undefined;
+        row.classList.remove('loading');
     }, rejection => {
         console.log(rejection)
-        row.style.backgroundColor = 'red';
+        row.classList.add('error');
         setTimeout(reload, 1000);
     }).then(refreshCategories);
 }
 
 function previewTweet(screen_name, rest_id) {
+    tbody.childNodes.forEach(node => {
+        if (node.classList !== undefined) {
+            node.classList.remove("selected");
+        }
+    });
 
     const url = `https://twitter.com/${screen_name}/status/${rest_id}`;
 
@@ -172,7 +194,7 @@ function previewTweet(screen_name, rest_id) {
     tbody.removeChild(row);
     tbody.prepend(row);
 
-    row.style = "background: silver";
+    row.classList.add("selected");
 
     let bq = document.createElement("blockquote");
     bq.className = "twitter-tweet";

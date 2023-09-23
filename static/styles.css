@@ -31,6 +31,22 @@ th, td {
     border: 1px solid #ddd;
 }
 
+tr.categorized {
+    background: silver;
+}
+
+tr.selected {
+    background: yellow;
+}
+
+tr.loading, .loading {
+    background: aquamarine;
+}
+
+tr.error {
+    background: red;
+}
+
 iframe {
     width: 100%;
     height: 100%;
