@@ -4020,45 +4020,45 @@ page: https://t.co/3M6mfEuVRK",f,t,,f,f
 1646603012331167744,1763167584496650219,erikras,2023-04-13 19:55:25,New fun ChatGPT prompt: “Write the Lord’s Prayer for [occupation]”. 🙏 https://t.co/3H6RWnpoKf,f,t,,f,f
 1646854762640592896,1763184505175998406,spacepanty,2023-04-14 12:35:47,"okay so I decided to take this further
 
-Asked one instance of ChatGPT4 to describe the plots of movies with emojis, and asked another (new) one to guess which movie the emojis describe: https://t.co/kroYFVfgJQ",f,t,,f,f
+Asked one instance of ChatGPT4 to describe the plots of movies with emojis, and asked another (new) one to guess which movie the emojis describe: https://t.co/kroYFVfgJQ",f,t,frontier,f,f
 1647044968156913666,1763241567050253119,bradneuberg,2023-04-15 01:11:35,"Reading through the Segment Anywhere Model (SAM) paper, some notes &amp; insights as I do so in this Twitter thread. This whole paper is quite incredible actually, very strong work 1/n 
 
-https://t.co/HhJUoBakBc",f,t,,f,f
+https://t.co/HhJUoBakBc",f,t,explainer,f,f
 1647788712565129218,1763400663198747625,culturaltutor,2023-04-17 02:26:58,"How did people wake up before alarm clocks?!
 
 In the 19th century there were professional ""knocker uppers"" who hit your window with a stick until you got out of bed.
 
-And before that? Well, humans had an entirely different understanding of time... https://t.co/qdX9f5k4wP",f,t,,f,f
+And before that? Well, humans had an entirely different understanding of time... https://t.co/qdX9f5k4wP",f,t,insightful,f,f
 1647808305291558914,1763430077692282433,_akhaliq,2023-04-17 03:44:49,"DINOv2: Learning Robust Visual Features without Supervision
 
 train a ViT model with 1B parameters and distill it into a series of smaller models that surpass
 the best available all-purpose features, OpenCLIP on most of the benchmarks at image and pixel levels
 
-abs: https://t.co/e8nN6XO3XV",f,t,,f,f
+abs: https://t.co/e8nN6XO3XV",f,t,paper,f,f
 1647812843239088129,1763443458410890845,jsrailton,2023-04-17 04:02:51,"Want a window into Twitter's totally unsolved bot problem?
 
 Search for ""as an AI language model"" 
 
- h/t @lcamtuf https://t.co/d1WcokePOq",f,t,,f,f
+ h/t @lcamtuf https://t.co/d1WcokePOq",f,t,practical application of ChatGPT,f,f
 1647969009197776896,1763518926695850716,harrybr,2023-04-17 14:23:24,"Low code tools 
 
 First half of project: holy shit this is amazing 
 Second half of project: help me I am drowning in spaghetti and molasses 
-Third half of project: this should have been a real engineering project what have I done",f,t,,f,f
+Third half of project: this should have been a real engineering project what have I done",f,t,low code,f,f
 1648413998025707520,1763582021559078978,KentBeck,2023-04-18 19:51:37,"I’ve been reluctant to try ChatGPT. Today I got over that reluctance. Now I understand why I was reluctant.
 
-The value of 90% of my skills just dropped to $0. The leverage for the remaining 10% went up 1000x. I need to recalibrate.",f,t,,f,f
+The value of 90% of my skills just dropped to $0. The leverage for the remaining 10% went up 1000x. I need to recalibrate.",f,t,paradigm shift,f,f
 1648594695420006400,1763626603788761294,tszzl,2023-04-19 07:49:39,"the basic proof of concept for the gpt4 agents is to just complete the loop on whole codebase software development
 
-can you make it write code in a codebase much larger than its context, send pull requests, test the script, optimize the runtime, etc? if so then we’re cooking",f,t,,f,f
+can you make it write code in a codebase much larger than its context, send pull requests, test the script, optimize the runtime, etc? if so then we’re cooking",f,t,agents,f,f
 1648706156330876928,1763627326024406202,StabilityAI,2023-04-19 15:12:33,"Announcing StableLM❗
 
 We’re releasing the first of our large language models, starting with 3B and 7B param models, with 15-65B to follow. Our LLMs are released under CC BY-SA license.
 
-We’re also releasing RLHF-tuned models for research use. Read more→ https://t.co/R66Wa4gbnW https://t.co/gvDDJMFBYJ",f,t,,f,f
+We’re also releasing RLHF-tuned models for research use. Read more→ https://t.co/R66Wa4gbnW https://t.co/gvDDJMFBYJ",f,t,open source models,f,f
 1648407808440778755,1763676080502650122,jeffreycider,2023-04-18 19:27:02,"""neural networks need to be adversarially robust like the human visual cortex.  like you shouldn't be able to change a few pixels and completely change the semantic meaning of an image""
 
-the human visual cortex: https://t.co/nJGHTMnTLo",f,t,,f,f
+the human visual cortex: https://t.co/nJGHTMnTLo",f,t,fun,f,f
 1648889586544943104,1763681447377824347,docmilanfar,2023-04-20 03:21:26,"The perpetually undervalued least-squares:
 
 minₓ‖y−Ax‖²
@@ -4067,7 +4067,7 @@ can teach a lot about some complex ideas in modern machine learning including ov
 
 Let's assume A is n-by-p. So we have n data points and p parameters
 
-1/n https://t.co/ot4or8rTgl",f,t,,f,f
+1/n https://t.co/ot4or8rTgl",f,t,math,f,f
 1649060478910357504,1763782112011513732,jefrankle,2023-04-20 14:40:30,"72 hrs ago, @togethercompute released the RedPajama dataset. Like everyone, we at @MosaicML were very excited about the idea of a fully open-source Llama. So excited, in fact, that we've already trained a 1B model on 200B tokens! It's on HF (Apache2) here: https://t.co/mkrGQ3N7IU",f,t,open source models,f,f
 1649147091573432321,1763790304584750291,willdepue,2023-04-20 20:24:40,"⚡️Introducing WebGPT⚡️
 
@@ -6955,7 +6955,7 @@ Then today Cisco Systems $CSCO announced acquiring Splunk for $28B, $SPLK up 20%
 
 The contracts were $0.04 yesterday, now $18.30.
 
-They exited today for a 45,650% return... https://t.co/uP6BnNzscp",f,t,,f,f
+They exited today for a 45,650% return... https://t.co/uP6BnNzscp",f,t,finance,f,f
 1705267780704968975,1777812477628550281,jsrailton,2023-09-22 17:08:15,"🚨UPDATE your @Apple products now!
 
 We @citizenlab w/TAG's @maddiestone caught #predator spyware attacks against a prominent pro-democracy Egyptian politician after he announced presidential ambitions.
@@ -6964,11 +6964,11 @@ Apple rushed a patch.
 
 It gets crazier 1/  
 
-https://t.co/W7MVaeNHOa https://t.co/TYQlLDyrcW",f,t,,f,f
+https://t.co/W7MVaeNHOa https://t.co/TYQlLDyrcW",f,t,security,f,f
 1705285631520407821,1777814918011516143,OwainEvans_UK,2023-09-22 18:19:11,"Does a language model trained on “A is B” generalize to “B is A”?
 E.g. When trained only on “George Washington was the first US president”, can models automatically answer “Who was the first US president?”
-Our new paper shows they cannot! https://t.co/aJcQpaSlhq",f,t,,f,f
-1705516529175933004,1777824891129592278,daamitt,2023-09-23 09:36:42,@OwainEvans_UK Did you try different examples on bard? https://t.co/wP5bbdGCpc,f,t,,f,f
+Our new paper shows they cannot! https://t.co/aJcQpaSlhq",f,t,reversal,f,f
+1705516529175933004,1777824891129592278,daamitt,2023-09-23 09:36:42,@OwainEvans_UK Did you try different examples on bard? https://t.co/wP5bbdGCpc,f,t,reversal,f,f
 1705703661706600950,1777899147549735397,AdiPolak,2023-09-23 22:00:18,"Stanford has released Prof. Manning's NLP course for free (!!!) on Youtube if you are interested in diving deeper into NLP.
 
 It starts with the very basic word2vec and expends to:
@@ -6981,7 +6981,7 @@ It starts with the very basic word2vec and expends to:
 
 Happy A.B.L <Always Be Learning> y'all!
 
-https://t.co/7kGpLzyBdY",f,t,,f,f
+https://t.co/7kGpLzyBdY",f,t,reference,f,f
 1705577938182414732,1777899462811940682,MilesCranmer,2023-09-23 13:40:43,"I'm starting a curated list of interactive machine learning demos:
 https://t.co/mILPILzSX9. Looking for more suggestions!
 
