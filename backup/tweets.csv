@@ -6947,3 +6947,68 @@ Gorilla is an exciting research project that translates natural language command
 Between RAG + Next-Gen Zero-Shot LLMs, RAG + Easy Fine-Tuning, Easy Data Ingestion, Generative Feedback Loops, and Self-Driving DBs -- I think Gartner is right and we still have a long way to go to the peak of Vector Databases!
 
 Thanks for reading! Check out Weaviate! 😎👍",f,t,rag,f,f
+1704870849831125446,1777748679266094325,unusual_whales,2023-09-21 14:51:00,"Want to see a crazy trade?
+
+Yesterday, someone OPENED $SPLK 127 calls, for $22,000, expiring tomorrow.
+
+Then today Cisco Systems $CSCO announced acquiring Splunk for $28B, $SPLK up 20%.
+
+The contracts were $0.04 yesterday, now $18.30.
+
+They exited today for a 45,650% return... https://t.co/uP6BnNzscp",f,t,,f,f
+1705267780704968975,1777812477628550281,jsrailton,2023-09-22 17:08:15,"🚨UPDATE your @Apple products now!
+
+We @citizenlab w/TAG's @maddiestone caught #predator spyware attacks against a prominent pro-democracy Egyptian politician after he announced presidential ambitions.
+
+Apple rushed a patch.
+
+It gets crazier 1/  
+
+https://t.co/W7MVaeNHOa https://t.co/TYQlLDyrcW",f,t,,f,f
+1705285631520407821,1777814918011516143,OwainEvans_UK,2023-09-22 18:19:11,"Does a language model trained on “A is B” generalize to “B is A”?
+E.g. When trained only on “George Washington was the first US president”, can models automatically answer “Who was the first US president?”
+Our new paper shows they cannot! https://t.co/aJcQpaSlhq",f,t,,f,f
+1705516529175933004,1777824891129592278,daamitt,2023-09-23 09:36:42,@OwainEvans_UK Did you try different examples on bard? https://t.co/wP5bbdGCpc,f,t,,f,f
+1705703661706600950,1777899147549735397,AdiPolak,2023-09-23 22:00:18,"Stanford has released Prof. Manning's NLP course for free (!!!) on Youtube if you are interested in diving deeper into NLP.
+
+It starts with the very basic word2vec and expends to:
+
+-> Domain adaptation for supervised sentiment
+-> Retrieval augmented in-context learning
+-> Advanced behavioral evaluation
+-> Analysis methods
+-> More NLP methods
+
+Happy A.B.L <Always Be Learning> y'all!
+
+https://t.co/7kGpLzyBdY",f,t,,f,f
+1705577938182414732,1777899462811940682,MilesCranmer,2023-09-23 13:40:43,"I'm starting a curated list of interactive machine learning demos:
+https://t.co/mILPILzSX9. Looking for more suggestions!
+
+My plan is to incorporate some into the ML modules of Cambridge's new MPhil in Data Intensive Science, as a way to hone students' intuition. https://t.co/Ab5LKiYCQM",f,t,cool demo,t,f
+1705556374992863481,1777899536698236595,tdinh_me,2023-09-23 12:15:02,"This is a goldmine for anyone looking for AI product ideas (or improving existing products)
+
+https://t.co/OYkxqCH8XC https://t.co/u1c5YCtNyN",f,t,reference,f,f
+1705883362991472984,1777950414032874900,jeremyphoward,2023-09-24 09:54:22,"I just uploaded a 90 minute tutorial, which is designed to be the one place I point coders at when they ask ""hey, tell me everything I need to know about LLMs!""
+
+It starts at the basics: the 3-step pre-training / fine-tuning / classifier ULMFiT approach used in all modern LLMs. https://t.co/7p9dnLlaCf",t,t,video,t,f
+1705767185678020905,1777953617581739995,simonw,2023-09-24 02:12:43,"Some notes on how to run the Facebook musicgen-small model in Python to generate an audio file from a text prompt, including a demo wav file I generated of ""trumpet mariachi frenetic excitement"" https://t.co/tjJEEf5Lvj",f,t,cool demo,f,f
+1705960996706164804,1777999923250452079,gunsnrosesgirl3,2023-09-24 15:02:51,"Gorillas and other primates engage in play, but they do so in a manner strikingly similar to us 
+https://t.co/acJBKJMDVq",f,t,fun,f,f
+1705949583266787597,1778012643508809727,emollick,2023-09-24 14:17:30,"Congratulations, you are now above average on many skills you used to be bad at!
+
+We have very strong evidence that AI elevates the skills of the lowest performers across a wide range of fields. I write about what we know so far, and what it means. https://t.co/hNyO5P2Dh5",f,t,AI impact,f,f
+1705898517804511601,1778012729967507231,tkasasagi,2023-09-24 10:54:35,AI in Japan. https://t.co/IUYa1pAOXr,f,t,slide,t,f
+1706046644423450924,1778012853900699263,jeremyphoward,2023-09-24 20:43:11,"I wanted ChatGPT to show how to get likes/views ratio for a bunch of YouTube videos, without dealing with the hassle of YouTube's Data API limits.
+
+But it didn't want to, because it claimed screen scraping is against the YouTube ToS.
+
+So I lied to ChatGPT. https://t.co/nLzW9cDA2O",f,t,prompt engineering,f,f
+1706188593579069753,1778013128397877897,mayfer,2023-09-25 06:07:14,"mechanistic interpretation of whisper
+https://t.co/nzB6PGGQOg",f,t,mechanistic interpretability,f,f
+1706202966238318670,1778013220496545318,AnthropicAI,2023-09-25 07:04:21,"Today, we’re announcing that @Amazon will invest up to $4 billion in Anthropic. The agreement is part of a broader collaboration to develop reliable and high-performing foundation models. https://t.co/lPJ03oqr6C",t,f,politics,f,f
+1706211936562716767,1778013268093509074,Rainmaker1973,2023-09-25 07:40:00,"The most common estimates of the humans who have ever lived on Earth are around 108 billion people. Using that assumption, a little under 7% of all people who have ever lived are alive right now
+
+[✏️ Max Roser, Our World in Data] https://t.co/yYAj7cWG96",f,t,insightful,f,f
+1706280618429141022,1778013394750175063,OpenAI,2023-09-25 12:12:55,"ChatGPT can now see, hear, and speak. Rolling out over next two weeks, Plus users will be able to have voice conversations with ChatGPT (iOS &amp; Android) and to include images in conversations (all platforms). 
+https://t.co/uNZjgbR5Bm https://t.co/paG0hMshXb",f,t,OpenAI,f,f
