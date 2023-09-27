@@ -3826,39 +3826,39 @@ Impressive qualitative jump over ChatGPT. It’s definitely not just memorizing,
 
 Probably the most important thing happening in the world right now.
 
-Thread with some highlights:",f,t,,f,f
+Thread with some highlights:",f,t,capabilities,f,f
 1638951773040672768,1761249027494322775,stephen_wolfram,2023-03-23 17:12:07,"2.5 months later...in collaboration with @openAI , ChatGPT gets its ""Wolfram superpowers""!
-https://t.co/93hCaOTTj6 https://t.co/TgYQ1OHXDd",f,t,,f,f
+https://t.co/93hCaOTTj6 https://t.co/TgYQ1OHXDd",f,t,chatGPT plugins,f,f
 1639251347777388544,1761333996573390422,alighodsi,2023-03-24 13:02:31,"We are open sourcing Dolly, a ChatGPT-like model that can do instruction following, created for $30, trained 3 hours on 1 server.  The secret in magical human-like interactivity probably lies in a small dataset.
-https://t.co/6opU6NEArG",f,t,,f,f
-1639444623322935297,1761416988970987870,perrymetzger,2023-03-25 01:50:32,"It’s tempting to think of humans as sentient, but their brains are just a bunch of nerve cells mechanically firing according to the laws of physics. There’s no there there. To really have a soul you need the purity and transcendence of matrix multiplication.",f,t,,f,f
-1639783748379234304,1761417102242347832,simonw,2023-03-26 00:18:05,@PoppieAR @sidereal111 @ESYudkowsky Wow. https://t.co/Dlhm8oI6Ce,f,t,,f,f
+https://t.co/6opU6NEArG",f,t,finetune,f,f
+1639444623322935297,1761416988970987870,perrymetzger,2023-03-25 01:50:32,"It’s tempting to think of humans as sentient, but their brains are just a bunch of nerve cells mechanically firing according to the laws of physics. There’s no there there. To really have a soul you need the purity and transcendence of matrix multiplication.",f,t,fun,f,f
+1639783748379234304,1761417102242347832,simonw,2023-03-26 00:18:05,@PoppieAR @sidereal111 @ESYudkowsky Wow. https://t.co/Dlhm8oI6Ce,f,t,fun,t,f
 1639862108514037762,1761426995797521848,emollick,2023-03-26 05:29:28,"Practically, this means:
 1) Try using AI for everything at work. Get a sense of how it works (there is a learning curve) and what it is good for. Understand your exposure to disruption.
-2) Organizations need to experiment with AI inside their firms now, not wait for consultants.",f,t,,f,f
+2) Organizations need to experiment with AI inside their firms now, not wait for consultants.",f,t,insightful,f,f
 1639716822680236032,1761427784390915292,peakcooper,2023-03-25 19:52:09,"#GPT4 saved my dog's life.
 
 After my dog got diagnosed with a tick-borne disease,  the vet started her on the proper treatment, and despite a serious anemia, her condition seemed to be improving relatively well.
 
-After a few days however, things took a turn for the worse 1/",f,t,,f,f
-1639816606342676480,1761438153749236067,Liv_Boeree,2023-03-26 02:28:39,Another one for the “GPT4 is more than a stochastic parrot” evidence pile… https://t.co/QO2ai5mxed,f,t,,f,f
+After a few days however, things took a turn for the worse 1/",f,t,practical application of ChatGPT,f,f
+1639816606342676480,1761438153749236067,Liv_Boeree,2023-03-26 02:28:39,Another one for the “GPT4 is more than a stochastic parrot” evidence pile… https://t.co/QO2ai5mxed,f,t,capabilities,f,f
 1640443500721496064,1761589978957379941,nonmayorpete,2023-03-27 19:59:43,"Every AI hobbyist needs to realize how soon your laptop and smartphone will have a ChatGPT on it.
 
 It's happening soon and way faster than you think.
 
-Here's what you need to know (the non-technical version):",f,t,,f,f
+Here's what you need to know (the non-technical version):",f,t,local models,f,f
 1640446113139539968,1761599178014682531,cwolferesearch,2023-03-27 20:10:06,"The original transformer has two parts:
 
 1. Encoder: uses bidirectional self-attention and feed-forward neural networks
 2. Decoder: uses masked self-attention, cross attention, and feed-forward neural networks
 
-The encoder processes input, then the decoder generates output. [2/6] https://t.co/kSvptSQY85",f,t,,f,f
-1641055258758594560,1761716231053332251,EddieGoode1,2023-03-29 12:30:37,@arcadeages @readkrystalhu @scottwww @GaryMarcus @elonmusk @tegmark @Grady_Booch @AndrewYang @tristanharris @EMostaque Yeah leader of the Sugondese laboratory,f,t,,f,f
-1641070745701810176,1761722080998814380,weirddalle,2023-03-29 13:32:10,Annual Concrete eating contest https://t.co/j8UvckSVZO,f,t,,f,f
+The encoder processes input, then the decoder generates output. [2/6] https://t.co/kSvptSQY85",f,t,overview,f,t
+1641055258758594560,1761716231053332251,EddieGoode1,2023-03-29 12:30:37,@arcadeages @readkrystalhu @scottwww @GaryMarcus @elonmusk @tegmark @Grady_Booch @AndrewYang @tristanharris @EMostaque Yeah leader of the Sugondese laboratory,f,t,fun,f,f
+1641070745701810176,1761722080998814380,weirddalle,2023-03-29 13:32:10,Annual Concrete eating contest https://t.co/j8UvckSVZO,f,t,fun,t,f
 1640836003194630144,1761743984890404881,andriy_mulyar,2023-03-28 21:59:23,"I'm excited to announce the release of GPT4All, a 7B param language model finetuned from a curated set of 400k GPT-Turbo-3.5 assistant-style generation. 
 We release💰800k data samples💰 for anyone to build upon and a model you can run on your laptop!
-Real-time Sampling on M1 Mac https://t.co/HgEgnlwYV8",f,t,,f,f
-1640778597517410304,1761744185983958058,MerriamWebster,2023-03-28 18:11:16,People who subscribe to Merriam-Webster Red™ will get exclusive access to the real definitions.,f,t,,f,f
+Real-time Sampling on M1 Mac https://t.co/HgEgnlwYV8",f,t,cool demo,f,f
+1640778597517410304,1761744185983958058,MerriamWebster,2023-03-28 18:11:16,People who subscribe to Merriam-Webster Red™ will get exclusive access to the real definitions.,f,t,🔥,f,f
 1641204093074145281,1761826347821491674,mckaywrigley,2023-03-29 22:22:02,"What if writing code was as simple as talking to your device?
 
 Watch my GPT-4 voice assistant:
@@ -3868,7 +3868,7 @@ Watch my GPT-4 voice assistant:
 
 All I had to do was tell it what to do.
 
-This is the future of software. https://t.co/dNuEHynJoU",f,t,,f,f
+This is the future of software. https://t.co/dNuEHynJoU",f,t,coding assistant,f,f
 1641535040629645346,1761857607475473487,Scobleizer,2023-03-30 20:17:06,"Yesterday I met the fourth employee at SpaceX. Hans Koenigsmann. 
 
 I asked him how they did the code that lands rockets back on earth so they can be reused. 
@@ -3887,32 +3887,32 @@ So, why can’t Lockheed or Boeing figure this out?
 
 The committee can’t decide who is smart enough to do the code. 
 
-:-)",f,t,,f,f
+:-)",f,t,10x,f,f
 1641512859765989395,1761858680527602629,nearcyan,2023-03-30 18:48:58,"Making Deep Learning Go Brrrr From First Principles (2022)
 
 Improving the speed of your training runs looks very different depending on if your performance is bottlenecked by compute, bandwidth, or overhead
 
-blogpost: https://t.co/3BWYMRvE6R https://t.co/MGnzKWrRP9",f,t,,f,f
+blogpost: https://t.co/3BWYMRvE6R https://t.co/MGnzKWrRP9",f,t,insightful,f,f
 1641864530832785409,1761917126500791656,NeelNanda5,2023-03-31 18:06:23,"In recent work @ke_li_2021 trained Othello-GPT to predict the next move in random legal games of Othello &amp; found an emergent model of the board! Surprisingly, only non-linear probes worked. I found a linear model of which squares have the PLAYER'S colour!
-https://t.co/NRhE3CEcc8 https://t.co/WhJwiuaDVy",f,t,,f,f
+https://t.co/NRhE3CEcc8 https://t.co/WhJwiuaDVy",f,t,mechanistic interpretability,f,f
 1641799627128143873,1762137510153693534,jburnmurdoch,2023-03-31 13:48:28,"NEW: I’m not sure people fully appreciate how dire the US life expectancy / mortality situation has got.
 
 My column: https://t.co/dBIhT9eZLv
 
 And some utterly damning charts.
 
-1) at *every* point on the income distribution, Americans live shorter lives than the English. https://t.co/pOoziEK5mZ",f,t,,f,f
-1642664054912155648,1762152230080110980,VictorTaelin,2023-04-02 23:03:24,Pro tip: you can greatly increase GPT-4's effective context size by asking it to compress your prompts using its own abbreviations. #GPT4 https://t.co/AngwsQiAsX,f,t,,f,f
+1) at *every* point on the income distribution, Americans live shorter lives than the English. https://t.co/pOoziEK5mZ",f,t,insightful,f,f
+1642664054912155648,1762152230080110980,VictorTaelin,2023-04-02 23:03:24,Pro tip: you can greatly increase GPT-4's effective context size by asking it to compress your prompts using its own abbreviations. #GPT4 https://t.co/AngwsQiAsX,f,t,prompt engineering,f,f
 1644017318341509120,1762560328032783925,emollick,2023-04-06 16:40:47,"A burning issue is how to reorganize work around AI. Companies, from organizational structure to agile methods, are based around pre-AI limits on how people work &amp; coordinate. We don't need any new tech for that to have to change.
 
-How? AI describes the ""AI-centric organization"" https://t.co/rAElpxkmQx",f,t,,f,f
+How? AI describes the ""AI-centric organization"" https://t.co/rAElpxkmQx",f,t,business,t,f
 1644326577893949441,1762561063128630916,yoheinakajima,2023-04-07 13:09:40,"Friend: How's it going?
 
 Me: Are you on Twitter by chance?
 
 Friend: No, why?
 
-Me: Oh man, let me tell you about my last two week...",f,t,,f,f
+Me: Oh man, let me tell you about my last two week...",f,t,agents,f,f
 1644034309253394433,1762561280448611569,mckaywrigley,2023-04-06 17:48:18,"This is just insane…
 
 My GPT-4 coding assistant can now:
@@ -3924,22 +3924,22 @@ My GPT-4 coding assistant can now:
 
 I can now build *complete* apps with nothing more than my voice.
 
-The future is here! https://t.co/PrEnCsKY2L",f,t,,f,f
+The future is here! https://t.co/PrEnCsKY2L",f,t,coding assistant,f,f
 1644396717079658496,1762561574711923934,mckaywrigley,2023-04-07 17:48:23,"By 2024 you’ll be able to replace ~50% software devs with GPT-4 agents that run on $10 worth of tokens per hour.
 
 The whole “they don’t need sleep or breaks or food” thing?
 
 Yeah. That’s real now.
 
-Why hire a new employee when you can spin up an AI agent for 1/10 the cost?",f,t,,f,f
+Why hire a new employee when you can spin up an AI agent for 1/10 the cost?",f,t,agents,f,f
 1644320426846220288,1762595660902623909,AlphaSignalAI,2023-04-07 12:45:14,"Anthropic’s has a $5B, 4-year plan to take on OpenAI. 
 
 It plans to build a “frontier model”  called “Claude-Next” 10 times more capable than GPT, but will require billions in spending over the next 18 months.
 
 Google owns a 10% stake in the startup.
 
-https://t.co/idMoPys67A",f,t,,f,f
-1644373128003420161,1762596249187475348,BlancheMinerva,2023-04-07 16:14:39,"I recall some papers that identify 6.7B parameters as an ""emergence threshold,"" and suggest that you should make sure to use models at least that large to study 100B+ models. Does anyone know which papers these are? I'm having trouble finding them.",f,t,,f,f
+https://t.co/idMoPys67A",f,t,closed models,f,f
+1644373128003420161,1762596249187475348,BlancheMinerva,2023-04-07 16:14:39,"I recall some papers that identify 6.7B parameters as an ""emergence threshold,"" and suggest that you should make sure to use models at least that large to study 100B+ models. Does anyone know which papers these are? I'm having trouble finding them.",f,t,replies,f,f
 1644097427014549505,1762596781077018092,skirano,2023-04-06 21:59:07,"Thanks to GPT-4, I've created a new plugin:
 
 StabilityGPT
@@ -3947,31 +3947,31 @@ StabilityGPT
 Now, you can run stable-diffusion directly in ChatGPT. 
 💬🎨
 
-Imagine the possibilities! https://t.co/39mgr6odrv",f,t,,f,f
+Imagine the possibilities! https://t.co/39mgr6odrv",f,t,chatGPT plugins,f,f
 1644475141018238976,1762596786717990384,LinusEkenstam,2023-04-07 23:00:01,"Hot take 🔥
 
 We need more software engineers in the future, not less.
 
 For every new ""agent"" we will probably need a few more human devs. Contrary to what others are predicting I think we will need more folks than what we have today.
 
-🧵 A thread",f,t,,f,f
-1640446111348555776,1762597626386105387,cwolferesearch,2023-03-27 20:10:05,"Large language models (LLMs) are fun to use, but understanding the fundamentals of how they work is also incredibly important. One major idea and building block of LLMs is their underlying architecture: the decoder-only transformer model. 🧵[1/6] https://t.co/XBi5UzOYp4",f,t,,f,f
+🧵 A thread",f,t,Second-order effects,f,f
+1640446111348555776,1762597626386105387,cwolferesearch,2023-03-27 20:10:05,"Large language models (LLMs) are fun to use, but understanding the fundamentals of how they work is also incredibly important. One major idea and building block of LLMs is their underlying architecture: the decoder-only transformer model. 🧵[1/6] https://t.co/XBi5UzOYp4",f,t,explainer,f,f
 1644270749228695554,1762597829204514280,jkronand,2023-04-07 09:27:50,"It appears that Microsoft is developing its own LLM application tooling, langchain style. Looks pretty interesting.
 
 Microsoft seems to enjoy eating startups for breakfast.
 
-https://t.co/Ncg1Yvijoa",f,t,,f,f
+https://t.co/Ncg1Yvijoa",f,t,tool,f,f
 1644352579462369280,1762645340116803782,swyx,2023-04-07 14:53:00,"Someone wrote up this list of the last 7 days in AI and I am -exhausted-.
 
-who is making the AI to keep up with the AI??? https://t.co/wtVZ3bAm5X",f,t,,f,f
-1644844991821549569,1762768520393152608,upster,2023-04-08 23:29:40,@adamcohenhillel @0xDACA @yoheinakajima Fascinating. I wonder if you could enhance the workflow to start with Gherkin files that define expected behaviors created off of interviewing a product owner which could be transcribed by Whisper for true magical effect. https://t.co/03TMR4giQM,f,t,,f,f
+who is making the AI to keep up with the AI??? https://t.co/wtVZ3bAm5X",f,t,relatable,f,f
+1644844991821549569,1762768520393152608,upster,2023-04-08 23:29:40,@adamcohenhillel @0xDACA @yoheinakajima Fascinating. I wonder if you could enhance the workflow to start with Gherkin files that define expected behaviors created off of interviewing a product owner which could be transcribed by Whisper for true magical effect. https://t.co/03TMR4giQM,f,t,coding assistant,f,f
 1645096275392745477,1762768567509334875,mathemagic1an,2023-04-09 16:08:11,"An intriguing trend in AI 🤖:
 
 “Models all the way down” (aka ""stacking"")
 
 Have models invoke other models, then watch as emergent intelligence develops ✨
 
-Here’s a discussion of what, how, and why this is important to watch 👇 https://t.co/hN3JND32CK",f,t,,f,f
+Here’s a discussion of what, how, and why this is important to watch 👇 https://t.co/hN3JND32CK",f,t,Age,f,f
 1637979801033256960,1762769293824816581,natfriedman,2023-03-21 00:49:51,"🔥 Ladies and gentlemen, the Vesuvius Challenge is officially a $1 million dollar contest. 🔥
 
 Huge thanks to @JosephJacks_, who has pledged $250,000.  We are in awe.
@@ -3980,8 +3980,8 @@ $700k grand prize, $1M total.
 
 No excuses now. It's time to read the scrolls!
 
-https://t.co/KYVyona2fW",f,t,,f,f
-1645204839620812802,1762776533595779371,adamnemecek1,2023-04-09 23:19:34,@karpathy I have recently written a paper on this https://t.co/PoUnrXBLEI. Hopf algebras are besties with Markov chains https://t.co/4PvjwBWV3N.,f,t,,f,f
+https://t.co/KYVyona2fW",f,t,frontier,f,f
+1645204839620812802,1762776533595779371,adamnemecek1,2023-04-09 23:19:34,@karpathy I have recently written a paper on this https://t.co/PoUnrXBLEI. Hopf algebras are besties with Markov chains https://t.co/4PvjwBWV3N.,f,t,paper,f,f
 1645115622517542913,1762777092907478834,karpathy,2023-04-09 17:25:03,"This is a baby GPT with two tokens 0/1 and context length of 3, viewing it as a finite state markov chain. It was trained on the sequence ""111101111011110"" for 50 iterations. The parameters and the architecture of the Transformer modifies the probabilities on the arrows.
 
 E.g. we can see that:
@@ -3989,24 +3989,24 @@ E.g. we can see that:
 - state 111 goes to 111 and 110 with 50% probability each, which the model almost learns (45%, 55%).
 - states like 000 are never encountered during training, but have relatively sharp transition probabilities, e.g. 73% of going to 001. This is a consequence of inductive biases in the Transformer. One might imagine wanting this to be 50%, except in a real deployment almost every input sequence is unique, not present in the training data verbatim.
 
-Not really sure where I was going with this :D, I think it's interesting to train/study tiny GPTs because it becomes tractable to visualize and get an intuitive sense of the entire dynamical system. Play with here: https://t.co/8jdceMLpqy",f,t,,f,f
-1645177525268779009,1762783347562390483,simonw,2023-04-09 21:31:02,"This is the thing I find most interesting about ChatGPT as a learning assistant: it turns out having a teacher that's mostly right but occasionally very wrong makes me think much more critically about what I'm learning, which I think is helping me build more robust mental models",f,t,,f,f
+Not really sure where I was going with this :D, I think it's interesting to train/study tiny GPTs because it becomes tractable to visualize and get an intuitive sense of the entire dynamical system. Play with here: https://t.co/8jdceMLpqy",f,t,explainer,f,f
+1645177525268779009,1762783347562390483,simonw,2023-04-09 21:31:02,"This is the thing I find most interesting about ChatGPT as a learning assistant: it turns out having a teacher that's mostly right but occasionally very wrong makes me think much more critically about what I'm learning, which I think is helping me build more robust mental models",f,t,Second-order effects,f,f
 1645679407967633408,1762884065315226617,untitled01ipynb,2023-04-11 06:45:20,"I'm trying to be civil about it. But I'm full on livid. ""if you don't see the paper on twitter, maybe it's for a good reason. 🤯""
 
-Come on kids, we're going for a ride. I'll try to post as little as possible. You might want to mute me for a day if you don't have an academic bg. https://t.co/CJdUG7Dsz2",f,t,,f,f
+Come on kids, we're going for a ride. I'll try to post as little as possible. You might want to mute me for a day if you don't have an academic bg. https://t.co/CJdUG7Dsz2",f,t,insightful,f,f
 1645775012622737408,1762915858770511034,rasbt,2023-04-11 13:05:14,"Upon receiving a user query, the indexing module calculates vector similarity betw the embedded query &amp; stored vectors. It then retrieves the top k most similar embeddings to compose the response. A popular implementation of this is  LLaMA-Index: https://t.co/9aiETRf3ku
 
-6/6",f,t,,f,f
+6/6",f,t,embeddings,f,f
 1645974096734466049,1762947779023070306,simonw,2023-04-12 02:16:20,"This is a really surprising thing I'm starting to consider: I've spent my whole career seeking abstractions that help me do more with less code, because writing code is so expensive
 
-If LLMs are writing the code for me, maybe that doesn't matter nearly as much",f,t,,f,f
+If LLMs are writing the code for me, maybe that doesn't matter nearly as much",f,t,Second-order effects,f,f
 1645909635692630018,1762964791550078604,alexalbert__,2023-04-11 22:00:11,"GPT-4 is highly susceptible to prompt injections and will leak its system prompt with very little effort applied
 
-here's an example of me leaking Snapchat's MyAI system prompt: https://t.co/KmO7jXyL9U",f,t,,f,f
-1646235638872539137,1763005460434044382,cwolferesearch,2023-04-12 19:35:36,"As Large Language Models (LLMs) improve in quality, evaluating them becomes more difficult. Recent models are so good that even humans struggle to discern differences in quality. Luckily, we can just create an automated evaluation framework using GPT-4! 🧵 [1/6] https://t.co/M6GxnCZXoE",f,t,,f,f
+here's an example of me leaking Snapchat's MyAI system prompt: https://t.co/KmO7jXyL9U",f,t,prompt engineering,f,f
+1646235638872539137,1763005460434044382,cwolferesearch,2023-04-12 19:35:36,"As Large Language Models (LLMs) improve in quality, evaluating them becomes more difficult. Recent models are so good that even humans struggle to discern differences in quality. Luckily, we can just create an automated evaluation framework using GPT-4! 🧵 [1/6] https://t.co/M6GxnCZXoE",f,t,finetune,f,f
 1646619372709113856,1763129265042941407,nonmayorpete,2023-04-13 21:00:25,"Big batch of announcements today from Amazon, Stability AI, Google and Meta.
 
-Here's what happened and how to make sense of them:",f,t,,f,f
+Here's what happened and how to make sense of them:",f,t,politics,f,f
 1646754307704799235,1763135798028221771,nearcyan,2023-04-14 05:56:36,"Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields
 
 this is not a recorded video - it is fully rendered from a neural model!
