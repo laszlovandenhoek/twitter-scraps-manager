@@ -3789,15 +3789,15 @@ Full explanation in the next few tweets ↓ https://t.co/aMOS76FFiL",f,t,,f,f
 1632419882158440448,1759637730746456370,Chinchillazllla,2023-03-05 16:36:43,"my dad is an entomologist, so I often find that something I have basically always known about bugs totally blows regular people's minds. I'm gonna start a thread of sick bug* facts that normies may or may not know.
 
 *using bug in the colloquial sense. entomologists stand down.",f,t,,f,f
-1632664864538738688,1759638362297346378,antirez,2023-03-06 08:50:11,"Welcome to the LoRa thread. Here I'll talk about LoRa, a modulation used in RF communications  that is a game changer for certain applications, and about my work on a LoRa based WAN protocol and implementation: my open source project called FreakWAN.",f,t,,f,f
-1632627555030249472,1759695631629176662,LockPickingLwyr,2023-03-06 06:21:56,This is a screenshot from a television news report about a prison.  I will not mention which one or where. I’m only posting to point out the folly of allowing the TV crew to take closeup B-roll footage of a prison key. https://t.co/MF3B2PoBAh,f,t,,f,f
-1633582489850773504,1759839353278189499,natfriedman,2023-03-08 21:36:30,Our multi-model playground is coming together. Give it a try: https://t.co/dbsmteAqri,f,t,,f,f
-1635216042363600897,1760253829985461593,jonatallen,2023-03-13 09:47:40,"@anmol01gulati @ayirpelle Very similar to @swardley Pioneers, Town Planners and Settlers analogy.",f,t,,f,f
-1635610067427893252,1760377921942535573,klafbang,2023-03-14 11:53:22,"Business plan: a toothless snake made of arsenic, so it is possible to um-actually people um-actuallying ""it is a venomous snake.""",f,t,,f,f
-1635687373060317185,1760378139720037165,OpenAI,2023-03-14 17:00:33,"Announcing GPT-4, a large multimodal model, with our best-ever results on capabilities and alignment: https://t.co/TwLFssyALF https://t.co/lYWwPjZbSg",f,t,,f,f
+1632664864538738688,1759638362297346378,antirez,2023-03-06 08:50:11,"Welcome to the LoRa thread. Here I'll talk about LoRa, a modulation used in RF communications  that is a game changer for certain applications, and about my work on a LoRa based WAN protocol and implementation: my open source project called FreakWAN.",f,t,hardware,f,f
+1632627555030249472,1759695631629176662,LockPickingLwyr,2023-03-06 06:21:56,This is a screenshot from a television news report about a prison.  I will not mention which one or where. I’m only posting to point out the folly of allowing the TV crew to take closeup B-roll footage of a prison key. https://t.co/MF3B2PoBAh,f,t,fun,f,f
+1633582489850773504,1759839353278189499,natfriedman,2023-03-08 21:36:30,Our multi-model playground is coming together. Give it a try: https://t.co/dbsmteAqri,f,t,tool,f,f
+1635216042363600897,1760253829985461593,jonatallen,2023-03-13 09:47:40,"@anmol01gulati @ayirpelle Very similar to @swardley Pioneers, Town Planners and Settlers analogy.",f,t,mental model,f,f
+1635610067427893252,1760377921942535573,klafbang,2023-03-14 11:53:22,"Business plan: a toothless snake made of arsenic, so it is possible to um-actually people um-actuallying ""it is a venomous snake.""",f,t,fun,f,f
+1635687373060317185,1760378139720037165,OpenAI,2023-03-14 17:00:33,"Announcing GPT-4, a large multimodal model, with our best-ever results on capabilities and alignment: https://t.co/TwLFssyALF https://t.co/lYWwPjZbSg",f,t,closed models,f,f
 1636477256993325057,1760596826540017405,0xgaut,2023-03-16 21:19:17,"Microsoft released copilot in Excel, and it is officially caught up with Google on the AI race.
 
-Fantastic to watch. https://t.co/PUOdRmKcqh",f,t,,f,f
+Fantastic to watch. https://t.co/PUOdRmKcqh",f,t,fun,f,f
 1637580687153987584,1760908581191358439,SteveStuWill,2023-03-19 22:23:55,"Six fundamental beliefs that bias our view of the world:
 
 1. My experience is a reasonable reference.
@@ -3805,7 +3805,7 @@ Fantastic to watch. https://t.co/PUOdRmKcqh",f,t,,f,f
 3. I am good.
 4. My group is a reasonable reference.
 5. My group is good.
-6. People's attributes (not context) shape outcomes.",f,t,,f,f
+6. People's attributes (not context) shape outcomes.",f,t,mental model,f,f
 1637446301230018561,1760908750897067754,dos_retro_gamer,2023-03-19 13:29:55,"#Retrogaming memory ❤️
 
 Stunts
@@ -3813,13 +3813,13 @@ DOS
 Brøderbund
 1990
 
-https://t.co/qNi8g1C3Jw",f,t,,f,f
-1636923058370891778,1760977022948768004,random_walker,2023-03-18 02:50:44,"While playing around with hooking up GPT-4 to the Internet, I asked it about myself… and had an absolute WTF moment before realizing that I wrote a very special secret message to Bing when Sydney came out and then forgot all about it. Indirect prompt injection is gonna be WILD https://t.co/5Rh1RdMdcV",f,t,,f,f
+https://t.co/qNi8g1C3Jw",f,t,relatable,f,f
+1636923058370891778,1760977022948768004,random_walker,2023-03-18 02:50:44,"While playing around with hooking up GPT-4 to the Internet, I asked it about myself… and had an absolute WTF moment before realizing that I wrote a very special secret message to Bing when Sydney came out and then forgot all about it. Indirect prompt injection is gonna be WILD https://t.co/5Rh1RdMdcV",f,t,prompt injection,f,f
 1638212898710233091,1761049551334573992,genmon,2023-03-21 16:16:06,"Kinda hard to read, but I wanted to share...
 
 My wild AI tool-use moment today (with @LangChainAI) is that I rigged up a new ""ask the user"" tool. The AI can now come back with questions if it needs more info. And it does!
 
-A tiny proof of concept but this pattern opens up so much https://t.co/aW6c0qk76M",f,t,,f,f
+A tiny proof of concept but this pattern opens up so much https://t.co/aW6c0qk76M",f,t,langchain,f,f
 1638848850516672513,1761247866336508382,leopoldasch,2023-03-23 10:23:08,"Best thing I’ve read on GPT-4’s capabilities. You should read it.
 
 Impressive qualitative jump over ChatGPT. It’s definitely not just memorizing, it’s learning to think and reason. 
