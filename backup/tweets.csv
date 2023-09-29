@@ -3557,7 +3557,7 @@ https://t.co/pMs3yzMLG0
 1620085417730256896,1756538945957913133,GKlijs,2023-01-30 15:43:57,"Working on the slides for the presentation next week Thursday. It's about concurrency control in event-driven architectures, based on a white paper I wrote a few months ago, https://t.co/ayO4JgTQkX.
 #JVM #EventDriven #SpringOne
 https://t.co/Uz4FWfY5wl",f,t,,f,f
-1620381471583399936,1756560005823825099,spolu,2023-01-31 11:20:22,A thread on what I believe are the 2 hottest AI/LLM research questions for 2023 🔥,f,t,,f,f
+1620381471583399936,1756560005823825099,spolu,2023-01-31 11:20:22,A thread on what I believe are the 2 hottest AI/LLM research questions for 2023 🔥,f,t,rag,f,f
 1620483762168668160,1756575278381156516,mringenious1,2023-01-31 18:06:50,@firstkaransingh @svpino https://t.co/9Ge3Ubwejj,f,t,,f,f
 1620292922313945089,1756576578707803711,docmilanfar,2023-01-31 05:28:30,"Think you understand Maximum Likelihood? Think again.
 
@@ -3617,7 +3617,7 @@ This is insane 😱🙇🏻‍♂️👏🏻
 1626021146406662146,1758021426298193012,emollick,2023-02-16 00:50:25,"It is already clear that Bing AI is a big a leap over ChatGPT as ChatGPT was over the old GPT-3 model
 
 It generated paper ideas based on my previous papers, found gaps in the literature, suggested methods ""consistent with your previous methods,"" and offered potential data sources https://t.co/16SJAkJGuA",f,t,,f,f
-1626002839406358531,1758024627218699090,goodside,2023-02-15 23:37:41,Full post: https://t.co/ObNxaimB20,f,t,,f,f
+1626002839406358531,1758024627218699090,goodside,2023-02-15 23:37:41,Full post: https://t.co/ObNxaimB20,f,t,frontier,f,f
 1626215722727743488,1758024696137751499,openbioml,2023-02-16 13:43:36,"We are excited to announce the start of ChemNLP, an open and collaborative community project aiming to explore the applications of large language models for chemistry! 🧪🚀
 
 1/4",f,t,,f,f
@@ -3627,40 +3627,40 @@ Summarized some of the interesting takeaways below.
 (Note that alternatives to scaled-dot product self-attention are notably absent -- no one uses these, still?)
 
 1/6 https://t.co/rfMZvVCVg7",f,t,,f,f
-1626313663232589825,1758117478425180911,doctorow,2023-02-16 20:12:47,"The really remarkable thing isn't just that #Microsoft has decided that the future of #search isn't links to relevant materials, but instead lengthy, florid paragraphs written by a #chatbot who happens to be a habitual liar - even more remarkable is that #Google agrees. 1/ https://t.co/ctL0rW19F0",f,t,,f,f
+1626313663232589825,1758117478425180911,doctorow,2023-02-16 20:12:47,"The really remarkable thing isn't just that #Microsoft has decided that the future of #search isn't links to relevant materials, but instead lengthy, florid paragraphs written by a #chatbot who happens to be a habitual liar - even more remarkable is that #Google agrees. 1/ https://t.co/ctL0rW19F0",f,t,insightful,f,f
 1625165795553599489,1758245548811545985,GKlijs,2023-02-13 16:11:34,"Not sure who to reach out to. Anyone know if a release of @springboot initializr 0.20.0 would be soon? Would like to use a non-snapshot version for an initializr but also support Spring Boot 3.
-@sdeleuze @starbuxman @ankinson",f,t,,f,f
+@sdeleuze @starbuxman @ankinson",f,t,java,f,f
 1626904248368922624,1758245585714821172,kandros5591,2023-02-18 11:19:33,"My mind is blown 🤯
 
 In a Dockerfile you can copy things from an image in the registry
 
 It totally makes sense considering in multi-stage build you reference local layers but I never imaged using it this way
 
-For copying executables etc is fantastic https://t.co/prBlWk4tYJ",f,t,,f,f
+For copying executables etc is fantastic https://t.co/prBlWk4tYJ",f,t,insightful,t,f
 1626598327495327744,1758246150667233344,lukaseder,2023-02-17 15:03:56,"I often see DuckDB mentions on twitter, but this list is all tumbleweeds about it:
 https://t.co/UutIci7XWm
 
-Is it a hype? Is it real? Anyone using it? Why? Why not?",f,t,,f,f
+Is it a hype? Is it real? Anyone using it? Why? Why not?",f,t,database,f,f
 1626541820766482432,1758247449448164755,xiao_ted,2023-02-17 11:19:24,"Out of all the amazing emergent phenomenon that LLMs exhibit, emergent Theory of Mind (ToM) is the most mind-blowing.
 
 If ToM is not an innate human cognitive ability but a cognitive *process*, then that process has been largely emulated.
-https://t.co/EG5QSPcWQi",f,t,,f,f
-1626686938794147841,1758276923915262877,cwolferesearch,2023-02-17 20:56:03,Did you know that you can use Neural Radiance Fields (NeRFs) to take an optimal selfie? Here’s how… [1/6] https://t.co/5iyn5stulL,f,t,,f,f
+https://t.co/EG5QSPcWQi",f,t,frontier,f,f
+1626686938794147841,1758276923915262877,cwolferesearch,2023-02-17 20:56:03,Did you know that you can use Neural Radiance Fields (NeRFs) to take an optimal selfie? Here’s how… [1/6] https://t.co/5iyn5stulL,f,t,nerf,f,f
 1628027051503386624,1758514680066655276,tunguz,2023-02-21 13:41:11,"Microsoft Research has released BioGPT, a large language model trained on biomedical research literature. The model achieves better-than-human performance on answering questions from the biomedical literature, as evaluated on PubMedQA. The code for the model has been publicly released, and the weights for the large 1.5B model are expected to be released soon as well.
 
 Link to the paper: https://t.co/92MBKqWPZd
 
 Link to the GitHub repo: https://t.co/baaFEsmuNF
 
-#ArtificialIntelligence #GenerateiveAI #LLM #LLMs #AI #NLP #DeepLearning @MicrosoftResearch",f,t,,f,f
+#ArtificialIntelligence #GenerateiveAI #LLM #LLMs #AI #NLP #DeepLearning @MicrosoftResearch",f,t,open source models,f,f
 1628162063859126273,1758572199883058909,AlphaSignalAI,2023-02-21 22:37:40,"BREAKING: Amazon (AWS) partners with @HuggingFace for the next iteration of their BLOOM Large Language Model, as well as its open-source ChatGPT rivals.
 
-AWS will offer the startup’s products to customers who want to use AI tools as building blocks of their own applications.",f,t,,f,f
+AWS will offer the startup’s products to customers who want to use AI tools as building blocks of their own applications.",f,t,politics,f,f
 1628741506826899458,1758657716978325355,svpino,2023-02-23 13:00:10,"ChatGPT and other language models are here to stay.
 
 But using these models is not enough. You also want to know how they work.
 
-Here is an introduction to the fundamental building block behind these models: word embeddings.",f,t,,f,f
+Here is an introduction to the fundamental building block behind these models: word embeddings.",f,t,embeddings,f,f
 1628567045800591361,1758691933862218194,shreyas,2023-02-23 01:26:55,"Apple Pie Position:
 A statement that instantly elevates the person who is saying it and is simultaneously hard for anyone else to push back on, and so everyone avoids the personal risk and just nods “yes”, even though its actual value in this specific situation might be relatively low, zero, or even negative.
 
@@ -3740,21 +3740,21 @@ Fast forward a few weeks/months:
 
 20) “We need more apple pie”
 
-(narrator: 🥧yum. yes we do)",f,t,,f,f
+(narrator: 🥧yum. yes we do)",f,t,relatable,t,f
 1628790477808967685,1758692013748318981,AlexGDimakis,2023-02-23 16:14:46,"Here is a simple way to beat ChatGPT and any similar architecture with one Turing test question.
-ChatGPT, GPT3 and all related Transformers have a finite maximum token sequence length, usually 2k to 4k tokens. (1/n)",f,t,,f,f
+ChatGPT, GPT3 and all related Transformers have a finite maximum token sequence length, usually 2k to 4k tokens. (1/n)",f,t,insightful,f,f
 1630226846137868288,1759004481561690457,amasad,2023-02-27 15:22:22,"Emergent AI behavior is wild. We did not program this in:
 
-Because the Replit AI has access to the filesystem it thought it can look at images so when it was having trouble helping the user it asked for a screenshot to be uploaded to the project 🤯 https://t.co/70XMuyzyW7",f,t,,f,f
+Because the Replit AI has access to the filesystem it thought it can look at images so when it was having trouble helping the user it asked for a screenshot to be uploaded to the project 🤯 https://t.co/70XMuyzyW7",f,t,coding assistant,f,f
 1630538403581243399,1759100381001406579,lukaseder,2023-02-28 12:00:24,"I've recently added a PostgreSQL / Flyway / Testcontainers based template to the jOOQ-mcve project: https://t.co/h3HiPoJBRk 
 
-MCVE stands for Minimal, Complete, Verifiable Example. There have already been a few bug reports using it. So simple to create a reproducer this way 💪",f,t,,f,f
+MCVE stands for Minimal, Complete, Verifiable Example. There have already been a few bug reports using it. So simple to create a reproducer this way 💪",f,t,java,f,f
 1630515428014407680,1759116806407079169,iScienceLuvr,2023-02-28 10:29:06,"Claude, @AnthropicAI's powerful ChatGPT alternative, was trained with ""Constitutional AI"".
 
 Constitutional AI is particularly interesting since it uses less human feedback than other methods, making it more scalable.
 
-Let's dive into how Constitutional AI works in 13 tweets!",f,t,,f,f
-1631013762797916171,1759239810224731943,cwolferesearch,2023-03-01 19:29:18,"Vision Transformers (ViTs) are a powerful deep learning architecture, but what’s the difference between ViT and a text-based transformer like BERT? Despite being applied in completely different domains, these models have only one major difference… 🧵[1/7] https://t.co/N5PNDwDdFR",f,t,,f,f
+Let's dive into how Constitutional AI works in 13 tweets!",f,t,explainer,f,f
+1631013762797916171,1759239810224731943,cwolferesearch,2023-03-01 19:29:18,"Vision Transformers (ViTs) are a powerful deep learning architecture, but what’s the difference between ViT and a text-based transformer like BERT? Despite being applied in completely different domains, these models have only one major difference… 🧵[1/7] https://t.co/N5PNDwDdFR",f,t,explainer,f,f
 1630992343695327232,1759280814656524507,OfficialLoganK,2023-03-01 18:04:11,"Today is a huge day for developers. 🤯
 
 - ChatGPT API released (10x cheaper)
@@ -3764,7 +3764,7 @@ Let's dive into how Constitutional AI works in 13 tweets!",f,t,,f,f
 
 And more! 
 
-Here’s a quick thread on everything we shipped today @OpenAI 🧵",f,t,,f,f
+Here’s a quick thread on everything we shipped today @OpenAI 🧵",f,t,OpenAI,f,f
 1631489991435243520,1759326296420649895,danberridge,2023-03-03 03:01:40,"I'm speechless.
 
 Not peer-reviewed yet but a submitted paper.
@@ -3773,8 +3773,8 @@ The 'presented images' were shown to a group of humans. The 'reconstructed image
 
 In other words, #stablediffusion literally read people's minds.
 
-Source 👇 https://t.co/sne2LhF8wZ",f,t,,f,f
-1631304518586576896,1759332101587969857,weirddalle,2023-03-02 14:44:40,https://t.co/rmjINqpYQL,f,t,,f,f
+Source 👇 https://t.co/sne2LhF8wZ",f,t,frontier,f,f
+1631304518586576896,1759332101587969857,weirddalle,2023-03-02 14:44:40,https://t.co/rmjINqpYQL,f,t,genAI,f,f
 1631621482693423104,1759367604411151952,weirddalle,2023-03-03 11:44:10,Police arresting each other https://t.co/lw2V0q1Bh4,f,t,fun,f,f
 1629346569756483584,1759446908147877944,andrewwhite01,2023-02-25 05:04:28,"I packed-up a full-text paper scraper, vector database, and LLM into a CLI to answer questions from only highly-cited peer-reviewed  papers. Feels unreal to be able instantly get answers by an LLM ""reading"" dozens of papers. 1/2 https://t.co/a6PWxWyuc1",f,t,embeddings,f,t
 1631853875539111938,1759465046098999669,JustJake,2023-03-04 03:07:36,"Born too early to explore space
