@@ -3620,13 +3620,13 @@ It generated paper ideas based on my previous papers, found gaps in the literatu
 1626002839406358531,1758024627218699090,goodside,2023-02-15 23:37:41,Full post: https://t.co/ObNxaimB20,f,t,frontier,f,f
 1626215722727743488,1758024696137751499,openbioml,2023-02-16 13:43:36,"We are excited to announce the start of ChemNLP, an open and collaborative community project aiming to explore the applications of large language models for chemistry! 🧪🚀
 
-1/4",f,t,,f,f
+1/4",f,t,bio,f,f
 1626226498180120579,1758026389848694647,rasbt,2023-02-16 14:26:25,"""A Survey on Efficient Training of Transformers"" 2023 (https://t.co/ahfiyqRB58)
  
 Summarized some of the interesting takeaways below. 
 (Note that alternatives to scaled-dot product self-attention are notably absent -- no one uses these, still?)
 
-1/6 https://t.co/rfMZvVCVg7",f,t,,f,f
+1/6 https://t.co/rfMZvVCVg7",f,t,overview,f,f
 1626313663232589825,1758117478425180911,doctorow,2023-02-16 20:12:47,"The really remarkable thing isn't just that #Microsoft has decided that the future of #search isn't links to relevant materials, but instead lengthy, florid paragraphs written by a #chatbot who happens to be a habitual liar - even more remarkable is that #Google agrees. 1/ https://t.co/ctL0rW19F0",f,t,insightful,f,f
 1625165795553599489,1758245548811545985,GKlijs,2023-02-13 16:11:34,"Not sure who to reach out to. Anyone know if a release of @springboot initializr 0.20.0 would be soon? Would like to use a non-snapshot version for an initializr but also support Spring Boot 3.
 @sdeleuze @starbuxman @ankinson",f,t,java,f,f
