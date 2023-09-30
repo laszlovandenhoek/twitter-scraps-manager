@@ -3594,12 +3594,12 @@ Further, we develop a theory.. (1/n)",f,t,,f,f
 
 They're on version 5.0 now, which includes a token-based system that punishes the model for refusing to answer questions. https://t.co/DfYB2QhRnx",f,t,,f,f
 1622262385632231428,1757062738317364262,andrewwhite01,2023-02-05 15:54:27,Have an initial draft of code for my question answering tool for scientific papers. Let's breakdown how it works for specific question: How can carbon nanotubes be manufactured at a large scale? 1/5,f,t,,f,f
-1622272575433752577,1757104310000266554,sdeleuze,2023-02-05 16:34:57,"Various actors including Spring, Google, JetBrains and more are working to replace short/middle term their own flavor by JSpecify annotations. https://t.co/jS54ASjhuD",f,t,,f,f
-1623476659369443328,1757390949392323667,karpathy,2023-02-09 00:19:32,"Some personal news: I am joining OpenAI (again :)). Like many others both in/out of AI, I am very inspired by the impact of their work and I have personally benefited greatly from it. The future potential is especially exciting; it is a great pleasure to jump back in and build!🪄",f,t,,f,f
-1623611175530266625,1757423162488683997,BigTechAlert,2023-02-09 09:14:04,👀 @elonmusk (Great person. Please do not ban this bot.) is no longer following @karpathy,f,t,,f,f
+1622272575433752577,1757104310000266554,sdeleuze,2023-02-05 16:34:57,"Various actors including Spring, Google, JetBrains and more are working to replace short/middle term their own flavor by JSpecify annotations. https://t.co/jS54ASjhuD",f,t,java,f,f
+1623476659369443328,1757390949392323667,karpathy,2023-02-09 00:19:32,"Some personal news: I am joining OpenAI (again :)). Like many others both in/out of AI, I am very inspired by the impact of their work and I have personally benefited greatly from it. The future potential is especially exciting; it is a great pleasure to jump back in and build!🪄",f,t,politics,f,f
+1623611175530266625,1757423162488683997,BigTechAlert,2023-02-09 09:14:04,👀 @elonmusk (Great person. Please do not ban this bot.) is no longer following @karpathy,f,t,politics,f,f
 1623860777353453568,1757443443992671710,culturaltutor,2023-02-10 01:45:53,"This is a sewage pumping station from 1865.
 
-Why did the Victorians build things like that? Were they just confused? Or did they have the right idea? https://t.co/Za5RPUcqZt",f,t,,f,f
+Why did the Victorians build things like that? Were they just confused? Or did they have the right idea? https://t.co/Za5RPUcqZt",f,t,insightful,f,f
 1624007028971814912,1757519730485914319,TivadarDanka,2023-02-10 11:27:02,"The way you think about the exponential function is (probably) wrong.
 
 Don't think so? I'll convince you. Did you realize that multiplying e by itself π times doesn't make sense?
