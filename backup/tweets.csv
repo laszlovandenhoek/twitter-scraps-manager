@@ -3541,32 +3541,32 @@ Examples, explanations and links ⤵",f,t,,f,f
 🔗https://t.co/1SkeGzhS1B
 
 WDYT? What else would you include on your JKS list?",f,t,,f,f
-1619425250479050753,1756303630633371382,newsycombinator,2023-01-28 20:00:41,Chronophoto https://t.co/qg8j4unKQ2,f,t,,f,f
+1619425250479050753,1756303630633371382,newsycombinator,2023-01-28 20:00:41,Chronophoto https://t.co/qg8j4unKQ2,f,t,game,f,f
 1619471642417324032,1756380635700929494,eigensteve,2023-01-28 23:05:02,"Excited to drop a new 2-week video series: 
 Crash Course in Complex Analysis!!!
 
 This is a super useful topic that comes up everywhere in mathematical physics, differential equations, and modern scientific computing.  Check it out!
-https://t.co/vlTF7XDM4u https://t.co/14fRXD4nhs",f,t,,f,f
+https://t.co/vlTF7XDM4u https://t.co/14fRXD4nhs",f,t,learn,f,f
 1619427565562728448,1756381155211543336,_akhaliq,2023-01-28 20:09:53,"Noise2Music, where a series of diffusion models is trained to generate high-quality 30-second music clips from text prompts 
 
-project page: https://t.co/BcR1FSuXkH https://t.co/lhfd6ozal2",f,t,,f,f
-1616722810608427008,1756392155604063345,JonasAndrulis,2023-01-21 09:02:09,"ChatGPT is basically useless for high-value work. An expert (e.g. lawyer) needs explainability, sources and a way to influence and control outcomes. I am proud of what our team achieved with AtMan. Making multimodal generative AI trustworthy. https://t.co/YWSTszNAlQ https://t.co/gCiqmXvKKM",f,t,,f,f
+project page: https://t.co/BcR1FSuXkH https://t.co/lhfd6ozal2",f,t,cool demo,f,f
+1616722810608427008,1756392155604063345,JonasAndrulis,2023-01-21 09:02:09,"ChatGPT is basically useless for high-value work. An expert (e.g. lawyer) needs explainability, sources and a way to influence and control outcomes. I am proud of what our team achieved with AtMan. Making multimodal generative AI trustworthy. https://t.co/YWSTszNAlQ https://t.co/gCiqmXvKKM",f,t,explainability,f,f
 1619698716914622466,1756437990415793892,maxhbain,2023-01-29 14:07:21,"WhisperX version 2.0 out, now with speaker diarization and character-level timestamps.
 https://t.co/pMs3yzMLG0
-🧵 https://t.co/5fjsqmptTo",f,t,,f,f
+🧵 https://t.co/5fjsqmptTo",f,t,model (transcription),f,f
 1620085417730256896,1756538945957913133,GKlijs,2023-01-30 15:43:57,"Working on the slides for the presentation next week Thursday. It's about concurrency control in event-driven architectures, based on a white paper I wrote a few months ago, https://t.co/ayO4JgTQkX.
 #JVM #EventDriven #SpringOne
-https://t.co/Uz4FWfY5wl",f,t,,f,f
+https://t.co/Uz4FWfY5wl",f,t,event sourcing,f,f
 1620381471583399936,1756560005823825099,spolu,2023-01-31 11:20:22,A thread on what I believe are the 2 hottest AI/LLM research questions for 2023 🔥,f,t,rag,f,f
-1620483762168668160,1756575278381156516,mringenious1,2023-01-31 18:06:50,@firstkaransingh @svpino https://t.co/9Ge3Ubwejj,f,t,,f,f
+1620483762168668160,1756575278381156516,mringenious1,2023-01-31 18:06:50,@firstkaransingh @svpino https://t.co/9Ge3Ubwejj,f,t,future of programming,f,f
 1620292922313945089,1756576578707803711,docmilanfar,2023-01-31 05:28:30,"Think you understand Maximum Likelihood? Think again.
 
 It seems like such a natural idea, but there’s an epic and turbulent history with numerous assaults on the core idea, culminating in a beautiful and complicated theory.
 
 A highly entertaining account:
 
-https://t.co/JZUy1KU7O2 https://t.co/sStGSDrWts",f,t,,f,f
-1620815168921038850,1756743173863740903,0xgaut,2023-02-01 16:03:44,"Google Calendar, but it shows the cost of the meeting https://t.co/czRuyb4rPJ",f,t,,f,f
+https://t.co/JZUy1KU7O2 https://t.co/sStGSDrWts",f,t,paper,f,f
+1620815168921038850,1756743173863740903,0xgaut,2023-02-01 16:03:44,"Google Calendar, but it shows the cost of the meeting https://t.co/czRuyb4rPJ",f,t,relatable,f,f
 1620844892137062406,1756743352819572512,DhruvBatraDB,2023-02-01 18:01:50,"A thought-experiment to inspire scientists is to ask: 
 
 If you could write only 20 papers in your lifetime, would your current work be one of them?
@@ -3576,7 +3576,7 @@ This is one of my 20.
 https://t.co/qiHsZezm3P
 https://t.co/JjdFfljjrS
 
-🧵👇",f,t,,f,f
+🧵👇",f,t,emergence,f,f
 1621623625240690689,1756896117231389514,mathemagic1an,2023-02-03 21:36:15,"Context length is the bottleneck in LLM apps today
 
 Here's a quick overview of DeepMind's RETRO (2/2022) for those who haven't seen it:
@@ -3587,13 +3587,13 @@ Adds tightly-integrated external doc retrieval to LLMs
 
 Allows you to significantly scale input w/ low cost
 
-More 👇 https://t.co/ETm3Qs3srr",f,t,,f,f
+More 👇 https://t.co/ETm3Qs3srr",f,t,context,f,f
 1622006950950014981,1757062275380124807,AlexGDimakis,2023-02-04 22:59:27,"Human bilinguals are more robust to dementia and cognitive decline. In our recent NeurIPS paper we show that bilingual GPT models are also more robust to structural damage in their neuron weights. 
-Further, we develop a theory.. (1/n)",f,t,,f,f
+Further, we develop a theory.. (1/n)",f,t,mechanistic interpretability,f,f
 1622243944649347074,1757062661379000752,venturetwins,2023-02-05 14:41:10,"As ChatGPT becomes more restrictive, Reddit users have been jailbreaking it with a prompt called DAN (Do Anything Now).
 
-They're on version 5.0 now, which includes a token-based system that punishes the model for refusing to answer questions. https://t.co/DfYB2QhRnx",f,t,,f,f
-1622262385632231428,1757062738317364262,andrewwhite01,2023-02-05 15:54:27,Have an initial draft of code for my question answering tool for scientific papers. Let's breakdown how it works for specific question: How can carbon nanotubes be manufactured at a large scale? 1/5,f,t,,f,f
+They're on version 5.0 now, which includes a token-based system that punishes the model for refusing to answer questions. https://t.co/DfYB2QhRnx",f,t,prompt engineering,f,f
+1622262385632231428,1757062738317364262,andrewwhite01,2023-02-05 15:54:27,Have an initial draft of code for my question answering tool for scientific papers. Let's breakdown how it works for specific question: How can carbon nanotubes be manufactured at a large scale? 1/5,f,t,rag,f,t
 1622272575433752577,1757104310000266554,sdeleuze,2023-02-05 16:34:57,"Various actors including Spring, Google, JetBrains and more are working to replace short/middle term their own flavor by JSpecify annotations. https://t.co/jS54ASjhuD",f,t,java,f,f
 1623476659369443328,1757390949392323667,karpathy,2023-02-09 00:19:32,"Some personal news: I am joining OpenAI (again :)). Like many others both in/out of AI, I am very inspired by the impact of their work and I have personally benefited greatly from it. The future potential is especially exciting; it is a great pleasure to jump back in and build!🪄",f,t,politics,f,f
 1623611175530266625,1757423162488683997,BigTechAlert,2023-02-09 09:14:04,👀 @elonmusk (Great person. Please do not ban this bot.) is no longer following @karpathy,f,t,politics,f,f
