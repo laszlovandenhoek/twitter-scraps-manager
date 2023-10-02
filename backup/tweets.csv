@@ -7032,7 +7032,7 @@ Some super interesting findings so far 🔥:
 💡The response quality from auto-merging retrieval is better than top-k, and we find that GPT-4 prefers it 65% of the time.
 
 Node references notebook: https://t.co/y6XIdSSfhI
-Auto merging notebook: https://t.co/JT7pE59t30",f,t,,f,f
+Auto merging notebook: https://t.co/JT7pE59t30",f,t,rag,f,f
 1706618451664474148,1778119660278447106,MokadyRon,2023-09-26 10:35:20,"🔬Exploring Alignment in Diffusion Models - a 🧵
 
 TL;DR: Diffusion models trained on *different datasets* can surprisingly generate similar images when fed with the same noise 🤯
@@ -7083,7 +7083,7 @@ My current take:
 
 We’ve been investing heavily in both e2e and retrieval evals with @llama_index. Module guide: https://t.co/sGO89tGIEf
 
-See how to evaluate our recursive retrieval strategy with retrieval evals: https://t.co/y6XIdSSfhI",f,t,,f,f
+See how to evaluate our recursive retrieval strategy with retrieval evals: https://t.co/y6XIdSSfhI",f,t,rag,f,f
 1707072634192535616,1778223355545634176,Fluke_Ellington,2023-09-27 16:40:06,btw we also found https://t.co/wKHHWFjc7m lying around in a drawer,f,t,,f,f
 1707182881632846061,1778270793623084287,jerryjliu0,2023-09-27 23:58:11,"There are many LLM use cases that require a purely “local” setting, whether you’re building at the edge or require air-gapped deployments 🔐
 
@@ -7097,7 +7097,7 @@ Some additional notes:
 1️⃣ Of course there are many vector db’s that can be open-source/self-hosted - this includes @weaviate_io, @trychroma, @qdrant_engine, @milvusio, etc.
 2️⃣ There are also many other embedding/LLM models we can be using (gpt4all, gptq, falcon, etc).
 
-Check it out here! https://t.co/Czi4wu1Jpj",f,t,,f,f
+Check it out here! https://t.co/Czi4wu1Jpj",f,t,rag,f,f
 1707291551276187685,1778270838449853456,_akhaliq,2023-09-28 07:10:00,"NeuRBF: A Neural Fields Representation with Adaptive Radial Basis Functions
 
 paper page: https://t.co/Xssc2ffZcO
@@ -7155,7 +7155,7 @@ Microsoft* put together a prompt library for GPT-4 for educators, students, &amp
 1707638890687832353,1778355980686362481,goodside,2023-09-29 06:10:12,Machine Feeling Unknown — the effect of instructing ChatGPT (GPT-4) to first write all responses backwards and then reverse them: https://t.co/wJuioWlBuh,f,t,,f,f
 1707474842373525867,1778381146575387903,JayAlammar,2023-09-28 19:18:20,"RAG with citations is here for you to build with. 
 
-Out today!",f,t,,f,f
+Out today!",f,t,rag,f,f
 1707689463084621880,1778381526794388618,_philschmid,2023-09-29 09:31:09,"Yesterday, @awscloud  released Bedrock as GA! Amazon Bedrock is a new AWS service that gives you access to Foundation Models (@Anthropic, @cohere ,…) with a token-based pricing. 🆕
 
 Lets compare the pricing to @OpenAI @Google and others. 
@@ -7193,7 +7193,7 @@ Lo and behold, there were some pretty good ones already. Found the below example
 
 This concept is summarized in the annotated figure below. 
 
-A little nitpick: Table 2 shows that QA-LoRA is about 2x faster than QLoRA for fine-tuning. However, a much smaller number of parameters was used for the adapter weights. I believe it would have been fairer to use the same number of parameters for both when comparing their speeds.",f,t,,f,f
+A little nitpick: Table 2 shows that QA-LoRA is about 2x faster than QLoRA for fine-tuning. However, a much smaller number of parameters was used for the adapter weights. I believe it would have been fairer to use the same number of parameters for both when comparing their speeds.",f,t,finetune,f,f
 1708056961877680220,1778568548687633098,peteskomoroch,2023-09-30 09:51:28,“I uploaded a SQLite database to Code Interpreter and it did everything on my roadmap for the next two years.” https://t.co/kQNEncci5W,f,t,practical application of ChatGPT,f,f
 1708147687084986504,1778568682984068334,jerryjliu0,2023-09-30 15:51:59,"The idea of “small-to-big” retrieval is quite powerful for building better RAG 🪆 - retrieve on smaller pieces, expand into more context for LLM synthesis. 
 
