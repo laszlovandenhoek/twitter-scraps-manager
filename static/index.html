@@ -18,30 +18,34 @@
     <h3 id="stats">stats</h3>
 
     <div class="filter-options">
-        <label>
+        <div>
             <input type="text" id="text-search"/>
-            <button id="clear-search">X</button>
-        </label>
-        <label>
-            <input type="checkbox" id="hide-archived" checked> Hide Archived tweets
-        </label>
-        <label>
-            <input type="checkbox" id="hide-categorized" checked> Hide Categorized tweets
-        </label>
+            <label for="text-search">
+                <button id="clear-search">X</button>
+            </label>
+        </div>
+        <div>
+            <input type="checkbox" id="hide-archived" checked>
+            <label for="hide-archived">Hide Archived tweets</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hide-categorized" checked>
+            <label for="hide-categorized">Hide Categorized tweets</label>
+        </div>
     </div>
 
     <div class="tweets-table">
         <table>
             <thead>
-                <tr>
-                    <th>Who When What</th>
-                    <th>⛲</th>
-                    <th>Text</th>
-                    <th>Metadata</th>
-                </tr>
+            <tr>
+                <th>Who When What</th>
+                <th>⛲</th>
+                <th>Text</th>
+                <th>Metadata</th>
+            </tr>
             </thead>
             <tbody id="tweets-body">
-                <!-- Rows will be appended here dynamically -->
+            <!-- Rows will be appended here dynamically -->
             </tbody>
         </table>
     </div>
