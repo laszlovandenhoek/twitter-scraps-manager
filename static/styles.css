@@ -21,6 +21,10 @@ body {
     justify-content: center;
 }
 
+label {
+    display: block;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
