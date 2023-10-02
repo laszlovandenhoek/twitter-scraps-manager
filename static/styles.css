@@ -28,11 +28,11 @@ table {
 
 th, td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid silver;
 }
 
 tr.categorized {
-    background: silver;
+    background: gainsboro;
 }
 
 tr.selected {
