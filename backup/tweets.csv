@@ -7216,3 +7216,13 @@ Node References: https://t.co/y6XIdSSfhI",f,t,rag,f,f
 
 [🎹 Joe Rinaudo, 🎶 California Gold]
 https://t.co/2EMcQXBpzz",t,f,fun,f,t
+1708550689625158127,1778664104555995106,michael_nielsen,2023-10-01 18:33:22,This is a remarkable piece of journalism.  Well worth reading if you care about the quality of the institutions humanity uses to understand the world:,f,t,,f,f
+1708906367992713483,1778712289678117956,ctjlewis,2023-10-02 18:06:42,if it wasn’t MIT i’d scream bullshit. but? https://t.co/iuDoIINPGB,f,t,,f,f
+1708778307951485033,1778713682485272432,chrisantha_f,2023-10-02 09:37:50,🌱 Introducing Promptbreeder: LLMs evolve their own prompts through self-referential self-improvement!  Paper: https://t.co/LW6RJkub3z #PromptEngineering #LLM #AI #ML #Promptbreeder https://t.co/j506tHmsrp,f,t,,f,f
+1708842021253713985,1778717746453532964,JayAlammar,2023-10-02 13:51:01,"What makes LLM tokenizers different from each other? GPT4 vs. FlanT5 Vs. Starcoder Vs. BERT and more
+
+Tokenizers are one of the key components of Large Language Models (LLMs). One of the best ways to understand what they do is to compare the behavior of different tokenizers.
+
+In this video, we take a carefully crafted piece of text (that contains English, code, indentation, numbers, emoji, and other languages) and pass it through different trained tokenizers to reveal what they succeed and fail at encoding, and the different design choices for different tokenizers and what they say about their respective models.",f,t,,f,f
+1708866724538577310,1778717841381072182,simonw,2023-10-02 15:29:10,"This is really clever. It turns out you can configure copilot in VS Code using ""debug.overrideProxyUrl"" to hit localhost instead - Daniel's proxy then passes the prompts to a local model",f,t,,f,f
+1708204657708077294,1778721499273958121,madebyollin,2023-09-30 19:38:21,"@multimodalart @GaggiXZ ""You are the prompt modifier system for the DALL•E image generation service. You must always ensure the expanded prompt retains all entities, intents, and styles mentioned originally..."" https://t.co/7GmrmmhcK1",f,t,,f,f
