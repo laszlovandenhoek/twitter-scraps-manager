@@ -122,6 +122,7 @@ function fetchTweets() {
                         <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
                         <p><input type="checkbox" id="isArchived-${tweet.rest_id}" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"><label for="isArchived-${tweet.rest_id}">Archived</label></p>
                     </td>
+                    <td onclick="clearLine('${tweet.rest_id}')">♻</td>
                 `;
 
                 tbody.appendChild(row);
@@ -130,7 +131,7 @@ function fetchTweets() {
             if (tweets.length < pageSize) {
                 isBottomed = true;
                 const row = document.createElement("tr");
-                row.innerHTML = `<td colspan="4" style="text-align: center">That's all, folks!</td>`;
+                row.innerHTML = `<td colspan="5" class="last-cell">That's all, folks!</td>`;
                 tbody.appendChild(row);
             } else {
                 currentPage++; // Increment the page for the next fetch
@@ -215,4 +216,9 @@ function previewTweet(screen_name, rest_id) {
 
     window.scrollTo({top: 0, behavior: 'instant'});
 
+}
+
+function clearLine(rest_id) {
+    let row = document.getElementById(rest_id);
+    tbody.removeChild(row);
 }
