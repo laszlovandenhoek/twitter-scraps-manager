@@ -31,8 +31,13 @@ table {
     border-collapse: collapse;
 }
 
+p {
+    margin: 5px;
+}
+
 th, td {
-    padding: 10px;
+    vertical-align: top;
+    padding: 5px;
     border: 1px solid silver;
 }
 

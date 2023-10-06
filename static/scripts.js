@@ -116,7 +116,7 @@ function fetchTweets() {
                 row.innerHTML = `
                     <td><p>${screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
-                    <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')">${full_text}</td>
+                    <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')"><p>${full_text}</p></td>
                     <td>
                         <p><input list="categories" id="category-${tweet.rest_id}" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value.trim())" value="${tweet.category ? tweet.category : ''}"></p>
                         <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
