@@ -7059,7 +7059,7 @@ Language models are so broadly useful that it's easy to forget what they are: ne
 Remembering this fact reveals surprising behavioral patterns: 🔥Embers of Autoregression🔥 (counterpart to ""Sparks of AGI"")
 
 https://t.co/w0wl4eW1M0
-1/8 https://t.co/gTezJKGYA1",f,t,,f,f
+1/8 https://t.co/gTezJKGYA1",f,t,model evaluation,f,f
 1706923218035212363,1778183092407273292,mckaywrigley,2023-09-27 06:46:22,@mayfer More tries. More fails. https://t.co/fpJ1aBx3MV,f,t,frontier,f,f
 1706687345485894003,1778184185066702282,cwolferesearch,2023-09-26 15:09:06,@abacaj I feel like open-source models will serve a completely separate purpose and these two areas will kinda become separately and equally useful tools.,f,t,insightful,f,f
 1706820592064991550,1778195388860246512,dystopiabreaker,2023-09-26 23:58:34,wow what a beautiful little village https://t.co/ub1GBZSA0b,f,t,art,f,f
@@ -7270,3 +7270,55 @@ To address these challenges, the authors propose Retrieval-Augmented Dual Instru
 The key innovation in RA-DIT is a dual fine-tuning approach. First, the language model is fine-tuned to effectively leverage retrieved texts to make better predictions. This adapts it to selectively utilize relevant information, while ignoring distracting or irrelevant content. Second, the retriever is fine-tuned using the language model's predictions as supervision, so it learns to return results that are tailored to the model's preferences. 
 
 By fine-tuning both components in a complementary fashion, RA-DIT creates a tightly integrated RAG without the need for expensive pre-training. The authors empirically demonstrate the effectiveness of this approach by significantly outperforming prior RALM methods on several knowledge-intensive NLP benchmarks.",f,t,rag,f,f
+1709551516577902782,1778856102539840801,wesg52,2023-10-04 12:50:18,"Do language models have an internal world model? A sense of time? At multiple spatiotemporal scales?
+
+In a new paper with @tegmark we provide evidence that they do by finding a literal map of the world inside the activations of Llama-2! https://t.co/3kZmf3fa6q",f,t,mechanistic interpretability,f,f
+1709598547178582373,1778858172628885107,natolambert,2023-10-04 15:57:11,"Life update: Today's my last day at @huggingface after 1.5 years. 
+
+It's been an awesome ride, I'm moving within the open RLHF space to have a slightly more research oriented role, continue to figure out what makes RLHF tick, share everything, and make some in-person friends.
+
+Some key lessons:
+* If you don't promote and communicate your work, no one else will.
+* It's harder to get visibility for your work than to do good work. People don't like this reality.
+* Open-source moves very fast, so it takes clever leadership and guidance to maximize collective effort.
+* Open-source ML is at it's very early days. We're figuring out what it means to do open-source ML. OSS will forever be changed.
+* Open-source succeeds in multiplicity. Just because someone is trying something similar does NOT mean you should stop.
+* RLHF is very, very under-explored. Leaders in the space have just tried a few more things. Please join us.
+
+Thanks to everyone who helped this be an awesome ride. I'm sure I'll still collaborate on many of the same projects.",f,t,wholesome,f,f
+1709585434689569066,1778891364086660732,cxbln,2023-10-04 15:05:04,"Worrying if my job was jeopardized by AI this week or if we’re still good, I read a new paper evaluating #GPT4V - a #GPT4 version handling image and text inputs. It produces *impressive* radiology reports. But let’s delve deeper into some of the results...  #radiology #AI https://t.co/LsSN1hQBXF",f,t,practical application of ChatGPT,f,f
+1709648653936472336,1778893007404532888,rao2z,2023-10-04 19:16:17,"Google isn't just some bag of words. Our new research shows that Google has a ""world model"" of Physics--including liquids *and* gravity. https://t.co/nnNlaT9KJY",f,t,fun,f,f
+1709455939231772962,1778899032453122073,abacaj,2023-10-04 06:30:30,Wow mistral is what OpenAI could have been... this is actually based if they keep this up https://t.co/HRuWxh9l9d,f,t,open source models,f,f
+1709750388528939473,1778915918467893379,Teknium1,2023-10-05 02:00:32,"So I've been working on getting Mistral to finetune, and I have two amazing models uploading now, Collective Cognition v1, and v1.1. 
+
+What's amazing about these models? Well, v1.1 is beating many 70B models at TruthfulQA, a benchmark that tests for common misconceptions, which some say correlate to hallucination rates. 
+
+What's even crazier? These trained in 3 minutes on a single 4090, with a qlora, and only ONE HUNDRED datapoints, all collected from our ShareGPT like website, https://t.co/Aj2XY5vecO! Considering how great this dataset is performing, expanding it sounds like a good idea to me, so please go and share your best chats!
+
+Thank you @a16z and all the people who contributed to the dataset on Collective Cognition!
+
+I am uploading v1.1 & v1.0 because the GPT4all score fell by 1pt while the TruthfulQA rose by 3pts and AGIEval rose by 0.5pts between the two, and I figured some of you may want care about one or the other set of capabilities being better.",f,t,finetune,f,f
+1709986949711200722,1778996657819999221,AnthropicAI,2023-10-05 17:40:33,The fact that most individual neurons are uninterpretable presents a serious roadblock to a mechanistic understanding of language models. We demonstrate a method for decomposing groups of neurons into interpretable features with the potential to move past that roadblock.,f,t,mechanistic interpretability,f,f
+1709973871602839684,1778997431865427677,LiveOverflow,2023-10-05 16:48:35,Web Security vs. Binary Exploitation https://t.co/poTMyPivwm,f,t,fun,f,f
+1709878727147151606,1778997634082113212,dionlammers,2023-10-05 10:30:31,"See it for yourself - from just a workflow name, Pega GenAI™ builds all the elements needed for an enterprise-ready app: the workflows, the users, the data model, and more. Try out the interactive demo: https://t.co/jQOgHqDfix #AI https://t.co/x9cW2ZKyoX https://t.co/xim56I5xM3",t,f,low code,f,f
+1709926049314750709,1779001168398881024,TheRealAdamG,2023-10-05 13:38:33,"@tunguz And this is not a 3-5 year thing. This is a 1H 2024 thing. The smart, agile companies will be off the races and everyone else will be standing there with their mouth wide open. By the end of 2024 the early winners will be very clear. The next 15 months are going to be WILD.",f,t,future of programming,f,f
+1710003293223821658,1779003881193835987,hwchung27,2023-10-05 18:45:30,"I gave a talk at Seoul National University.
+
+I titled the talk “Large Language Models (in 2023)”. This was an ambitious attempt to summarize our exploding field.
+
+Video: https://t.co/vumzAtUvBl
+Slides: https://t.co/IidLe4JfrC
+
+Trying to summarize the field forced me to think about what really matters in the field. While scaling undeniably stands out, its far-reaching implications are more nuanced. I share my thoughts on scaling from three angles:
+
+1) Change in perspective is necessary because some abilities only emerge at a certain scale. Even if some abilities don’t work with the current generation LLMs, we should not claim that it doesn’t work. Rather, we should think it doesn’t work yet. Once larger models are available many conclusions change.
+
+This also means that some conclusions from the past are invalidated and we need to constantly unlearn intuitions built on top of such ideas.
+
+2) From first-principles, scaling up the Transformer amounts to efficiently doing matrix multiplications with many, many machines. I see many researchers in the field of LLM who are not familiar with how scaling is actually done. This section is targeted for technical audiences who want to understand what it means to train large models.
+
+3) I talk about what we should think about for further scaling (think 10000x GPT-4 scale). To me scaling isn’t just doing the same thing with more machines. It entails finding the inductive bias that is the bottleneck in further scaling.
+
+I believe that the maximum likelihood objective function is the bottleneck in achieving the scale of 10000x GPT-4 level. Learning the objective function with an expressive neural net is the next paradigm that is a lot more scalable. With the compute cost going down exponentially, scalable methods eventually win. Don’t compete with that.
+
+In all of these sections, I strive to describe everything from first-principles. In an extremely fast moving field like LLM, no one can keep up. I believe that understanding the core ideas by deriving from first-principles is the only scalable approach.",f,t,explainer,f,f
