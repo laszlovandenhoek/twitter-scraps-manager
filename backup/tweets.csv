@@ -3378,7 +3378,7 @@ https://t.co/ekRHvIoSG2 https://t.co/DX9MRBdyiS",f,t,,f,f
 Because Christmas actually starts on the 25th December and ends on the 5th January.
 
 That's why there are Twelve Days of Christmas... https://t.co/QXZLXnCxbU",f,t,,f,f
-1608056944501178368,1753491483134370783,GretaThunberg,2022-12-28 11:07:06,"yes, please do enlighten me. email me at smalldickenergy@getalife.com",f,t,,f,f
+1608056944501178368,1753491483134370783,GretaThunberg,2022-12-28 11:07:06,"yes, please do enlighten me. email me at smalldickenergy@getalife.com",f,t,🔥,f,f
 1608480700789043200,1753626184378948638,LChoshen,2022-12-29 15:10:57,"Pretraining with 1 GPU and 1 day
 
 This paper is a HUGE list of all the tricks you could think of and 
@@ -7322,3 +7322,6 @@ This also means that some conclusions from the past are invalidated and we need 
 I believe that the maximum likelihood objective function is the bottleneck in achieving the scale of 10000x GPT-4 level. Learning the objective function with an expressive neural net is the next paradigm that is a lot more scalable. With the compute cost going down exponentially, scalable methods eventually win. Don’t compete with that.
 
 In all of these sections, I strive to describe everything from first-principles. In an extremely fast moving field like LLM, no one can keep up. I believe that understanding the core ideas by deriving from first-principles is the only scalable approach.",f,t,explainer,f,f
+1710192818159763842,1779079979370228706,imhaotian,2023-10-06 07:18:36,"🚀 LLaVA-1.5 is out! Achieving SoTA on 11 benchmarks, with simple mods to original LLaVA! Utilizes merely 1.2M public data, trains in ~1 day on a single 8-A100 node, and surpasses methods that use billion-scale data.
+🔗https://t.co/y0kG0WZBVa
+🧵1/5 https://t.co/kMz0LTk63R",f,t,open source models,f,f
