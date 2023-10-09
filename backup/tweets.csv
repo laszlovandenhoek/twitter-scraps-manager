@@ -7325,3 +7325,56 @@ In all of these sections, I strive to describe everything from first-principles.
 1710192818159763842,1779079979370228706,imhaotian,2023-10-06 07:18:36,"🚀 LLaVA-1.5 is out! Achieving SoTA on 11 benchmarks, with simple mods to original LLaVA! Utilizes merely 1.2M public data, trains in ~1 day on a single 8-A100 node, and surpasses methods that use billion-scale data.
 🔗https://t.co/y0kG0WZBVa
 🧵1/5 https://t.co/kMz0LTk63R",f,t,open source models,f,f
+1710604601668276631,1779129194688806006,IntuitMachine,2023-10-07 10:34:53,"This New Research Will Change How You Design RAG Systems
+
+Should you use longer contexts or retrieval to boost your RAG model's performance on long document tasks? This important paper provides key insights through a comprehensive study comparing and combining both techniques using massive 70B parameter LLMs.
+
+The authors deliver compelling results that challenge assumptions. Their experiments show retrieval continues enhancing even models with huge 32K contexts, achieving new SOTA accuracy.
+
+Practitioners building real-world RAG applications will gain immense value from these findings. The paper offers clear guidance for optimal model selection and integration strategies to maximize accuracy and speed. 
+
+By thoroughly investigating the interplay of retrieval and context length, this research significantly advances RAG system design. It provides practitioners tangible benefits for improving performance on QA, summarization, and recommendation tasks.
+
+The concrete insights and analysis offer a roadmap for developing the next generation of high-accuracy RAG models. Those building real-world systems would be remiss not to read this paper and apply its lessons.",t,t,,f,f
+1710356494343082026,1779172160258149903,AravSrinivas,2023-10-06 18:08:59,Cringe as a service https://t.co/j0K6EESbfL,f,t,,f,f
+1710965880216047698,1779213051748009032,IntuitMachine,2023-10-08 10:30:28,"Let's discuss Symbol Tuning in LLMs
+
+As AI practitioners, we all want language models that can adapt and learn like humans. But our current LLMs fall short - they rely too heavily on their pre-existing knowledge and hard-coded prompts. 
+
+This leaves us stuck constantly tweaking prompts and scaffolding tasks to spoon-feed the models. It's a painful cycle of brittleness and manipulation just to get them to do new tasks. We end up bending over backwards to fit our data to the models, rather than having models that flexibly learn from data.
+
+What we need are models that can learn concepts from scratch, without being hand-held through prompting and instructions. Models that absorb new tasks like a sponge by simply observing input-output mappings, without getting confused by terminology they've memorized.
+
+This paper offers a promising solution - symbol tuning. By retraining models using random symbols for labels, it forces them to rely solely on reasoning over input-label mappings. No more leaning on their built-in vocabulary.
+
+And the results speak for themselves. Symbol tuning leads to huge jumps in algorithmic reasoning, adaptation to novel tasks, and flexibility in learning - all without extensive data or compute.
+
+Just think - with symbol tuning, we can reduce painstaking prompt engineering to a single step of remapping labels. Unlock reasoning capabilities far beyond what we previously thought possible. And greatly expand the tasks our LMs can learn from examples.
+
+The time is now to move past models that parrot back memorized patterns. Symbol tuning may allow us to fulfill the dream of LLMs that learn dynamically like humans.",f,t,,f,f
+1711049363131334871,1779252382309981547,jerryjliu0,2023-10-08 16:02:12,"There’s a LOT of LLMs, but how do we know which ones work well from “simple” tasks (single prompt, top-k RAG) to “hard” tasks (advanced RAG, agents)?
+
+We’re excited to launch a comprehensive survey of different LLMs performing simple to hard LLM/RAG/agent tasks 📝. For each model, learn which tasks work out-of-the-box, which would okay but need some prompt engineering, and which ones are unreliable.
+
+Models used:
+✅ OpenAI models (gpt-3.5-turbo, gpt-3.5-turbo-instruct, gpt-4)
+✅ Anthropic models (claude-2, Claude-instant-2)
+✅ llama2-chat-7b 4bit
+✅ Mistral-7b
+
+Tasks 🛠️: Basic RAG, routing, query planning, text-to-SQL, structured data extraction, agents!
+
+Results/Notebooks 🧑‍🔬:
+Docs page is here: https://t.co/8BZtmoy7Z7
+
+We have comprehensive notebooks for each model
+
+Contributions 🙌:
+Have a model / task in mind? Anyone is welcome to contribute new LLMs to our docs, or modify an existing one! (e.g. if you think our defaults/prompts can be improved).
+
+Credits:
+Huge shoutout to our very own @LoganMarkewich for driving this entire effort ⚡️",f,t,,f,f
+1710929993990082970,1779259735606737232,Rainmaker1973,2023-10-08 08:07:52,"A pygmy marmoset, the world's smallest monkey, fascinated by an insect
+
+[📹 Tiny World]
+https://t.co/x5ePxTRPkq",f,t,,f,f
