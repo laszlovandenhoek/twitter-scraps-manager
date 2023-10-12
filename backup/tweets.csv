@@ -7378,10 +7378,10 @@ Huge shoutout to our very own @LoganMarkewich for driving this entire effort ⚡
 
 [📹 Tiny World]
 https://t.co/x5ePxTRPkq",f,t,primates,f,f
-1711422014353756662,1779313333583530125,ellainke,2023-10-09 16:42:59,emerging from my thesis writing pit to say that @elicitorg + @sci_summary + @highlights_app + @zotero is a winning combo that is utterly saving my mental health,f,t,,f,f
+1711422014353756662,1779313333583530125,ellainke,2023-10-09 16:42:59,emerging from my thesis writing pit to say that @elicitorg + @sci_summary + @highlights_app + @zotero is a winning combo that is utterly saving my mental health,f,t,tool,f,f
 1711455598498173330,1779316113057828643,martinfowler,2023-10-09 18:56:26,"I've been taking a break from work for the last few weeks, so missed much of the brouhaha over the McKinsey developer productivity article. But I'm sure that I could not write a better response than this one from @tastapod  
 
-https://t.co/3PlzZ37kgb",f,t,,f,f
+https://t.co/3PlzZ37kgb",f,t,programming,f,f
 1711429121220465037,1779316214480923429,MilesCranmer,2023-10-09 17:11:13,"I'm super excited to share a new initiative I am a part of!
 
 Announcing: Polymathic AI 🎉
@@ -7390,10 +7390,10 @@ We are developing foundation models for scientific *data*, such that they can le
 
 https://t.co/vHEXXlI7aA
 
-1/6 https://t.co/NcFFzwAULU",f,t,,f,f
+1/6 https://t.co/NcFFzwAULU",f,t,AI initiative,f,f
 1711466052415004944,1779358057978056893,diveshnaidoo,2023-10-09 19:37:59,"Clean plate vs final VFX shot comparison. 
 
-Note : The asset is visible in a real-time preview on device while shooting. https://t.co/IVAIVaIhHO",f,t,,f,f
+Note : The asset is visible in a real-time preview on device while shooting. https://t.co/IVAIVaIhHO",f,t,cool demo,f,f
 1712044203616747857,1779494021748305647,IntuitMachine,2023-10-11 09:55:21,"Let's discuss the approach of MEMWALKER
 
 At its core, MEMWALKER transforms how AI systems process long-form knowledge - and this paradigm shift unlocks tremendous value.
@@ -7406,7 +7406,7 @@ And this new capability opens up a world of possibilities. With MEMWALKER, LLMs 
 
 At the heart of this leap is prompting. MEMWALKER showcases how the right prompts enable so much more - tree construction, selective reading, error recovery. Prompting unlocks higher reasoning, turning LLMs into sophisticated information navigators.
 
-So MEMWALKER is no mere incremental advance - it ushers in a new era of contextual intelligence. The limits we took for granted are dissolving before our eyes. As T.S. Eliot put it, “We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.” MEMWALKER lights the path ahead.",f,t,,f,f
+So MEMWALKER is no mere incremental advance - it ushers in a new era of contextual intelligence. The limits we took for granted are dissolving before our eyes. As T.S. Eliot put it, “We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.” MEMWALKER lights the path ahead.",f,t,LLM techniques,f,f
 1711867766334992468,1779494260474852990,aliamjadrizvi,2023-10-10 22:14:15,"Either you’re pro-Palestinian or pro-Hamas.
 
 You can’t be both. 
@@ -7421,7 +7421,7 @@ Some things to note about this current conflict:
 
 Demo: https://t.co/sfmDpjEbYT
 
-More details in the 🧵 https://t.co/52BcEhiWyn",f,t,,f,f
+More details in the 🧵 https://t.co/52BcEhiWyn",f,t,finetune,f,f
 1711918424866361610,1779494943336570902,keirp1,2023-10-11 01:35:33,"Introducing OpenWebMath, a massive dataset containing every math document found on the internet - with equations in LaTeX format!
 
 🤗 Download on @HuggingFace: https://t.co/tFBHaX2Jpt
@@ -7437,4 +7437,4 @@ Some examples:
 - Instead of directly working on machine translation, work on a general problem of learning all languages (mT5 vs. translation-specific models).
 
 Taking this idea to the limit, it might be the case that aiming for super-intelligence is an easier (but extremely difficult) way to get to general intelligence compared to directly solving general intelligence by mimicking human intelligence.
-This requires thinking about approaches that are native to machines as opposed to trying to teach machines how we think humans think because if we simply mimic human intelligence, it likely won’t lead to super-human intelligence.",f,t,,f,f
+This requires thinking about approaches that are native to machines as opposed to trying to teach machines how we think humans think because if we simply mimic human intelligence, it likely won’t lead to super-human intelligence.",f,t,insightful,f,f
