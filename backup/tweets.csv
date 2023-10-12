@@ -1398,7 +1398,7 @@ https://t.co/pGnLIgf5tS",f,t,,f,f
 
 https://t.co/m6F79jWK2Y https://t.co/BwNjXu0WML",f,t,,f,f
 1195452249507536896,1650399246026151937,rmattila74,2019-11-15 21:23:21,The Big Dong is being pushed in. https://t.co/C78FEZcJQ5,f,t,,f,f
-1195708890014466055,1650400203873146884,Rainmaker1973,2019-11-16 14:23:09,"Alsomitra macrocarpa has seeds which use paper-thin wings to disperse like giant gliders. The seeds, which are produced by a football-sized pod, can glide hundreds of metres across the forest https://t.co/V74QJ84UIi [full video: https://t.co/0cwEY0BDE4 https://t.co/b6voAjPK61",f,t,,f,f
+1195708890014466055,1650400203873146884,Rainmaker1973,2019-11-16 14:23:09,"Alsomitra macrocarpa has seeds which use paper-thin wings to disperse like giant gliders. The seeds, which are produced by a football-sized pod, can glide hundreds of metres across the forest https://t.co/V74QJ84UIi [full video: https://t.co/0cwEY0BDE4 https://t.co/b6voAjPK61",f,t,evolution,f,f
 1196803246096035841,1650669636064119870,OpenValue,2019-11-19 14:51:44,"Today we're officially opening our new office in Utrecht!
 
 We're starting off with 2 knowledge sessions for our clients and partners. https://t.co/kBrl0NQM50",f,t,,f,f
@@ -3389,14 +3389,14 @@ https://t.co/ODJ00lpuD8
 1608885998137798656,1753720114636354753,newsycombinator,2022-12-30 18:01:28,"No, Romanian Cops Did Not Find Andrew Tate Because of a Pizza Box https://t.co/iyATdP41pH",f,t,,f,f
 1608133875838124032,1753729913328275585,drorpoleg,2022-12-28 16:12:48,"Disruptive technology doesn't seek to ""replicate."" More often, it sidesteps and makes old standards and processes redundant.
 
-Records and talking films made music cheaper and accessible to a much larger audience. Most of the audience didn't care about traditional quality.   8/",f,t,,f,f
+Records and talking films made music cheaper and accessible to a much larger audience. Most of the audience didn't care about traditional quality.   8/",f,t,insightful,f,f
 1609191166863642624,1753803739691220752,thiagoghisi,2022-12-31 14:14:06,"1️⃣ Øredev 2011 - Sleeping with the enemy by Gojko Adzic (@gojkoadzic)
 
 → Link: https://t.co/jwK3rdbjnb
 
 ""The new mission of QAs should be teach programmers to collaborate, own quality together, automate tests or checks together.""
 
-Back in 2011, this was controversial. I 💚 it. https://t.co/JTV0mKvqqE",f,t,,f,f
+Back in 2011, this was controversial. I 💚 it. https://t.co/JTV0mKvqqE",f,t,video,f,f
 1609233317978845185,1753804208644657121,newsycombinator,2022-12-31 17:01:35,Draw SVG rope using JavaScript https://t.co/SjU6yomVwG,f,t,frontend,f,f
 1609245353483591681,1753893705522809929,AdamMGrant,2022-12-31 17:49:25,"Being a critical thinker is about more than challenging other people's assumptions. It also requires you to rethink your own views.
 
@@ -7335,8 +7335,8 @@ Practitioners building real-world RAG applications will gain immense value from 
 
 By thoroughly investigating the interplay of retrieval and context length, this research significantly advances RAG system design. It provides practitioners tangible benefits for improving performance on QA, summarization, and recommendation tasks.
 
-The concrete insights and analysis offer a roadmap for developing the next generation of high-accuracy RAG models. Those building real-world systems would be remiss not to read this paper and apply its lessons.",t,t,,f,f
-1710356494343082026,1779172160258149903,AravSrinivas,2023-10-06 18:08:59,Cringe as a service https://t.co/j0K6EESbfL,f,t,,f,f
+The concrete insights and analysis offer a roadmap for developing the next generation of high-accuracy RAG models. Those building real-world systems would be remiss not to read this paper and apply its lessons.",t,t,rag,f,f
+1710356494343082026,1779172160258149903,AravSrinivas,2023-10-06 18:08:59,Cringe as a service https://t.co/j0K6EESbfL,f,t,weird,t,f
 1710965880216047698,1779213051748009032,IntuitMachine,2023-10-08 10:30:28,"Let's discuss Symbol Tuning in LLMs
 
 As AI practitioners, we all want language models that can adapt and learn like humans. But our current LLMs fall short - they rely too heavily on their pre-existing knowledge and hard-coded prompts. 
@@ -7351,7 +7351,7 @@ And the results speak for themselves. Symbol tuning leads to huge jumps in algor
 
 Just think - with symbol tuning, we can reduce painstaking prompt engineering to a single step of remapping labels. Unlock reasoning capabilities far beyond what we previously thought possible. And greatly expand the tasks our LMs can learn from examples.
 
-The time is now to move past models that parrot back memorized patterns. Symbol tuning may allow us to fulfill the dream of LLMs that learn dynamically like humans.",f,t,,f,f
+The time is now to move past models that parrot back memorized patterns. Symbol tuning may allow us to fulfill the dream of LLMs that learn dynamically like humans.",f,t,LLM techniques,f,f
 1711049363131334871,1779252382309981547,jerryjliu0,2023-10-08 16:02:12,"There’s a LOT of LLMs, but how do we know which ones work well from “simple” tasks (single prompt, top-k RAG) to “hard” tasks (advanced RAG, agents)?
 
 We’re excited to launch a comprehensive survey of different LLMs performing simple to hard LLM/RAG/agent tasks 📝. For each model, learn which tasks work out-of-the-box, which would okay but need some prompt engineering, and which ones are unreliable.
@@ -7373,8 +7373,68 @@ Contributions 🙌:
 Have a model / task in mind? Anyone is welcome to contribute new LLMs to our docs, or modify an existing one! (e.g. if you think our defaults/prompts can be improved).
 
 Credits:
-Huge shoutout to our very own @LoganMarkewich for driving this entire effort ⚡️",f,t,,f,f
+Huge shoutout to our very own @LoganMarkewich for driving this entire effort ⚡️",f,t,model evaluation,f,f
 1710929993990082970,1779259735606737232,Rainmaker1973,2023-10-08 08:07:52,"A pygmy marmoset, the world's smallest monkey, fascinated by an insect
 
 [📹 Tiny World]
-https://t.co/x5ePxTRPkq",f,t,,f,f
+https://t.co/x5ePxTRPkq",f,t,primates,f,f
+1711422014353756662,1779313333583530125,ellainke,2023-10-09 16:42:59,emerging from my thesis writing pit to say that @elicitorg + @sci_summary + @highlights_app + @zotero is a winning combo that is utterly saving my mental health,f,t,,f,f
+1711455598498173330,1779316113057828643,martinfowler,2023-10-09 18:56:26,"I've been taking a break from work for the last few weeks, so missed much of the brouhaha over the McKinsey developer productivity article. But I'm sure that I could not write a better response than this one from @tastapod  
+
+https://t.co/3PlzZ37kgb",f,t,,f,f
+1711429121220465037,1779316214480923429,MilesCranmer,2023-10-09 17:11:13,"I'm super excited to share a new initiative I am a part of!
+
+Announcing: Polymathic AI 🎉
+
+We are developing foundation models for scientific *data*, such that they can leverage shared concepts across disciplines.
+
+https://t.co/vHEXXlI7aA
+
+1/6 https://t.co/NcFFzwAULU",f,t,,f,f
+1711466052415004944,1779358057978056893,diveshnaidoo,2023-10-09 19:37:59,"Clean plate vs final VFX shot comparison. 
+
+Note : The asset is visible in a real-time preview on device while shooting. https://t.co/IVAIVaIhHO",f,t,,f,f
+1712044203616747857,1779494021748305647,IntuitMachine,2023-10-11 09:55:21,"Let's discuss the approach of MEMWALKER
+
+At its core, MEMWALKER transforms how AI systems process long-form knowledge - and this paradigm shift unlocks tremendous value.
+
+For far too long, language models have been confined by fixed context lengths that severely limit their understanding of anything beyond short snippets. But real intelligence requires reasoning about extensive documents, books, and dialogue. 
+
+MEMWALKER finally provides LLMs with a human-like reading ability - the power to interactively traverse an information landscape, seeking exactly the pieces they need for the task at hand. No more blindly processing huge swaths of text - now models can zero in on what matters.
+
+And this new capability opens up a world of possibilities. With MEMWALKER, LLMs can start analyzing legal contracts, synthesizing research papers, even consuming entire novels. We can scale up conversational agents that track long-term context. More intelligent question answering over books or articles is within reach.
+
+At the heart of this leap is prompting. MEMWALKER showcases how the right prompts enable so much more - tree construction, selective reading, error recovery. Prompting unlocks higher reasoning, turning LLMs into sophisticated information navigators.
+
+So MEMWALKER is no mere incremental advance - it ushers in a new era of contextual intelligence. The limits we took for granted are dissolving before our eyes. As T.S. Eliot put it, “We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.” MEMWALKER lights the path ahead.",f,t,,f,f
+1711867766334992468,1779494260474852990,aliamjadrizvi,2023-10-10 22:14:15,"Either you’re pro-Palestinian or pro-Hamas.
+
+You can’t be both. 
+
+Some things to note about this current conflict:
+
+(thread)",t,f,insightful,f,f
+1711756736758178270,1779494774561225247,_lewtun,2023-10-10 14:53:03,"Here's a simple recipe to train a 7B model that outperforms Llama2 70B on MT Bench 🥇
+
+1. SFT Mistral 7B on the UltraChat dataset
+2. Align the SFT model to the UltraFeedback dataset with ""direct preference optimisation"" (DPO)
+
+Demo: https://t.co/sfmDpjEbYT
+
+More details in the 🧵 https://t.co/52BcEhiWyn",f,t,,f,f
+1711918424866361610,1779494943336570902,keirp1,2023-10-11 01:35:33,"Introducing OpenWebMath, a massive dataset containing every math document found on the internet - with equations in LaTeX format!
+
+🤗 Download on @HuggingFace: https://t.co/tFBHaX2Jpt
+📝 Read the paper: https://t.co/mLnbbVPBWS
+
+w/ @dsantosmarco, @zhangir_azerbay, @jimmybajimmyba! https://t.co/7usulE8Yy8",f,t,dataset,f,f
+1712209280529727705,1779495026337303064,hwchung27,2023-10-11 20:51:18,"A counterintuitive implication of scale: trying to solve a more general version of the problem is an easier way to solve the original problem than directly tackling it.
+
+Attempting a more general problem encourages you to come up with a more general and simpler approach. This often leads to a more scalable method.  By leveraging increasingly cheaper compute, you solve the specific problem as a by-product of tackling a more general one.
+
+Some examples:
+- Directly solving NLU tasks (e.g. question answering) vs. learning a general language model and solving the task as a next token prediction.
+- Instead of directly working on machine translation, work on a general problem of learning all languages (mT5 vs. translation-specific models).
+
+Taking this idea to the limit, it might be the case that aiming for super-intelligence is an easier (but extremely difficult) way to get to general intelligence compared to directly solving general intelligence by mimicking human intelligence.
+This requires thinking about approaches that are native to machines as opposed to trying to teach machines how we think humans think because if we simply mimic human intelligence, it likely won’t lead to super-human intelligence.",f,t,,f,f
