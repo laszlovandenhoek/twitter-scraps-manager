@@ -108,9 +108,10 @@ function fetchTweets() {
                 let screen_name = tweet.screen_name;
 
                 if (textSearch.value !== '') {
-                    let regex = new RegExp(textSearch.value, 'gi');
+                    let words = textSearch.value.split(" ").join("|");
+                    let regex = new RegExp(words, 'gi');
                     full_text = full_text.replace(regex, highlighted);
-                    screen_name = screen_name.replace(regex, highlighted)
+                    screen_name = screen_name.replace(regex, highlighted);
                 }
 
                 row.innerHTML = `

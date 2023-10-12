@@ -2,6 +2,7 @@ use std::sync::Arc;
 
 use deadpool_postgres::Pool;
 use include_dir::{Dir, include_dir};
+use tokio_postgres::types::ToSql;
 
 use crate::{Info, Parameters, Tweet, UpdateTweet};
 
@@ -30,19 +31,28 @@ pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl 
         where_clauses.push("(category is null OR category = '')");
     }
 
-    if parameters.search.is_some() {
-        where_clauses.push("(screen_name ILIKE $3 OR full_text ILIKE $3 OR category ILIKE $3)");
-    };
+    let search_terms: Vec<String> = parameters.search
+        .map(|s| s.split_whitespace().map(|word| format!("%{}%", word).to_string()).collect())
+        .unwrap_or_else(|| vec![]);
+
+    // LIMIT will be $1 and OFFSET will be $2, so start at $3
+    let mut argument_index = 3;
+    let mut terms_clauses: Vec<String> = Vec::new();
+    for _ in 0..search_terms.len() {
+        let string = format!("(screen_name ILIKE ${} OR full_text ILIKE ${} OR category ILIKE ${})", argument_index, argument_index, argument_index);
+        argument_index += 1;
+        terms_clauses.push(string);
+    }
+
+    //append all clauses pertaining to terms to the main vector of where clauses
+    terms_clauses.iter().for_each(|term| where_clauses.push(term));
+
+    let mut query_parameters: Vec<&(dyn ToSql + Sync)> = vec!(&size, &offset);
+    search_terms.iter().for_each(|term| query_parameters.push(term));
 
     let query = format!("SELECT * FROM tweets WHERE {} ORDER BY sort_index DESC LIMIT $1 OFFSET $2", where_clauses.join(" AND "));
-
     let stmt = client.prepare(&query).await.unwrap();
-
-    let rows = if parameters.search.is_some() {
-        client.query(&stmt, &[&size, &offset, &format!("%{}%", parameters.search.unwrap())]).await.unwrap()
-    } else {
-        client.query(&stmt, &[&size, &offset]).await.unwrap()
-    };
+    let rows = client.query(&stmt, &query_parameters).await.unwrap();
 
     // Convert rows to your Tweet struct and then to JSON
     let tweets: Vec<Tweet> = rows.iter().map(|row| {
