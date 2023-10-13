@@ -3159,7 +3159,7 @@ https://t.co/E8IajPvnh0",f,t,,f,f
 1578384837924323331,1746061802533383022,TamasGorbe,2022-10-07 14:00:44,"In 1964, C.P. Willans found this exact(!) formula for the primes.
 
 Watch @ericrowland nicely explain how it works and why it's kinda useless...
-https://t.co/uk1mqXpZ8z https://t.co/Q2UkGKydnh",f,t,,f,f
+https://t.co/uk1mqXpZ8z https://t.co/Q2UkGKydnh",f,t,math,f,f
 1578372844068966405,1746061999040597403,rasbt,2022-10-07 13:13:05,"Ok, so 9 months in we got
 
 - DALL•E 2 [6 Apr 2022]
@@ -3176,7 +3176,7 @@ Anything missing?",f,t,,f,f
 1580349626363756545,1746608731403124207,SlexAxton,2022-10-13 00:08:07,"The L5 interview is an exploration into a difficult architecture problem, focusing on 7 key areas of product and application development.
 
 The L6 interview is just debugging when the grunt.js website started rendering the word 'grunt' as 'dorkq' on the motorola droid. https://t.co/5DNwKUbSoc",f,t,,f,f
-1580336379661545474,1746611271064806726,RonJeffries,2022-10-12 23:15:28,I take back anything good I may have accidentally said about SAFe.,f,t,,f,f
+1580336379661545474,1746611271064806726,RonJeffries,2022-10-12 23:15:28,I take back anything good I may have accidentally said about SAFe.,f,t,agile,f,f
 1580852930260783104,1746795550369193720,cwjones89,2022-10-14 09:28:04,"OK, I said yesterday that I'd take a brief dive into this this Syria mosaic. So here we go🧵:
 
 First of all, a good rule of thumb is that when you see something blow up in the news like this, it's usually the result of a coordinated media campaign operating behind the scenes. https://t.co/RgVM74eh6g",f,t,,f,f
@@ -3219,7 +3219,7 @@ Today, we live in a world made up entirely of first-century children. Be compass
 1586013928135749633,1747953412862153573,waxpancake,2022-10-28 15:16:01,"Elon Musk wants to run a thriving, profitable social network with little content moderation, a thing that’s literally impossible, unleashing a world of hurt on himself. A $44 billion self-own. https://t.co/LB2dSGIgJf",f,t,,f,f
 1586740957000728577,1748186278858799003,MattGertz,2022-10-30 15:24:59,"1. By week’s end, a sizable percentage of the GOP base will believe an absurd conspiracy theory positing that Paul Pelosi was assaulted by his leftist gay lover. 
 
-Allow me to explain.",f,t,,f,f
+Allow me to explain.",f,t,disinformation,f,f
 1588027163353161730,1748503280041772430,piq9117,2022-11-03 04:35:54,functional programmers be like,f,t,,f,f
 1588247865503010816,1748575363473255637,goodside,2022-11-03 19:12:54,Thread on recent tools I like for writing prompts and experimenting with GPT‑3,f,t,,f,f
 1588205063889211392,1748588633241892479,ZirconsForever,2022-11-03 16:22:49,"A couple of weeks ago we had an icebreaker during my graduate seminar and the question was ""What is your irrational fear?"" My answer was ""hammerhead sharks"". And today in class I walked in and saw this: https://t.co/xUWcZrgqSr",f,t,,f,f
@@ -3261,7 +3261,7 @@ Two classes. We want to use a neural network to solve these problems.
 What's the difference between them?
 
 1 of 8 https://t.co/eQxxYzgnqD",f,t,,f,f
-1597279105413959680,1750865526976919005,roshanpateI,2022-11-28 17:19:49,Life hack: give yourself 8 to 12 hours of alone time in the morning to mentally prepare for the day.,f,t,,f,f
+1597279105413959680,1750865526976919005,roshanpateI,2022-11-28 17:19:49,Life hack: give yourself 8 to 12 hours of alone time in the morning to mentally prepare for the day.,f,t,fun,f,f
 1597018453441130496,1750865738817128457,ahachete,2022-11-28 00:04:05,"Tomorrow #reInvent2022 starts. But today I wanted to make an announcement:
 
 Dyna53 🚀
@@ -3287,14 +3287,14 @@ This time, AI is following the plan suggested by the research on how new innovat
 I created a GPT3-powered Gmail account to which he sends a message. It responds with the text to send to the client. https://t.co/nlFX9Yx6wR",f,t,practical application of ChatGPT,t,f
 1598389755997290507,1751087548505408965,tylerangert,2022-12-01 18:53:09,"im losing my fucking mind
 
-let's redesign git step by step: https://t.co/k9oc34lcZl",f,t,,f,f
-1598513757805858820,1751094617819002049,tqbf,2022-12-02 03:05:53,"I’m sorry, I simply cannot be cynical about a technology that can accomplish this. https://t.co/yjlY72eZ0m",f,t,,f,f
-1598750927447502848,1751272947187563652,dyngnosis,2022-12-02 18:48:19,I asked ChatGPT to identify the vulns in OWASP Flask app and then with it's response asked it to write expIoits. It produced 3 working exploits and another that would have worked if the DB wasnt Sqlite. https://t.co/M3WeSMTHi3,f,t,,f,f
-1599152176344928256,1751273910932045494,317070,2022-12-03 21:22:44,"Did you know, that you can build a virtual machine inside ChatGPT? And that you can use this machine to create files, program and even browse the internet? https://t.co/15IwHwr2on",f,t,,f,f
-1598994174614781952,1751283884843418052,quantumVerd,2022-12-03 10:54:53,"This week's AI breakthroughs remind us that humans are, in the end, pretty much probabilistic parrots too.",f,t,,f,f
+let's redesign git step by step: https://t.co/k9oc34lcZl",f,t,practical application of ChatGPT,f,f
+1598513757805858820,1751094617819002049,tqbf,2022-12-02 03:05:53,"I’m sorry, I simply cannot be cynical about a technology that can accomplish this. https://t.co/yjlY72eZ0m",f,t,fun,f,f
+1598750927447502848,1751272947187563652,dyngnosis,2022-12-02 18:48:19,I asked ChatGPT to identify the vulns in OWASP Flask app and then with it's response asked it to write expIoits. It produced 3 working exploits and another that would have worked if the DB wasnt Sqlite. https://t.co/M3WeSMTHi3,f,t,security,f,f
+1599152176344928256,1751273910932045494,317070,2022-12-03 21:22:44,"Did you know, that you can build a virtual machine inside ChatGPT? And that you can use this machine to create files, program and even browse the internet? https://t.co/15IwHwr2on",f,t,practical application of ChatGPT,f,f
+1598994174614781952,1751283884843418052,quantumVerd,2022-12-03 10:54:53,"This week's AI breakthroughs remind us that humans are, in the end, pretty much probabilistic parrots too.",f,t,insightful,f,f
 1600016676052996099,1751496563009662769,abhi1thakur,2022-12-06 06:37:57,"oooohhhkay, chatGPT seems to have screwed up here....
-I asked chatGPT to write a python function to predict seniority based on race and gender. See the result for yourself :/ https://t.co/zOp3qOgKHd",f,t,,f,f
-1600196981955100694,1751538117074746019,tomgoldsteincs,2022-12-06 18:34:25,How many GPUs does it take to run ChatGPT?  And how expensive is it for OpenAI?  Let’s find out! 🧵🤑,f,t,,f,f
+I asked chatGPT to write a python function to predict seniority based on race and gender. See the result for yourself :/ https://t.co/zOp3qOgKHd",f,t,bias,t,f
+1600196981955100694,1751538117074746019,tomgoldsteincs,2022-12-06 18:34:25,How many GPUs does it take to run ChatGPT?  And how expensive is it for OpenAI?  Let’s find out! 🧵🤑,f,t,LLMOps,f,f
 1600943375322034176,1751744375184855539,alyssamvance,2022-12-08 20:00:19,"Copilot/ChatGPT won't eliminate coding jobs; every time code has gotten easier to write, demand for code has grown even faster. A ton of programming in 1982 would be trivial now",f,t,insightful,f,f
 1601226870514929665,1751754699566453428,omarsar0,2022-12-09 14:46:49,"There is a lot of interest in large language models.
 
