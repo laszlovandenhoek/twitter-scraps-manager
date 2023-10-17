@@ -3327,7 +3327,7 @@ Two classes. We want to use a neural network to solve these problems.
 
 What's the difference between them?
 
-1 of 8 https://t.co/eQxxYzgnqD",f,t,,f,f
+1 of 8 https://t.co/eQxxYzgnqD",f,t,explainer,f,f
 1597279105413959680,1750865526976919005,roshanpateI,2022-11-28 17:19:49,Life hack: give yourself 8 to 12 hours of alone time in the morning to mentally prepare for the day.,f,t,fun,f,f
 1597018453441130496,1750865738817128457,ahachete,2022-11-28 00:04:05,"Tomorrow #reInvent2022 starts. But today I wanted to make an announcement:
 
@@ -7545,7 +7545,7 @@ went from idea (""EmptyMyFridge: a backend accepting an input string of ingredie
 if you have an idea, want to apply to yc with a prototype, want to start selling something on the internet, or just want to have fun building cool shit with your nerd friends, you literally have 0 excuses
 
 shipping software has never been such an insanely fun and massively exciting activity as it is today",t,f,,f,f
-1712966533331169383,1779767253278135862,llama_index,2023-10-13 23:00:21,Want to save time and money over calling OpenAI to get embeddings for all the text in your RAG pipeline? Now you can run a super-fast local server to generate them yourself! https://t.co/3p7dwlryBw,t,f,,f,f
+1712966533331169383,1779767253278135862,llama_index,2023-10-13 23:00:21,Want to save time and money over calling OpenAI to get embeddings for all the text in your RAG pipeline? Now you can run a super-fast local server to generate them yourself! https://t.co/3p7dwlryBw,t,f,rag,f,f
 1713368556618887670,1779945044513567758,thealexker,2023-10-15 01:37:51,"Does GPT understand the world?  
 
 Here is what @ilyasut, co-founder of OpenAI, says during a discussion with Jensen Huang, CEO of Nvidia:  
@@ -7558,5 +7558,5 @@ Here is what @ilyasut, co-founder of OpenAI, says during a discussion with Jense
 
 Do you think learning representations = understanding?
 
-Are large language models simply stochastic parrots, or are they much more?",t,f,,f,f
-1713952781294559590,1779978574305114373,E0M,2023-10-16 16:19:21,I’ll be giving a behind the scenes look at how we scaled ChatGPT at 10:30. Most of this we’ve never talked publicly about before and I’m super excited to share it here at @TheLeadDev West Coast. https://t.co/vkyqG2w8QI,t,f,,f,f
+Are large language models simply stochastic parrots, or are they much more?",t,f,insightful,f,f
+1713952781294559590,1779978574305114373,E0M,2023-10-16 16:19:21,I’ll be giving a behind the scenes look at how we scaled ChatGPT at 10:30. Most of this we’ve never talked publicly about before and I’m super excited to share it here at @TheLeadDev West Coast. https://t.co/vkyqG2w8QI,t,f,video,f,f
