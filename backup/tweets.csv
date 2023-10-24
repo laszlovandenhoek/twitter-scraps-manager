@@ -2658,7 +2658,7 @@ and thought I could try my hand at prototyping an interface for understanding an
 1709630145651482665,1716730395422097402,EldanRonen,2023-10-04 18:02:44,"Can we make LLMs unlearn a subset of their training data? In a joint project with @markrussinovich, we took Llama2-7b and in 30 minutes of fine-tuning, made it forget the Harry Potter universe while keeping its performance on common benchmarks intact:
 
 https://t.co/VMmPL6Ztfr",f,t,,f,f
-1715856458842309033,1716730395422097403,karpathy,2023-10-21 22:23:53,@keijikiriya_ @chrisalbon Are you kidding? There has never been a green pasture of this size with this low barrier to entry.,f,t,,f,f
+1715856458842309033,1716730395422097403,karpathy,2023-10-21 22:23:53,@keijikiriya_ @chrisalbon Are you kidding? There has never been a green pasture of this size with this low barrier to entry.,f,t,inspirational,f,f
 1715998007223529722,1716730395422097404,AISafetyMemes,2023-10-22 07:46:21,Dalle what the fuck https://t.co/X6uH7na5TY,f,t,,f,f
 1716156085445239265,1716730395422097405,emollick,2023-10-22 18:14:30,"On one hand, increasing data showing that AI really does improve task performance on many high-value work tasks by 20-60%.
 
@@ -3045,7 +3045,7 @@ https://t.co/um1ErJ48ly https://t.co/Z61DtnSFMr",f,t,,f,f
 1504224564016037890,1727567798290239450,depthsofwiki,2022-03-16 22:34:17,https://t.co/Uxp4yP5rTM,f,t,,f,f
 1504484207313096714,1727628713812705494,VaultAusir,2022-03-17 15:46:01,"(yes, it's THE Godwin) https://t.co/YFeUNeaWW8",f,t,,f,f
 1505171640174456838,1727747698515083106,tegmark,2022-03-19 13:17:38,"#AI invents 40,000 chemical weapons in only six hours. This shows the urgent need for more oversight of risky uses of artificial intelligence: https://t.co/Mc14upzJu4",f,t,,f,f
-1505496923779784705,1727849098735722061,lukaseder,2022-03-20 10:50:12,@mariofusco 2022 is the year of Linux on the Desktop?,f,t,,f,f
+1505496923779784705,1727849098735722061,lukaseder,2022-03-20 10:50:12,@mariofusco 2022 is the year of Linux on the Desktop?,f,t,relatable,f,f
 1505520417263345666,1727849754782532426,waitbutwhy,2022-03-20 12:23:33,"I graduated high school thinking I hated history, only to later realize it was my favorite thing. Good teaching should ignite curiosity.",f,t,,f,f
 1506271438378082317,1728017170948523132,lukaseder,2022-03-22 14:07:50,"@lvdhoek Hmm, that's because of a missing feature in Java 8, which didn't get implemented I think? Generalized target type inference was implemented (https://t.co/mKC4D6n8Nb), but parts of it were dropped, including the inference on this chain.
 
@@ -3248,9 +3248,9 @@ Let's animate what that means! 🧵 👇 https://t.co/UkoWIzbBQM",f,t,,f,f
 
 These days I'm rethinking this and finding it hard to read and understand especially when reviewing old code.
 
-Comments? https://t.co/cyOaUQ2j9x",f,t,,f,f
-1550090859806334977,1738971807146874603,GKlijs,2022-07-21 12:10:34,"@mariofusco Agree that's it hard, often it's possible to have something more meaningful. Maybe it's because in a lot of core code, like collection implementations, it's not possible to have something meaningful?",f,t,,f,f
-1550093205043044352,1738971808427428684,ejpbruel,2022-07-21 12:19:54,"@GKlijs @mariofusco Imo T is fine when its a type that doesnt have any constraints on it, like an element type in a container or a smart pointer, but otherwise its usually possible to pick something more descriptive.",f,t,,f,f
+Comments? https://t.co/cyOaUQ2j9x",f,t,code style,f,f
+1550090859806334977,1738971807146874603,GKlijs,2022-07-21 12:10:34,"@mariofusco Agree that's it hard, often it's possible to have something more meaningful. Maybe it's because in a lot of core code, like collection implementations, it's not possible to have something meaningful?",f,t,code style,f,f
+1550093205043044352,1738971808427428684,ejpbruel,2022-07-21 12:19:54,"@GKlijs @mariofusco Imo T is fine when its a type that doesnt have any constraints on it, like an element type in a container or a smart pointer, but otherwise its usually possible to pick something more descriptive.",f,t,code style,f,f
 1544206944616849409,1738994821670749970,tibber_nl,2022-07-05 06:30:00,"Hej Nederländerna, hei Nederland, hallo Niederlande, hoi Nederland 👋 
 
 Het is zover: we zijn officieel live! 🎉 Sluit je energiecontract direct af in de Tibber-app of bereken je maandbedrag op onze website: https://t.co/3CHYJCGTDm https://t.co/O5vQCmkpUQ",f,t,,f,f
@@ -3378,7 +3378,7 @@ Se avanzo seguitemi, se indietreggio uccidetemi, se mi uccidono vendicatemi. 
 
  A noi!
 
-(aiuto 🆘😣🫂)",f,t,,f,f
+(aiuto 🆘😣🫂)",f,t,politics,f,f
 1573960470469419009,1745041262768443985,knrd_z,2022-09-25 08:59:53,Commentary on the limits of IQ tests in the tails of autism https://t.co/ugK0uRTLir,f,t,,f,f
 1574492250620542980,1745190601336528946,sundellviz,2022-09-26 20:12:59,"I fed the lyrics to ""Imagine"" into an AI and had it come up with new verses, imagining the absence of more mundane things: https://t.co/0reAsZqn3f",f,t,,f,f
 1575490296934469638,1745345768936214485,GKlijs,2022-09-29 14:18:52,"Very happy to share I once again get to go to San Francisco to speak at a major conference. This time at @SpringOne.
@@ -3487,39 +3487,39 @@ Today, we live in a world made up entirely of first-century children. Be compass
 1586740957000728577,1748186278858799003,MattGertz,2022-10-30 15:24:59,"1. By week’s end, a sizable percentage of the GOP base will believe an absurd conspiracy theory positing that Paul Pelosi was assaulted by his leftist gay lover. 
 
 Allow me to explain.",f,t,disinformation,f,f
-1588027163353161730,1748503280041772430,piq9117,2022-11-03 04:35:54,functional programmers be like,f,t,,f,f
+1588027163353161730,1748503280041772430,piq9117,2022-11-03 04:35:54,functional programmers be like,f,t,relatable,f,f
 1588247865503010816,1748575363473255637,goodside,2022-11-03 19:12:54,Thread on recent tools I like for writing prompts and experimenting with GPT‑3,f,t,,f,f
-1588205063889211392,1748588633241892479,ZirconsForever,2022-11-03 16:22:49,"A couple of weeks ago we had an icebreaker during my graduate seminar and the question was ""What is your irrational fear?"" My answer was ""hammerhead sharks"". And today in class I walked in and saw this: https://t.co/xUWcZrgqSr",f,t,,f,f
+1588205063889211392,1748588633241892479,ZirconsForever,2022-11-03 16:22:49,"A couple of weeks ago we had an icebreaker during my graduate seminar and the question was ""What is your irrational fear?"" My answer was ""hammerhead sharks"". And today in class I walked in and saw this: https://t.co/xUWcZrgqSr",f,t,fun,f,f
 1587207677402390534,1748783826762981679,nearcyan,2022-10-31 22:19:33,"new OpenAI Codex demo: solving complex problems with multiple iterations, result checking, and thorough comments
 
-programming will be disrupted just as much as image creation! https://t.co/KWNUuP5go6",f,t,,f,f
-1590604672557252609,1749096057474799751,karpathy,2022-11-10 07:18:00,Not sure if there is a name for (I think no) the feeling of a deep discomfort when the probability of an interruption is &gt; 0 while trying to work. It’s a kind of fear.,f,t,,f,f
-1591029722297008128,1749208954806394565,lukaseder,2022-11-11 11:27:00,Hey @elonmusk I bet you can’t buy JIRA,f,t,,f,f
+programming will be disrupted just as much as image creation! https://t.co/KWNUuP5go6",f,t,future of programming,f,f
+1590604672557252609,1749096057474799751,karpathy,2022-11-10 07:18:00,Not sure if there is a name for (I think no) the feeling of a deep discomfort when the probability of an interruption is &gt; 0 while trying to work. It’s a kind of fear.,f,t,relatable,t,f
+1591029722297008128,1749208954806394565,lukaseder,2022-11-11 11:27:00,Hey @elonmusk I bet you can’t buy JIRA,f,t,musk,f,f
 1593541177965678592,1749913228903403967,MosquitoCapital,2022-11-18 09:46:38,"I've seen a lot of people asking ""why does everyone think Twitter is doomed?""
 
-As an SRE and sysadmin with 10+ years of industry experience, I wanted to write up a few scenarios that are real threats to the integrity of the bird site over the coming weeks.",f,t,,f,f
+As an SRE and sysadmin with 10+ years of industry experience, I wanted to write up a few scenarios that are real threats to the integrity of the bird site over the coming weeks.",f,t,musk,f,f
 1594443688339554304,1750092795326686976,ShriramKMurthi,2022-11-20 21:32:53,"10/ The next generation of computing problems will not be about writing 80s style 5-line for-loops. It'll be about properties, specification, reasoning, verification, prompt eng, synthesis, etc. How will we get there?
 
-And no, I will not be taking questions. (-:",f,t,,f,f
-1595557790063304704,1750360547993939487,amasad,2022-11-23 23:19:55,I don't think people understand the monumental changes coming to software this decade. Quick thread:,f,t,,f,f
-1596210043019722752,1750506787457312688,tomgoldsteincs,2022-11-25 18:31:45,"Neural algorithm synthesis is done by giving models a human-crafted programming language and millions of sample programs.  Recently, my lab looked at whether neural networks can synthesize algorithms on their own without these crutches. They can, with the right architecture.  🧵 https://t.co/rgiuASSRon",f,t,,f,f
-1595839272040468483,1750506994596817012,gf_256,2022-11-24 17:58:26,me replacing Twitter’s url query string tracking beacon with base64 of “[Object object]” to drive some poor developer insane https://t.co/sezQsiTWiO,f,t,,f,f
-722565868719177729,1750507053382033366,tenderlove,2016-04-19 23:21:42,I like to add � and â€™ any time I submit online forms because I know that some developer is going to see it and wonder if they have a bug,f,t,,f,f
+And no, I will not be taking questions. (-:",f,t,future of programming,f,f
+1595557790063304704,1750360547993939487,amasad,2022-11-23 23:19:55,I don't think people understand the monumental changes coming to software this decade. Quick thread:,f,t,future of programming,f,f
+1596210043019722752,1750506787457312688,tomgoldsteincs,2022-11-25 18:31:45,"Neural algorithm synthesis is done by giving models a human-crafted programming language and millions of sample programs.  Recently, my lab looked at whether neural networks can synthesize algorithms on their own without these crutches. They can, with the right architecture.  🧵 https://t.co/rgiuASSRon",f,t,algorithm synthesis,f,f
+1595839272040468483,1750506994596817012,gf_256,2022-11-24 17:58:26,me replacing Twitter’s url query string tracking beacon with base64 of “[Object object]” to drive some poor developer insane https://t.co/sezQsiTWiO,f,t,fun,f,f
+722565868719177729,1750507053382033366,tenderlove,2016-04-19 23:21:42,I like to add � and â€™ any time I submit online forms because I know that some developer is going to see it and wonder if they have a bug,f,t,relatable,f,f
 1595974800874172416,1750542697615053324,making,2022-11-25 02:56:58,"Observability with Spring Boot 3 is super cool!
-The transition of metrics -&gt; trace -&gt; log -&gt; trace was easily realized on Grafana! https://t.co/UlfwKzkRtY",f,t,,f,f
-1596224986284716032,1750589419370334025,TerribleMaps,2022-11-25 19:31:07,More people live in the green area than the blue area https://t.co/d9OinOu2b6,f,t,,f,f
+The transition of metrics -&gt; trace -&gt; log -&gt; trace was easily realized on Grafana! https://t.co/UlfwKzkRtY",f,t,observability,f,f
+1596224986284716032,1750589419370334025,TerribleMaps,2022-11-25 19:31:07,More people live in the green area than the blue area https://t.co/d9OinOu2b6,f,t,fun,f,f
 1596666811155591168,1750634598284789602,Grady_Booch,2022-11-27 00:46:47,"Why is it that crypto bros simply cannot stand anyone who defies their narrative?
 
 In this case, I was pushing against  Amjad’s assertion that AI and crypto will radically transform software development in the next decade.
 
-tl/dr: it will not https://t.co/3zagxJ8D21",f,t,,f,f
+tl/dr: it will not https://t.co/3zagxJ8D21",f,t,crypto,f,f
 1596621742705106945,1750635194803301340,svpino,2022-11-26 21:47:41,"Google's secret project ""Pitchfork"" uses machine learning to write code and update itself (reported by Business Insider.)
 
 Generative AI is, without a doubt, the hottest thing right now.
 
 Copilot, Ghostwriter, AlphaCode, and now Pitchfork.
 
-The future is coming quick!",f,t,,f,f
+The future is coming quick!",f,t,genAI,f,f
 1596991441435504640,1750771946132470255,__steele,2022-11-27 22:16:44,👀 Look at what has popped up in the CloudWatch Logs web console https://t.co/0U1piM6zMy,f,t,observability,f,f
 1597334551553929216,1750865425470909606,svpino,2022-11-28 21:00:08,"Here are the pictures of two different problems.
 
@@ -3539,15 +3539,15 @@ Dyna53 is Route53 turned into a real database, with a DynamoDB-compatible API.
 
 And it's fully Open Source!
 
-It is probably @QuinnyPig's dream came true 😉 https://t.co/b1YkzYXwLq",f,t,,f,f
+It is probably @QuinnyPig's dream came true 😉 https://t.co/b1YkzYXwLq",f,t,fun,f,f
 1597651626075881474,1750867328070246013,changhiskhan,2022-11-29 18:00:05,"If you work with ML data (vectors, images, videos, and of course tabular data) using any @ApacheArrow compatible interface (e.g., @duckdb, @pandas_dev, @raydistributed), dataset versioning is now *free* with Lance (1/n)
 
-https://t.co/HRyhlwO4Ho",f,t,,f,f
-1597260548357251072,1750899827704231587,gwendallecoguic,2022-11-28 16:06:05,New GitHub search is 🔥🔥🔥 https://t.co/kgPjiTHqXz,f,t,,f,f
+https://t.co/HRyhlwO4Ho",f,t,MLOps,f,f
+1597260548357251072,1750899827704231587,gwendallecoguic,2022-11-28 16:06:05,New GitHub search is 🔥🔥🔥 https://t.co/kgPjiTHqXz,f,t,security,f,f
 1598017054560620544,1750948473487313553,emollick,2022-11-30 18:12:10,"Inspired by these sorts of incredible examples, I wrote about “creative AI” and why, this time, as opposed to every other time AI was hyped, really is different.
 
-This time, AI is following the plan suggested by the research on how new innovations spread. https://t.co/bXqLbaYHO8",f,t,,f,f
-1598012114475831296,1750948648716806488,dpaleka,2022-11-30 17:52:32,Interpretability in the wild. Largest interpretable circuit in a GPT found to date. Explains exactly how gpt2-small solves Indirect Object Identification: predicting which word in the previous sentence is the object in the next sentence. https://t.co/CPPJomA92p (8/8) https://t.co/tKvhX09jOY,f,t,,f,f
+This time, AI is following the plan suggested by the research on how new innovations spread. https://t.co/bXqLbaYHO8",f,t,genAI,f,f
+1598012114475831296,1750948648716806488,dpaleka,2022-11-30 17:52:32,Interpretability in the wild. Largest interpretable circuit in a GPT found to date. Explains exactly how gpt2-small solves Indirect Object Identification: predicting which word in the previous sentence is the object in the next sentence. https://t.co/CPPJomA92p (8/8) https://t.co/tKvhX09jOY,f,t,mechanistic interpretability,f,f
 1598269692082151424,1751023296922890478,bentossell,2022-12-01 10:56:03,"All the best examples of ChatGPT, from OpenAI:",f,t,practical application of ChatGPT,f,f
 1598254671591723008,1751086899638983629,DannyRichman,2022-12-01 09:56:22,"I mentor a young lad with poor literacy skills who is starting a landscaping business. He struggles to communicate with clients in a professional manner.
 
