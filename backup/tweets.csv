@@ -2518,11 +2518,211 @@ As a side note, we also do #Kotlin #Flutter #Java #golang tho you're right, #Pyt
 
 But #rustlang may very well become something important too at @Numberly!",f,t,,f,f
 1460872086021455876,1716711731677482054,PieterZwart,2021-11-17 07:27:01,Cryptisch nieuws!🚀#uitmuntend https://t.co/n0UjtVxEq9,f,t,,f,f
+1713867160886599920,1716730395422097385,8teAPi,2023-10-16 10:39:07,"Terence Tao is using ChatGPT to learn Lean.. 
+
+Lean is a ridiculously complex proof lDE, and mathcels have preferred to leave it to a small core of proofers to code it rather than prove directly in it.
+
+If TT goes over, some chance we finally start to see a unified math corpus https://t.co/FPXK64bWcl",f,t,,f,f
+1714098025956864031,1716730395422097386,zhangir_azerbay,2023-10-17 01:56:30,"We release Llemma: open LMs for math trained on up to 200B tokens of mathematical text.
+
+The performance of Llemma 34B approaches Google's Minerva 62B despite having half the parameters.
+
+Models/data/code: https://t.co/zFvKHrK7t3
+Paper: https://t.co/gGgyFQX8sA
+
+More ⬇️ https://t.co/K7ZiG9n8BT",f,t,,f,f
+1714381166168399973,1716730395422097387,culturaltutor,2023-10-17 20:41:36,"Dr Johnson spent nine years writing the first proper English dictionary. It had 140,871 definitions, and some of them were... interesting:
+
+Trolmydames — Of this word I know not the meaning.
+
+Monsieur — A term of reproach for a Frenchman.
+
+Lunch — As much food as one’s hand can hold.
+
+Twitter — To be suddenly moved with any inclination. A low word.
+
+Politician — A man of artifice; one of deep contrivance.
+
+Belly-timber — Food; materials to support the belly.
+
+Abecedarian — He that teaches or learns the alphabet.
+
+Kickshaw — A dish so changed by the cookery that it can scarcely be known.
+
+Oats — A grain, which in England is generally given to horses, but in Scotland supports the people.
+
+Sock — Something put between the foot and shoe.
+
+Ruse — Cunning; artifice; little stratagem; trick; wile; fraud; deceit. A French word neither elegant nor necessary.
+
+Finesse — Artifice; stratagem: an unnecessary word which is creeping into the language.
+
+Chymist — A professor of chymistry; a philosopher by fire.
+
+Poetaster — A vile petty poet.
+
+Goose — A large waterfowl proverbially noted, I know not why, for foolishness.
+
+Bum — The buttocks; the part on which we sit.
+
+Jobbernowl — Loggerhead; blockhead.
+
+Fopdoodle — A fool; an insignificant wretch.
+
+Slubberdegullion — A paltry, dirty, sorry wretch.
+
+Hickup — To sob with a convulsed stomach.
+
+Sciomachy — Battle with a shadow.
+
+Backfriend — A friend backwards; that is, an enemy in secret.
+
+Tea — A Chinese plant, of which the infusion has lately been much drunk in Europe.
+
+Chess — A nice and abstruse game, in which two sets of men are moved in opposition to each other.
+
+Birthnight — The night annually kept in memory of any one’s birth.
+
+Excise — A hateful tax levied upon commodities, and adjudged not by the common judges of property, but wretches hired by those to whom excise is paid.
+
+Jiggumbob — A trinket; a knick-knack; a slight contrivance in machinery.
+
+Utis — A word which probably is corrupted, at least, is not now understood.
+
+Ventriloquist — One who speaks in such a manner as that the sound seems to issue from his belly.
+
+Dull — Not exhilaterating; not delightful; as, to make dictionaries is dull work.
+
+These idiosyncratic definitions make up only a very small portion of Dr Johnson's Dictionary; this was not a small or jovial undertaking. What Johnson achieved was remarkable, and his influence continues to shape not only what English words mean but also how they are spelled. Still, even in those long nine years of labour, Johnson found an outlet for his legendary wit. Where better to end, then, than with his famous definition for lexicographer?
+
+""A writer of dictionaries; a harmless drudge, that busies himself in tracing the original, and detailing the signification of words.""",f,t,,f,f
+1714635316554772716,1716730395422097388,AIatMeta,2023-10-18 13:31:30,"Today we're sharing new research that brings us one step closer to real-time decoding of image perception from brain activity.
+
+Using MEG, this AI system can decode the unfolding of visual representations in the brain with an unprecedented temporal resolution.
+
+More details ⬇️",f,t,,f,f
+1714877374989296038,1716730395422097389,awesomekling,2023-10-19 05:33:21,"GitHub Copilot is an amazing tool, but I'd say it takes a few weeks of continuous use (and experimentation) to develop good intuition about how to co-op with it.
+
+There are so many hard-to-articulate little things that affect the quality of suggestions, like how to organize code, which order to do things in, how to write comments, the impact of function/variable naming, etc.
+
+I've talked to a bunch of people who say that ""it doesn't work"" for them, and in most cases, they've spent less than a day using it before coming to this conclusion.
+
+For what it's worth, I've been programming for decades and after a couple months of using Copilot I can tell you this is the greatest increase in leverage I've experienced in my life. Feels like a ""bicycle for the mind"" as the saying goes. 🤓🧠🤖",f,t,,f,f
+1714702461733400965,1716730395422097390,thekitze,2023-10-18 17:58:19,new disney/pixar movie is gonna be a banger https://t.co/34nMCPrNYk,f,t,,f,f
+1715008877073223940,1716730395422097391,BlancheMinerva,2023-10-19 14:15:54,"I've been doing a lot of work documenting LLMs, their licenses, and who is creating them recently and some of what I'm finding is quite surprising to me. I'm curious how much of this is known to people, so let's do a quick quiz! Answers will be shared after polls close.",f,t,,f,f
+1715397393842401440,1716730395422097392,DrJimFan,2023-10-20 15:59:43,"Can GPT-4 teach a robot hand to do pen spinning tricks better than you do?
+
+I'm excited to announce Eureka, an open-ended agent that designs reward functions for robot dexterity at super-human level. It’s like Voyager in the space of a physics simulator API!
+
+Eureka bridges the gap between high-level reasoning (coding) and low-level motor control. It is a “hybrid-gradient architecture”: a black box, inference-only LLM instructs a white box, learnable neural network. The outer loop runs GPT-4 to refine the reward function (gradient-free), while the inner loop runs reinforcement learning to train a robot controller (gradient-based).
+
+We are able to scale up Eureka thanks to IsaacGym, a GPU-accelerated physics simulator that speeds up reality by 1000x. On a benchmark suite of 29 tasks across 10 robots, Eureka rewards outperform expert human-written ones on 83% of the tasks by 52% improvement margin on average. We are surprised that Eureka is able to learn pen spinning tricks, which are very difficult even for CGI artists to animate frame by frame!
+
+Eureka also enables a new form of in-context RLHF, which is able to incorporate a human operator’s feedback in natural language to steer and align the reward functions. It can serve as a powerful co-pilot for robot engineers to design sophisticated motor behaviors.
+
+As usual, we open-source everything! Welcome you all to check out our video gallery and try the codebase today: https://t.co/BHiNmqPoWE
+Paper: https://t.co/bdh9TYQtHm
+Code: https://t.co/lqKiaM2yYJ
+
+Deep dive with me: 🧵",f,t,,f,f
+1715099974650790209,1716730395422097393,swyx,2023-10-19 20:17:53,"🆕 The End of Finetuning
+
+https://t.co/PknLZsk5I0
+
+""The right way to fine-tune language models... is to actually throw away the idea of fine-tuning. There's no such thing. There's only continued pre-training.""
+
+— @jeremyphoward, who created ULMFiT with @seb_ruder back in 2018! 
+
+now on @latentspacepod",f,t,,f,f
+1714443953544552591,1716730395422097394,dylan_ebert_,2023-10-18 00:51:06,a one minute explanation of 4d gaussian splatting https://t.co/3X6kVqYueS,f,t,,f,f
+1715441914848383432,1716730395422097395,DiffusionPics,2023-10-20 18:56:38,"Pause at literally any point, and it will look like a normal landscape
+
+QR-Code CNET with 1,75 strength https://t.co/Ejg0S8JPfJ",f,t,,f,f
+1715162283607728525,1716730395422097396,J_K_Chesterton,2023-10-20 00:25:29,What are walls to the criminal? https://t.co/SGPX52T7iV,f,t,,f,f
+1714987918270353850,1716730395422097397,ViralXfun,2023-10-19 12:52:37,Best example for why ups and downs are important in life https://t.co/PLY2PnnLNP,f,t,,f,f
+1715150062303477911,1716730395422097398,emollick,2023-10-19 23:36:55,"LLMs are gullible.
+
+A favorite illustration of why this can be a problem is this game, where you try to convince an increasingly “smart”
+LLM to give you a secret password: https://t.co/S9yOZFF1jn",f,t,,f,f
+1715235725069693415,1716730395422097399,_akhaliq,2023-10-20 05:17:19,"3D-GPT: Procedural 3D Modeling with Large Language Models
+
+paper page: https://t.co/4UPUNNB3UG
+
+In the pursuit of efficient automated content creation, procedural generation, leveraging modifiable parameters and rule-based systems, emerges as a promising approach. Nonetheless, it could be a demanding endeavor, given its intricate nature necessitating a deep understanding of rules, algorithms, and parameters. To reduce workload, we introduce 3D-GPT, a framework utilizing large language models~(LLMs) for instruction-driven 3D modeling. 3D-GPT positions LLMs as proficient problem solvers, dissecting the procedural 3D modeling tasks into accessible segments and appointing the apt agent for each task. 3D-GPT integrates three core agents: the task dispatch agent, the conceptualization agent, and the modeling agent. They collaboratively achieve two objectives. First, it enhances concise initial scene descriptions, evolving them into detailed forms while dynamically adapting the text based on subsequent instructions. Second, it integrates procedural generation, extracting parameter values from enriched text to effortlessly interface with 3D software for asset creation. Our empirical investigations confirm that 3D-GPT not only interprets and executes instructions, delivering reliable results but also collaborates effectively with human designers. Furthermore, it seamlessly integrates with Blender, unlocking expanded manipulation possibilities. Our work highlights the potential of LLMs in 3D modeling, offering a basic framework for future advancements in scene generation and animation.",f,t,,f,f
+1715003286179418463,1716730395422097400,yizhe_ang,2023-10-19 13:53:41,"Been delving into amazing resources for mechanistic interpretability by @NeelNanda5 and @calsmcdougall  -&gt; https://t.co/mYGqL6QP0A 👀
+
+and thought I could try my hand at prototyping an interface for understanding and interpreting Transformers
+
+🕹️ wip code: https://t.co/EnYNKnbbS6 https://t.co/PkeatlTrlf",f,t,,f,f
+1715272000816492572,1716730395422097401,d_feldman,2023-10-20 07:41:27,Asked DALL-E 3 for the ingredients to make a cake.. the more you look the better this gets https://t.co/4eJXuZfn9A,f,t,,f,f
+1709630145651482665,1716730395422097402,EldanRonen,2023-10-04 18:02:44,"Can we make LLMs unlearn a subset of their training data? In a joint project with @markrussinovich, we took Llama2-7b and in 30 minutes of fine-tuning, made it forget the Harry Potter universe while keeping its performance on common benchmarks intact:
+
+https://t.co/VMmPL6Ztfr",f,t,,f,f
+1715856458842309033,1716730395422097403,karpathy,2023-10-21 22:23:53,@keijikiriya_ @chrisalbon Are you kidding? There has never been a green pasture of this size with this low barrier to entry.,f,t,,f,f
+1715998007223529722,1716730395422097404,AISafetyMemes,2023-10-22 07:46:21,Dalle what the fuck https://t.co/X6uH7na5TY,f,t,,f,f
+1716156085445239265,1716730395422097405,emollick,2023-10-22 18:14:30,"On one hand, increasing data showing that AI really does improve task performance on many high-value work tasks by 20-60%.
+
+On the other hand, most CEOs are discouraging AI use as ""they don't fully understand it."" Understanding comes from experimentation. These firms won't learn. https://t.co/yiYkwdnJI2",f,t,,f,f
+1716205123050057793,1716730395422097406,SullyOmarr,2023-10-22 21:29:21,Holy shit lmao https://t.co/IvpBKfBWYV,f,t,,f,f
+1716491830102196393,1716730395422097407,chrisalbon,2023-10-23 16:28:37,"“He’s really a nice dude”
+
+Alright fuck it. https://t.co/eZ2bbpmwuV are free for the next 24 hours.
+
+Coupon code: LOCALLLAMA https://t.co/sdVbqzxX5F",f,t,,f,f
+1716585205400756514,1716730395422097408,dvassallo,2023-10-23 22:39:40,"I learned a lot about the heart over the last 2 weeks, and discovered an amazing similarity between our heart and distributed computer systems. Let me show you how our heart deals with the CAP theorem.
+
+Here's my story:
+
+Starting in August, I increased my exercise volume to try to make up for some fitness I lost during the summer. For the 6 weeks that followed I averaged 60min of cardio per day, mostly cycling and running. My average before that was ~30min/day. About 70% was low intensity (Z2-Z3), and 30% high (Z4-Z5).
+
+In mid September, I felt something strange when I was in bed at night. My heart rate felt slower, and it felt kind of relaxing. At the time, I thought this was a good thing.
+
+I also noticed that the Heart Variability Rate on my Apple Watch shot up by 150% from Sep 10. I didn't make the link with the above though. I had opted into the latest watchOS beta and I suspected it was due to a bug or an algorithm change.
+
+I felt the same thing in bed for the rest of the week. Then it disappeared for a week. Then it came back the week after. But this time I was feeling it more frequently. I would be quiet at my desk, and I'd occasionally feel a 2 second delay between beats, followed by a big pounding beat.
+
+In the meantime, my fitness was improving. I was doing personal best times in 3 mile runs and 6 mile bike rides. I felt very good when exercising and I didn't notice anything wrong with my heart rhythm when it was elevated during exercise.
+
+But towards the start of October, these abnormal beats became too frequent to ignore. They were even starting to affect my sleep. On Oct 1, I did an ECG Afib test on my Apple Watch and it came ""Inconclusive"". I had never seen that outcome before. I repeated it a dozen times, and it kept arriving to the same result. The next day, I did a brief workout and after my heart rate was down to ~80bpm I repeated the Afib test. It came positive:
+
+The next day I went to my doctor and get hooked up on a 12-lead EKG. Within just one 10 second sample, we caught one of abnormal beats. It wasn't Afib, luckily. The diagnosis from the EKG monitor was ""Premature Ventricular Contraction"", which was confirmed by a radiologist a day later:
+
+My doctor told me this is usually a benign thing... unless it was ""too frequent"", which would be above 10,000 PVCs per day. I did some quick math in my head, and I was sure I was at that threshold or thereabouts. Doctor still tried to reassure me, but when I went home I did some research and found several recent studies which linked a PVC burden of just 70 events per day to significant increases in mortality, cardiovascular events, sudden cardiac arrests, heart attacks, dangerous arrhythmias, stokes, and may other bad things. One study that followed up with 7,500 participants with no known cardiovascular disease found that 75% of those who had shown shown one PVC event on an EKG (like me) were dead after 18 years, while only 20% from the control group with no PVC had died. The studies on athletes with PVC were even more concerning, with some strong links to sudden death.
+
+My doctor gave me a 14 day heart rate monitor, which was going to count all PVC events, and the circumstances in which they happen.
+
+As a precaution, I stopped all my exercise. Yet, the frequency of my PVCs keep increasing until Oct 11, where they were happening every 4 or 5 beats. Because of the very evident high frequency, I got to do a bunch of other tests to try to rule out any damage in the heart that might be causing them.
+
+First, was blood work. It looked for electrolyte imbalance, inflammation markers, thyroid issues, and a few other things. All came normal.
+
+Then I did an echocardiogram (ultrasound) of the heart and main arteries. It found everything normal. The left atrium had slightly higher volume than normal, but all the wall thicknesses were normal. There were no signs of inflammation (one of the covid risks that could last several months), the valves were working well, and my ejection fraction (the amount of blood the heart pumps each time it beats) was calculated to 60-65%, which is good. No plaque or narrowing of the arteries. No heart visible damage.
+
+Then I also did a CT coronary angiogram. My LDL cholesterol level has always been borderline or slightly elevated, and this test would look for any blockages in the vessels that supply oxygen to the heart. The test produces a 3D imagine of the heart and the blood flow gets enhanced with a contrast dye that looks bright on the CT scan. This also went well. No narrowing was found, and my calcium score was zero. My risk of heart attack within the next 5yrs was zero according to the radiologist.
+
+And finally I got another EKG which shed some light on what was actually happening. This time the EKG finding was ""Incomplete Right Bundle Branch Block"", which in the original EKG was either missed, or the signal was disrupted by the PVC event. This is when there's a reduction of electrical conductivity in the wall that separates the left and right ventricles. It can lead to all sorts of bad things, but mine is considered a benign variant (based on other signs on the EKG), and something that 35-50% of endurance athletes have developed. There are no known harmful outcomes for the variant I have (good news), and it usually disappears when people stop exercising for a couple of months.
+
+So here's what's likely happening:
+
+The contractions of our heart are not controlled by the central nervous system, like most of our other muscles. Instead, the heart is able to generate its own spontaneous electrical activity to activate its muscles in a fully autonomous and decentralized manner. The master pacemaker for the electrical activity to start and generate the heartbeat contractions is called the SA node, which sits at the top of the heart. When it generates activity, the top 2 chambers of the heart (atria) contract to push blood to the lower ventricles where the main pumping function happens. But the lower ventricles should only contract after a small delay, or else the blood wouldn't have enough time to make it from the atria to the ventricles. So the SA node only activates the atrial muscles (not the lower ventricles), and the electrical activity gets absorbed by a secondary pacemaker structure called the AV node. The AV node delays the conduction for about a tenth of a second (enough time for blood to move from the top to bottom chambers), and then it forwards the electrical activity through the middle wall and down to the ventricles. The ventricles then contract which push blood to the body and lungs, and the cycle repeats itself. (I'm simplifying A LOT of course.)
+
+What's interesting is that the AV node can also act like a backup pacemaker if the SA node doesn't do its job. If the SA node doesn't initiate a heart beat for some reason, the AV node will initiate its own electrical activity, contract the atria, and send the electrical activity down to the ventricles for them to contract. What's even more fascinating is that this system is completely decentralized. There is no ""brain"" watching for missed SA node activity to failover to pacemaking function to the AV node. Instead, there's a hierarchy of several fallbacks (not just SA and AV nodes), and they all watch each other. If they never see activity from the higher up node, they start their own heart beat.
+
+The way it works is quite simple. The master SA node is configured to beat at, say, 1000ms intervals. The AV node is configured to beat at 1200ms intervals. When the AV node receives electricity from the SA node, it resets its timer. So basically, if the AV node fails to hear anything from the SA node in 1200ms, it would start its own heart beat.
+
+But the redundancy doesn't stop with the SA node and AV node. There are actually 3 other parts of the heart that have the automaticity to trigger a heart beat on their own if none of the other nodes do their job. Just like the AV node runs at a slower frequency than the SA node, all the other fallback structures run at increasingly slower rates. Then when they receive electricity from up the hierarchy, they all reset their timer at the same time without triggering a beat.
+
+Here's an illustration of all the conductivity structures and their location. All of these except 2 and 7 have the capability to trigger a heart beat, but in normal conditions 1 is the true pacemaker:
+
+So here's what seems to have happened to me:
+
+Because of my increased exercise load, my heart did some cardiac remodeling to adapt to the increased demand. The left atrium increased in volume (confirmed by the ultrasound), which compressed the cells of structure 5 (the bundle branches). This compression led to slightly slower conduction velocity, which means that structure 6 was receiving the electrical activity a bit later than normal. And when this delay happened to be a bit too late, it thinks that the heart beat didn't happen and spontaneously triggers its own beat. This is the PVC deflection shown in my original EKG. When this structure triggers its premature beat, there would be almost no blood in the heart (because a regular beat would have just happened a few milliseconds earlier). But since this generates new electrical activity, all the other pacemaking structures reset their timers, and that's how I end up with a skipped heart beat. Then the beat that comes after the skipped beat finds the heart with significantly more blood than usual, which causes the pounding sensation that was making it hard for me to sleep at night.
+
+Basically, in terms of the CAP theorm, my heart experienced a partitioning problem. One part of the heart wasn't aware of the real state of the system. But the heart is designed for max availability over consistency, so when in doubt, it triggers a beat. For a full cardiac arrest to happen, all 5 pacemakers or conduction pathways need to fail. The heart is an AP system (highly available and partition loss tolerant, over perfect consistency). Pretty remarkable.",f,t,,f,f
 1461202806249910272,1716753134216049896,DormainDrewitz,2021-11-18 05:21:11,"Email from the 1st grade teacher: Your son is repeatedly late to class because he is looking at puddles. Also, he doesn't put spaces between his words and claims that it's because he's half German.
 
 Um, yes, I HAVE met my son.
 Yes, he is absurd.
-No, I don't want him to change.",f,t,,f,f
+No, I don't want him to change.",f,t,fun,f,f
 1461727882024161284,1716937703416623289,Pinboard,2021-11-19 16:07:39,"Like suicide, blockchain is never the answer.",f,t,,f,f
 1461838019728654345,1716937872810342825,mondaypunday,2021-11-19 23:25:18,"Human: we have a color named after you!
 Salmon: really? is it silvery blue like my outsides?
@@ -7560,3 +7760,57 @@ Do you think learning representations = understanding?
 
 Are large language models simply stochastic parrots, or are they much more?",t,f,insightful,f,f
 1713952781294559590,1779978574305114373,E0M,2023-10-16 16:19:21,I’ll be giving a behind the scenes look at how we scaled ChatGPT at 10:30. Most of this we’ve never talked publicly about before and I’m super excited to share it here at @TheLeadDev West Coast. https://t.co/vkyqG2w8QI,t,f,video,f,f
+1713944319210537031,1779994178110727182,LangChainAI,2023-10-16 15:45:43,"📃Want to combine LLMs with your data *without* having to create a new index?
+
+Lots of enterprise data is already in databases like @elastic 
+
+🤖By creating an ElasticSearch Agent, we can allow LLMs to interact with that data directly - no need to move it around
+
+This blog post by Gil Fernandes shows how to do that: https://t.co/1IsPc9iJMm
+
+If you just want to jump into the code, here's the GitHub repo: https://t.co/zkCVUfaI2Y
+
+🚀Let's walk through the key bits:
+
+🤖Uses the OpenAI Functions Agent - this is probably the easiest agent to get started with
+🔧The tools it has available are: ListIndicesTool, IndexShowDataTool, IndexDetailsTool, SearchTool
+🧱Inspired by LangChain SQL Agent",t,f,rag,f,f
+1714678095465304140,1780217218967895178,shauseth,2023-10-18 16:21:29,dont find myself using chatgpt anymore. i mean its really cool and all but im done reading synthetic averaged out made up outputs and copypasting stochastic code i dont understand. i crave for depth and precision dammit,t,f,practical application of ChatGPT,f,f
+1715196330849530347,1780303780169433723,MindBranches,2023-10-20 02:40:46,@Scobleizer There are plenty of business use cases once leaders wrap their heads around what LLM’s can do. https://t.co/DCaO2ARuRW,t,f,business,t,f
+1715193665256395080,1780304573168844437,Scobleizer,2023-10-20 02:30:11,"“These modes are 60-120x cheaper than GPT-4 and 3-4x cheaper than GPT-3.5-Turbo.”
+
+I keep hearing this from AI developers I talk with. 
+
+The hard part for businesses is figuring out what to use AI for. 
+
+Are you using LLMs yet in your business?
+
+Do you have an idea of where you would if you don’t yet?",t,f,business,f,f
+1715704588123193551,1780442542013920769,svpino,2023-10-21 12:20:24,"I 10x'd my productivity using Jupyter Notebooks.
+
+The reason: nbdev. 
+
+I went from ""a beginner with 10 years of experience writing notebooks"" to a professional overnight.
+
+My two favorite features so far: 
+
+• Testable documentation
+• Git-friendly diffs
+
+I teach a live program about Building Production Machine Learning Systems. We use notebooks in class, and I'm now making changes with nbdev to improve how students access and test the code.
+
+You should look at this thing if you aren't using it yet. It's free, open-source, and super cool.",t,f,tool,f,f
+1716025114675028381,1780459328741833321,TivadarDanka,2023-10-22 09:34:04,"(Jokes aside. The ML tooling image is from Full Stack Deep Learning. I recommend them with all my heart; their course is in the top 3 most useful ones I ever took. And I took a lot of courses.
+
+https://t.co/zAuOarhD49)",t,f,learn,f,f
+1716476285046952049,1780579506970827028,jerryjliu0,2023-10-23 15:26:51,"We’re launching cookbooks 🧑‍🍳 (in partnership w/ @Gradient_AI_) to let you easily 1) fine-tune an open-source LLM (e.g. Llama 2), and 2) plug into your @llama_index LLM/RAG pipeline - no PyTorch required!
+
+✅ fine-tune nous-hermes
+✅ fine-tune llama2 for better text-to-SQL
+
+Our new @llama_index + Gradient fine-tuning engine allows you to offload fine-tuning to an API, similar to the OpenAI endpoints. Simply prepare your dataset in the required prompt format and launch the job 🚀
+
+We teach you how to fine-tune Llama2-7b to be significantly better at text-to-SQL. See screenshots 🖼️ below for workflow. Consider it as a cheaper alternative to OpenAI in your structured analytics workloads! 💸
+
+Fine-tuning nous-hermes-13b: https://t.co/0EaQ2jXLYf
+Fine-tuning llama2-7b-chat on text-to-SQL: https://t.co/8SkIdmkktE",t,f,tutorial,f,f
