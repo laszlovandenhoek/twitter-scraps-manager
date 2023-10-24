@@ -3548,7 +3548,7 @@ https://t.co/HRyhlwO4Ho",f,t,,f,f
 
 This time, AI is following the plan suggested by the research on how new innovations spread. https://t.co/bXqLbaYHO8",f,t,,f,f
 1598012114475831296,1750948648716806488,dpaleka,2022-11-30 17:52:32,Interpretability in the wild. Largest interpretable circuit in a GPT found to date. Explains exactly how gpt2-small solves Indirect Object Identification: predicting which word in the previous sentence is the object in the next sentence. https://t.co/CPPJomA92p (8/8) https://t.co/tKvhX09jOY,f,t,,f,f
-1598269692082151424,1751023296922890478,bentossell,2022-12-01 10:56:03,"All the best examples of ChatGPT, from OpenAI:",f,t,,f,f
+1598269692082151424,1751023296922890478,bentossell,2022-12-01 10:56:03,"All the best examples of ChatGPT, from OpenAI:",f,t,practical application of ChatGPT,f,f
 1598254671591723008,1751086899638983629,DannyRichman,2022-12-01 09:56:22,"I mentor a young lad with poor literacy skills who is starting a landscaping business. He struggles to communicate with clients in a professional manner.
 
 I created a GPT3-powered Gmail account to which he sends a message. It responds with the text to send to the client. https://t.co/nlFX9Yx6wR",f,t,practical application of ChatGPT,t,f
@@ -7725,7 +7725,7 @@ Looks like a nice survey of factuality in LLMs. We know LLMs have issues with fa
 
 Definitely worth a read if you are researching or developing with LLMs.
 
-https://t.co/OAlEbzdAdG",t,f,,f,f
+https://t.co/OAlEbzdAdG",t,f,literature review,f,f
 1713233217950482468,1779765927786971178,giansegato,2023-10-14 16:40:04,"if you haven't tried @replit in a while, you'll be blown away by how much it changed in such a short period of time
 
 in the last few weeks alone:
@@ -7744,7 +7744,7 @@ went from idea (""EmptyMyFridge: a backend accepting an input string of ingredie
 
 if you have an idea, want to apply to yc with a prototype, want to start selling something on the internet, or just want to have fun building cool shit with your nerd friends, you literally have 0 excuses
 
-shipping software has never been such an insanely fun and massively exciting activity as it is today",t,f,,f,f
+shipping software has never been such an insanely fun and massively exciting activity as it is today",t,f,coding assistant,f,f
 1712966533331169383,1779767253278135862,llama_index,2023-10-13 23:00:21,Want to save time and money over calling OpenAI to get embeddings for all the text in your RAG pipeline? Now you can run a super-fast local server to generate them yourself! https://t.co/3p7dwlryBw,t,f,rag,f,f
 1713368556618887670,1779945044513567758,thealexker,2023-10-15 01:37:51,"Does GPT understand the world?  
 
