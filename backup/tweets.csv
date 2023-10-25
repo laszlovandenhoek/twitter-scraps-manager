@@ -2745,6 +2745,12 @@ We will do this after having wasted a year and hundreds of thousands of lives in
 By the way not all European countries suffer from the same....
 Portugal and Spain have more than 80% (population) or 90% (eligible population)",f,t,,f,f
 1461768235129483265,1717071952098297438,annabe1e,2021-11-19 18:48:00,When I’m asked to document my code 😂 https://t.co/rO5aGFWaKe,f,t,,f,f
+1716550557601505291,1717087949025181693,francoisfleuret,2023-10-23 20:21:59,I agree with this capitalized message.,f,t,,f,f
+1716680978935255093,1717087949025181694,_beenkim,2023-10-24 05:00:14,"Better way to do interpretability:♟️Interpretability has been my passion for more than a decade. Most of time however, I was frustrated; many method don't seem to meet their promise, some even provably wrong*. I felt stuck in this impossible task. https://t.co/B7A2jseN0p",f,t,,f,f
+1716575401919820260,1717087949025181695,parkerharris,2023-10-23 22:00:42,Finally joined @huggingface - what took me so long! Great talking to you @ClementDelangue,f,t,,f,f
+1716709334489673849,1717087949025181696,main_horse,2023-10-24 06:52:54,"most complex llm paper
+vs
+least complex diffusion paper https://t.co/Q2xeJzg5xo",f,t,,f,f
 1462496412671819778,1717127886461418404,newsycombinator,2021-11-21 19:01:31,Only 90s Web Developers Remember This (2014) https://t.co/rz4MT0S4pN,f,t,,f,f
 1462841771403227139,1717162978275828473,gunnarmorling,2021-11-22 17:53:51,"That one is just for you, @lukaseder 🤓.",f,t,,f,f
 1462850892697325569,1717248474705537823,runarorama,2021-11-22 18:30:05,We’ve come back from the future to show you how the core functionality of something like Spark (a multi-million-line codebase) can be implemented in less than 100 lines of Unison code.,f,t,,f,f
@@ -3457,10 +3463,10 @@ And when it feels really good, it's mostly useless.",f,t,,f,f
 1581923911612399616,1746950821637079392,gunnarmorling,2022-10-17 08:23:45,"Built-in real-time data change streaming capabilities are becoming table stakes for any database. The world itself is real-time, and people have become to expect this from their applications, too. Soon, DBs without change streams will appear as odd as a DB without SELECT.",f,t,,f,f
 1581841852755431424,1746960323049420830,austinlparker,2022-10-17 02:57:41,"new on my blog: @mononcqc nerd sniped me with a paper and so I wrote about it. ""Stop Trying To Make Observability Happen"" talks about why we actually fail to build resilient software systems and hopefully how we can fix that.
 
- https://t.co/7UzGyBD1o3",f,t,,f,f
+ https://t.co/7UzGyBD1o3",f,t,observability,f,f
 1581391353149210625,1746968677243127420,ParikPatelCFA,2022-10-15 21:07:34,"Reality: print(“Hello World!”)
 
-LinkedIn: https://t.co/kxJZNSpJaI",f,t,,f,f
+LinkedIn: https://t.co/kxJZNSpJaI",f,t,fun,f,f
 1582159027332468737,1747050626313915137,lilyjclifford,2022-10-17 23:58:01,"i'm announcing the company we've been building.
 
 it's called rime.
@@ -3468,10 +3474,10 @@ it's called rime.
 here's a tiny demo of what truly generative text-to-speech can accomplish. https://t.co/WbaShCGcth",f,t,cool demo,f,f
 1582401316961165314,1747107304787561641,openbioml,2022-10-18 16:00:48,"Hi everyone, today we are announcing the start of the LibreFold project, a collaborative research workshop aiming to improve AlphaFold-like protein structure prediction methods. 
 
-1/8",f,t,,f,f
+1/8",f,t,bio,f,f
 1583158039988695041,1747240521207304659,kanjun,2022-10-20 18:07:45,"Today, AI systems can create stunning art &amp; beat humans at chess &amp; Go. But they can't do things a 3-year-old can do. Why?
 
-We're launching @genintelligent &amp; open sourcing our research environment, Avalon, so as a community we can answer these questions: https://t.co/dNs0TpQeh3",f,t,,f,f
+We're launching @genintelligent &amp; open sourcing our research environment, Avalon, so as a community we can answer these questions: https://t.co/dNs0TpQeh3",f,t,mechanistic interpretability,f,f
 1583184692282478592,1747275473538752253,soniajoseph_,2022-10-20 19:53:39,"machine learning twitter-- 
 
 ML is moving fast. Which research ideas / PhD topics will remain critical 3-4 years from now?",f,t,research topics,f,f
