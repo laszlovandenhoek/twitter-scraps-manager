@@ -2753,6 +2753,14 @@ vs
 least complex diffusion paper https://t.co/Q2xeJzg5xo",f,t,,f,f
 1462496412671819778,1717127886461418404,newsycombinator,2021-11-21 19:01:31,Only 90s Web Developers Remember This (2014) https://t.co/rz4MT0S4pN,f,t,,f,f
 1462841771403227139,1717162978275828473,gunnarmorling,2021-11-22 17:53:51,"That one is just for you, @lukaseder 🤓.",f,t,,f,f
+1716872710796816516,1717183524286496768,CurtTigges,2023-10-24 17:42:06,"Sentiment is everywhere in language. But how do LLMs represent it?
+
+We find:
+- All models studied have a linear, causal sentiment direction
+- They summarize information at placeholder tokens like commas
+
+An early step towards decoding world models!
+https://t.co/A94VA2X6xc https://t.co/14cX8A0YCo",f,t,,f,f
 1462850892697325569,1717248474705537823,runarorama,2021-11-22 18:30:05,We’ve come back from the future to show you how the core functionality of something like Spark (a multi-million-line codebase) can be implemented in less than 100 lines of Unison code.,f,t,,f,f
 1463146843156717576,1717286363368688279,smdiehl,2021-11-23 14:06:06,"I did a tweet thread a while back about the analogy between Vonnegut's classic novel and the crypto asset bubble, but decided to turn that into a longer form essay:
 
