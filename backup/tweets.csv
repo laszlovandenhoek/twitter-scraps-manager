@@ -3425,17 +3425,17 @@ Read: https://t.co/wCK4nbI3bs https://t.co/UQIbAiISH5",f,t,,f,f
 Within your lifetime, AI researchers will understand the principles of intelligence—what it is and how it works—well enough to create beings of far greater intelligence than current humans.",f,t,,f,f
 1576414736119664640,1745608538158524905,fchollet,2022-10-02 03:32:16,"Image generation models are fascinating tools for exploring the structure of the visual world.
 
-We just released a tutorial about how to walk around the latent manifold of Stable Diffusion: https://t.co/tCcC8Z5IKT https://t.co/6TRKdYTbxP",f,t,,f,f
+We just released a tutorial about how to walk around the latent manifold of Stable Diffusion: https://t.co/tCcC8Z5IKT https://t.co/6TRKdYTbxP",f,t,cool demo,f,f
 1576928304161923073,1745688238435305327,barrald,2022-10-03 13:33:00,"Whoaaa, it turns out DuckDB can turn Postgres into a HTAP solution 🤯
 
 RIP to millions of ETL pipelines...
 
-https://t.co/E8IajPvnh0",f,t,,f,f
-1577229225936900096,1745789692257467901,hhariri,2022-10-04 09:28:45,"So essentially in Amsterdam it doesn't matter if a pedestrian has legal preference, you respect the bicycles or suffer the consequences. Did I get this right?",f,t,,f,f
+https://t.co/E8IajPvnh0",f,t,data engineering,f,f
+1577229225936900096,1745789692257467901,hhariri,2022-10-04 09:28:45,"So essentially in Amsterdam it doesn't matter if a pedestrian has legal preference, you respect the bicycles or suffer the consequences. Did I get this right?",f,t,relatable,f,f
 1577298602371809281,1745790219917630101,forrestbrazeal,2022-10-04 14:04:26,"new little song:
 
-""The Re-Org Rag (I'm My Own VP)"" https://t.co/NLB4dtpD8s",f,t,,f,f
-1577705369425543169,1745970437409774044,demishassabis,2022-10-05 17:00:47,"Since 1969 Strassen’s algorithm has famously stood as the fastest way to multiply 2 matrices - but with #AlphaTensor we’ve found a new algorithm that’s faster, with potential to improve efficiency by 10-20% across trillions of calculations per day! https://t.co/nLvFbEDBuO",f,t,,f,f
+""The Re-Org Rag (I'm My Own VP)"" https://t.co/NLB4dtpD8s",f,t,relatable,f,f
+1577705369425543169,1745970437409774044,demishassabis,2022-10-05 17:00:47,"Since 1969 Strassen’s algorithm has famously stood as the fastest way to multiply 2 matrices - but with #AlphaTensor we’ve found a new algorithm that’s faster, with potential to improve efficiency by 10-20% across trillions of calculations per day! https://t.co/nLvFbEDBuO",f,t,frontier,t,f
 1577925035892920325,1746004241673352296,Japked,2022-10-06 07:33:39,Handig carrièreschema. Graag gedaan 😌 https://t.co/mU8zQVP0zT,f,t,relatable,f,f
 1578384837924323331,1746061802533383022,TamasGorbe,2022-10-07 14:00:44,"In 1964, C.P. Willans found this exact(!) formula for the primes.
 
@@ -3449,7 +3449,7 @@ https://t.co/uk1mqXpZ8z https://t.co/Q2UkGKydnh",f,t,math,f,f
 - Make-A-Video [29 Sep 2022]
 - Imagen-video [6 Oct 2022]
 
-Anything missing?",f,t,,f,f
+Anything missing?",f,t,frontier,f,f
 1578719372293550080,1746165026010405563,mthmulders,2022-10-08 12:10:04,"@mariofusco There are people here in the Netherlands saying it's ""not my war"". Oh, how wrong y'all are, for all of the above. And even before that: can I remind you of flight MH-17 for a minute? Saying it's not your war is like dancing on the graves of the innocent souls who died that day.",f,t,relatable,f,f
 1579190678852358145,1746284251946458862,fasterthanlime,2022-10-09 19:22:52,"""My hobbies? I'd say I like to do extremely deep dives into highly technical topics, and then quickly forget anything that would make me useful, remembering barely enough to be pedantic whenever the occasion presents itself""",f,t,relatable,f,f
 1579710303541301248,1746474516078133489,simonw,2022-10-11 05:47:40,@intrcnnctd @genmon Have you played with @Tailscale yet? Makes it absurdly easy to run something like a Raspberry Pi on your home network and securely connect to it from your phone or laptop anyway in the world without any complex router shenanigans,f,t,vpn,f,f
