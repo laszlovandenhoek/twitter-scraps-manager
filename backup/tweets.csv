@@ -2880,6 +2880,86 @@ podcast: https://t.co/3JojV94UNc",f,t,,f,f
 
 The space telescope is now on its way to #UnfoldTheUniverse at its final destination one million miles (1.5 million km) away from Earth. https://t.co/gqICd0Xojz",f,t,,f,f
 1474836742423392257,1720201352285335161,rickasaurus,2021-12-25 20:17:35,What in god’s name is this monstrosity? https://t.co/QAwmebmjZe,f,t,,f,f
+1717344862637555899,1720402339732389870,deepfates,2023-10-26 00:58:16,"did you know that there's a website hosting over 500TB of books and journal articles liberated from private sources? And they'll let you have it for free to train your LLM? especially if it's open source?
+
+much to think about https://t.co/j5HCQmOO7I",f,t,,f,f
+1717581806524858572,1720402339732389871,emollick,2023-10-26 16:39:48,"Giving a talk to 80 high-performing innovation managers &amp; everyone had tried ChatGPT… but only 2 had used GPT-4.
+
+I increasingly see this as the barrier to AI adoption. People use Bard or free ChatGPT &amp; come away with a bit of a shrug. They don’t understand what they are missing",f,t,,f,f
+1717348447211163842,1720402339732389872,arankomatsuzaki,2023-10-26 01:12:31,"Detecting Pretraining Data from Large Language Models
+
+We propose Min-K% Prob, a simple and effective method that can detect whether if a LLM was pretrained on the provided text without knowing the pretraining data.
+
+proj: https://t.co/ZpyuFA43Z1
+abs: https://t.co/lDXkHp5cmw https://t.co/lRv62lzsIe",f,t,,f,f
+1717572970900541882,1720402339732389873,skirano,2023-10-26 16:04:41,"Here's another trained model that has blown my mind. 🤯
+
+A Toy Story model that is so good, I can't stop generating stuff.
+
+I am confident my algorithm can surpass MidJourney on certain things, especially texture, lighting and styling. https://t.co/IOfiRCj7mh",f,t,,f,f
+1717599202832753134,1720402339732389874,cwolferesearch,2023-10-26 17:48:56,"Most intro paragraphs for AI/ML papers just re-state the same, basic info about AI. But, the recent ""GPT-4 Doesn’t Know It’s Wrong"" paper has one of the best intros I've ever read...
+
+""Large Language Models (LLMs), essentially n-gram models on steroids which have been trained on web-scale language corpus, have caught the imagination of the AI research community with linguistic behaviors that no one expected text completion systems to possess."" 
+
+Describing LLMs as ""n-gram models on steroids"" has to be one of the best ways to start a paper that I've ever seen! 😂 Plus, this paper is super interesting! 
+
+Paper Topic: This paper studies the ability of LLMs (GPT-4 in particular) to solve graph coloring problems.
+
+Major Findings:
+- GPT-4 cannot solve graph coloring problems. 
+- GPT-4 cannot verify correct solutions to graph coloring problems. 
+- Because the model cannot verify solutions to a graph coloring problem, it also cannot iteratively self-critique and revise its solution to yield a better answer.
+- Even when verification is handled through an external oracle/module, GPT-4 cannot iteratively work towards a correct, revised solution. 
+- GPT-4's ability to solve graph coloring problems equates to generating multiple answers and checking if one of them is correct. The model cannot use information about why its solution is incorrect to generate a better, revised answer.  
+
+Takeaway: Using LLMs to critique/evaluate their own responses (or those of other language models), is a super common practice for evaluating LLMs or iteratively solving complex problems (e.g, Graph of Thoughts prompting). However, this paper finds that the ability of LLMs to self-critique their solutions to a problem may be limited (at least in the case of graph coloring problems). 
+
+Summary of contributions: ""The study seems to indicate that (i) LLMs are bad at solving graph coloring instances (ii) they are no better at verifying a solution–and thus are not effective in iterative modes with LLMs critiquing LLM-generated solutions (iii) the correctness and content of the criticisms–whether by LLMs or external solvers–seems largely irrelevant to the performance of iterative prompting. We show that the observed effectiveness of LLMs in iterative settings is largely due to the correct solution being fortuitously present in the top-k completions of the prompt (and being recognized as such by an external verifier).""",f,t,,f,f
+1717551214101987408,1720402339732389875,flo_re2003,2023-10-26 14:38:14,"@rowancheung Your example is super bad, showing massive hallucinations and false information. @LangChainAI has nothing to do with blockchain technology. You should really put more effort into the content you share here.",f,t,,f,f
+1717789750894252352,1720402339732389876,insaan,2023-10-27 06:26:06,@flo_re2003 @rowancheung @LangChainAI Had to scroll too far to find this. I was wondering if anyone else noticed.,f,t,,f,f
+1717742207489155503,1720402339732389877,rowancheung,2023-10-27 03:17:11,"Forbes launched an AI search tool called Adelaide.
+
+The news search tool, powered by Google Cloud, offers AI personalized recommendations and insights from Forbes' journalism. https://t.co/Zx2y4oBqDU",f,t,,f,f
+1718445317559902371,1720402339732389878,thealexker,2023-10-29 01:51:05,"Many startups just died today. 
+
+Because OpenAI added PDF chat. You can also chat with data files and other document types.
+
+We had a wave of products better suited as features rather than stand-alone companies.
+
+Wrappers are being squeezed by OpenAI on one side and incumbents on the other. 
+
+It's a rough world out there.",f,t,,f,f
+1718670757385916839,1720402339732389879,fffiloni,2023-10-29 16:46:54,"👋 Coqui + Bark voice cloning demo is back @huggingface 🤗
+
+This is a new space instance, running in a custom 🐳Docker container, as i needed to find a solution around pip resolver issues 👨‍🔧😉
+
+Thanks for your patience 🙏
+
+https://t.co/o1Bwu0PqfE",f,t,,f,f
+1718915090357817848,1720402339732389880,fffiloni,2023-10-30 08:57:48,"@lvdhoek @huggingface It’s been fixed 5 minutes ago, refresh and check the community tabs if you are running this locally 👀
+
+https://t.co/oesSSHQvuy",f,t,,f,f
+1718759211168051429,1720402339732389881,DeveloperHarris,2023-10-29 22:38:23,cursor + gpt4 32k removes the tedium from programming https://t.co/RE5DQEWWrE,f,t,,f,f
+1718916631512949248,1720402339732389882,felix_red_panda,2023-10-30 09:03:55,Microsoft paper claims ChatGPT 3.5 has ~20 billion parameters https://t.co/gZxh0l2VqX https://t.co/EDCWbLdYEz,f,t,,f,f
+1719033924674826671,1720402339732389883,tomgoldsteincs,2023-10-30 16:50:00,"🕷Neural nets have dead ReLUs that we prune or ignore.
+
+🎃But Halloween blurs the boundary between living and dead. Tonight, these ReLUs cannot be ignored.🎃
+
+This is a thread for those brave enough to learn of the CLIP model’s death neuron. Scroll away if you must sleep tonight. https://t.co/0poBq8HOJs",f,t,,f,f
+1719041744371884537,1720402339732389884,togethercompute,2023-10-30 17:21:04,"We are excited to release RedPajama-Data-v2: 30 trillion filtered &amp; de-duplicated tokens from 84 CommonCrawl dumps, 25x larger than our first dataset. 
+It exposes a diverse range of quality annotations so you can slice &amp; weight the data for LLM training.
+
+https://t.co/5zT0C3QBjQ https://t.co/pdZb2AqCDD",f,t,,f,f
+1712564282167300226,1720402339732389885,conradgodfrey,2023-10-12 20:21:57,"GPT-4V ""Describe this image"" 
+          🔃
+ Dall-E 3  ""Generate this image""
+
+Recursive loop https://t.co/yeAsNvdC9W",f,t,,f,f
+1719732647549952146,1720402339732389886,Teknium1,2023-11-01 15:06:28,"wtf is going on in this shared chatgpt chat??
+
+https://t.co/OaoleD2Xx7",f,t,,f,f
+1719505617453265253,1720402339732389887,_onionesque,2023-11-01 00:04:20,"In 1964 the Lawrence Radiation lab did an experiment. They hired 3 postdocs with little experience in nuclear physics, to understand if just a few capable scientists could produce a nuclear weapon with a militarily significant yield using unclassified technology. They succeeded. https://t.co/vzl1n4svrc",f,t,,f,f
+1719774923294687636,1720402339732389888,GoogleAI,2023-11-01 17:54:28,"Announcing MetNet-3, the first AI weather model to learn from sparse observations and outperform the top operational systems up to 24 hours ahead at high resolutions. A portion of its forecasts are now available across various Google products. Learn more→ https://t.co/5nH4dOKu0i https://t.co/v6fJX2PvzC",f,t,,f,f
 1476654137169297408,1720641171506077100,iancanwrite,2021-12-30 20:39:15,Tabloid journalism. https://t.co/p0JBbo2MdY,f,t,,f,f
 1477053278538113027,1720731250342729327,GKlijs,2021-12-31 23:05:18,Happy new year all. https://t.co/ykzeCggix6,f,t,,f,f
 1476977082655817730,1720788148570625779,newsycombinator,2021-12-31 18:02:32,A single line of code made a 24-core server slower than a laptop https://t.co/8SUSuzQK8P,f,t,,f,f
@@ -3289,27 +3369,27 @@ Proud of everyone involved in releasing this tech that is the first of a series 
 1562503814422630406,1742156261506327362,tomgoldsteincs,2022-08-24 18:15:13,"Diffusion models like #DALLE and #StableDiffusion are state of the art for image generation, yet our understanding of them is in its infancy. This thread introduces the basics of how diffusion models work, how we understand them, and why I think this understanding is broken.🧵 https://t.co/IuZIVegWGz",f,t,,f,f
 1562218336032886784,1742166925275219013,psa10memes,2022-08-23 23:20:50,Amazing photo of Jupiter https://t.co/ZSMJ7hxWDD,f,t,,f,f
 1564287640366628866,1742528020465553876,onejasonknight,2022-08-29 16:23:31,When the development team meet their first Scrum Master https://t.co/l0R4qMujKy,f,t,,f,f
-1564028132772184064,1742603206768843761,philipsu,2022-08-28 23:12:19,My son Caleb (15) just proved @babaisyou_ is Turing complete using a method superior to previously published ones. It uses base-6 and wins iff it halts. @ESAdevlog: lifting the six-item stacking limit would unlock its full potential. His research paper: https://t.co/P4Xosd8Gz4 https://t.co/PeotJM84FO,f,t,,f,f
-1564364832471928832,1742616105552226272,SteveStuWill,2022-08-29 21:30:15,Fascinating – a rudimentary artistic impulse in a nonhuman primate? https://t.co/Wk5mlXDr9L https://t.co/RIUbqt1rGd,f,t,,f,f
+1564028132772184064,1742603206768843761,philipsu,2022-08-28 23:12:19,My son Caleb (15) just proved @babaisyou_ is Turing complete using a method superior to previously published ones. It uses base-6 and wins iff it halts. @ESAdevlog: lifting the six-item stacking limit would unlock its full potential. His research paper: https://t.co/P4Xosd8Gz4 https://t.co/PeotJM84FO,f,t,inspirational,f,f
+1564364832471928832,1742616105552226272,SteveStuWill,2022-08-29 21:30:15,Fascinating – a rudimentary artistic impulse in a nonhuman primate? https://t.co/Wk5mlXDr9L https://t.co/RIUbqt1rGd,f,t,animals,f,f
 1564601398284664832,1742654920828784971,daniel_eckler,2022-08-30 13:10:16,"AI Art 101 🧵
 
-27 tweets that will 🤯 your brain.",f,t,,f,f
-1565183329607237633,1742874655409902885,WillMuldoon,2022-09-01 03:42:40,"According to the official AK voter rolls, there are actually *nine* official genders in Alaska: https://t.co/X9gciM0bwJ",f,t,,f,f
+27 tweets that will 🤯 your brain.",f,t,cool demo,f,f
+1565183329607237633,1742874655409902885,WillMuldoon,2022-09-01 03:42:40,"According to the official AK voter rolls, there are actually *nine* official genders in Alaska: https://t.co/X9gciM0bwJ",f,t,fail,f,f
 1566827563942645760,1743237759394442079,iximiuz,2022-09-05 16:36:16,"6. There are also language-specific distroless images:
 
 - distroless/java for Java 11 &amp; 17
 
 - distroless/nodejs for Node.js 14 &amp; 16 &amp; 18
 
-- distroless/python3, well, for Python 3 (but it's still experimental).",f,t,,f,f
+- distroless/python3, well, for Python 3 (but it's still experimental).",f,t,containers,f,f
 1566873127866421249,1743254301840302252,seismogenic,2022-09-05 19:37:19,"Traditionally, Icelandic rúgbrauð is baked in the hot geothermal ground: a low-and-slow process.
 The San Fernando Valley isn't geothermal, but we ARE in an extreme heatwave right now.
 Let's see if my car can achieve the low-and-slow conditions needed for baking rúgbrauð.
-(thread) https://t.co/bX2BrkgUAe",f,t,,f,f
-1567507955213377536,1743324044933186118,TimvEijndhoven,2022-09-07 13:39:54,"@lvdhoek @jboner Such a shame, it goes to show that it is risky to depend on these commercial company controlled open source building blocks. In the end it is the bottom line of the company that matters. (which is in no means a jab at Lightbend, it is their perogative to take such a decision)",f,t,,f,f
+(thread) https://t.co/bX2BrkgUAe",f,t,fun,f,f
+1567507955213377536,1743324044933186118,TimvEijndhoven,2022-09-07 13:39:54,"@lvdhoek @jboner Such a shame, it goes to show that it is risky to depend on these commercial company controlled open source building blocks. In the end it is the bottom line of the company that matters. (which is in no means a jab at Lightbend, it is their perogative to take such a decision)",f,t,relatable,f,f
 1567688342124503040,1743426252693192843,chrisalbon,2022-09-08 01:36:41,"2022: “WOW you can write a prompt and an AI will draw it!”
 
-2028: “You want to write a prompt? First you need to hire 10-15 promptOps Engineers to build out your PromptFlow pipelines which sends promptjobs to your PromptLake from the PromptQueue using the EventPrompt stream”",f,t,,f,f
+2028: “You want to write a prompt? First you need to hire 10-15 promptOps Engineers to build out your PromptFlow pipelines which sends promptjobs to your PromptLake from the PromptQueue using the EventPrompt stream”",f,t,business,f,f
 1568147649668476929,1743478432059275595,ktosopl,2022-09-09 08:01:49,"What a weird and messed up decade this has been so far...
 - covid
 - invasion of ukraine
@@ -3350,18 +3430,18 @@ The study below runs 10 benchmark problems in 28 languages. It measures the runt
 1569722551156310016,1743873212991330162,klafbang,2022-09-13 16:19:54,"The best way to grow your legitimate crypto business is to acquire a unicorn, because clearly you're dreaming or high if you think legitimate crypto businesses exist.",f,t,,f,f
 1570096782390226944,1744014913214897417,ch402,2022-09-14 17:06:58,"I've never had so many ""this can't possibly be true, we must have a bug"" results in the course of a research project before.
 
-I'd like to take a moment to walk through some of the very strange (and surprisingly beautiful) things we found.",f,t,,f,f
-1570405910434181121,1744065163733976754,dta256,2022-09-15 13:35:20,@AnthropicAI My gut feeling tells me it might be related to semigroups theory. Have you checked this: https://t.co/Hjl2fU6BJ0?,f,t,,f,f
+I'd like to take a moment to walk through some of the very strange (and surprisingly beautiful) things we found.",f,t,mechanistic interpretability,f,f
+1570405910434181121,1744065163733976754,dta256,2022-09-15 13:35:20,@AnthropicAI My gut feeling tells me it might be related to semigroups theory. Have you checked this: https://t.co/Hjl2fU6BJ0?,f,t,math,f,f
 1570442473536880645,1744107575409751948,QuinnyPig,2022-09-15 16:00:37,"An awful lot of what @awscloud does is transformative, admirable, and (I'm particularly guilty of this one) doesn't get enough credit for what it is.
 
-This morning is not one of those things, as they're hosting an ""AWS Web3 Ready"" webinar.",f,t,,f,f
-1570419668501745664,1744110204472267839,Rainmaker1973,2022-09-15 14:30:00,"Kanzi the bonobo lives in America and has learnt how to build a fire, light it using matches and toast marshmallows on it. It shows just how like us some primates really are [full video: https://t.co/0999k9QCv4] [read more: https://t.co/nTxS3DomPT] https://t.co/sDqloH1rB3",f,t,,f,f
-1570598156160897024,1744110844511041096,amasad,2022-09-16 02:19:15,I grew up in the golden age of SQL injections but GPT3 injections just hit different  🤣 https://t.co/WpOqPWgFBs,f,t,,f,f
-1570968646096420864,1744197901307482739,simonw,2022-09-17 02:51:27,Wrote up a very quick TIL on using DuckDB in Python to run shockingly fast aggregation queries against 3GB of data in Parquet files (206ms to sum data in three columns across 17m records) https://t.co/jfH2JydfZS,f,t,,f,f
+This morning is not one of those things, as they're hosting an ""AWS Web3 Ready"" webinar.",f,t,crypto,f,f
+1570419668501745664,1744110204472267839,Rainmaker1973,2022-09-15 14:30:00,"Kanzi the bonobo lives in America and has learnt how to build a fire, light it using matches and toast marshmallows on it. It shows just how like us some primates really are [full video: https://t.co/0999k9QCv4] [read more: https://t.co/nTxS3DomPT] https://t.co/sDqloH1rB3",f,t,animals,f,f
+1570598156160897024,1744110844511041096,amasad,2022-09-16 02:19:15,I grew up in the golden age of SQL injections but GPT3 injections just hit different  🤣 https://t.co/WpOqPWgFBs,f,t,prompt injection,f,f
+1570968646096420864,1744197901307482739,simonw,2022-09-17 02:51:27,Wrote up a very quick TIL on using DuckDB in Python to run shockingly fast aggregation queries against 3GB of data in Parquet files (206ms to sum data in three columns across 17m records) https://t.co/jfH2JydfZS,f,t,data engineering,f,f
 1571247549897482241,1744330046079008549,stephanvzeeland,2022-09-17 21:19:42,"@NOS Eens kijken of we met de reacties hier de bingokaart weer vol kunnen krijgen!
 
-Zoals bij elke (energie)transitie zijn er genoeg mensen die vol angst zitten voor veranderende techniek. Dat is niets nieuws.. 😉😉 https://t.co/yuzRXfkReY",f,t,,f,f
-1571314811853570048,1744393867611233438,VoldemortessaLJ,2022-09-18 01:46:59,What a stroke of genius that all those people decided to post almost the same message! 🙄🤭 https://t.co/gkrbIr1fdG,f,t,,f,f
+Zoals bij elke (energie)transitie zijn er genoeg mensen die vol angst zitten voor veranderende techniek. Dat is niets nieuws.. 😉😉 https://t.co/yuzRXfkReY",f,t,relatable,f,f
+1571314811853570048,1744393867611233438,VoldemortessaLJ,2022-09-18 01:46:59,What a stroke of genius that all those people decided to post almost the same message! 🙄🤭 https://t.co/gkrbIr1fdG,f,t,disinformation,f,f
 1572629923017400326,1744683701788696701,OpenAI,2022-09-21 16:52:46,We've trained a neural net called Whisper that approaches human-level robustness and accuracy on English speech recognition. It performs well even on diverse accents and technical language. Whisper is open source for all to use. https://t.co/ueVywYPEkK,f,t,open source models,f,f
 1572752575275102208,1744703591755699964,__steele,2022-09-22 01:00:08,"I regret to inform that I am extremely back on my bullshit.
 
@@ -7828,3 +7908,13 @@ We teach you how to fine-tune Llama2-7b to be significantly better at text-to-SQ
 
 Fine-tuning nous-hermes-13b: https://t.co/0EaQ2jXLYf
 Fine-tuning llama2-7b-chat on text-to-SQL: https://t.co/8SkIdmkktE",t,f,tutorial,f,f
+1717284652661297319,1780817185632542886,javilopen,2023-10-25 20:59:01,"⚡ Decoding  X's (Twitter) ALGORITHM
+
+X released part of its source code months ago, but very few have truly dived into its depths.
+
+I've read everything that has been published and studied the source code so you don't have to.
+
+In this thread, I'll unveil ALL its secrets 🧵👇 https://t.co/YMN8Pu3Cka",t,f,,f,f
+1718831868261335135,1781191442862772809,emollick,2023-10-30 03:27:06,"Rereading @gwern's 2020 experiments with GPT-3, it really does seem prescient (""the 2020s should be quite interesting"").
+
+As he did, I still think there is some insights that come from just playing with LLMs creatively that tech benchmarks alone miss.   https://t.co/PWYzt0HqxN",t,f,,f,f
