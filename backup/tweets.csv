@@ -3405,29 +3405,29 @@ AND YET
 
 so will you
 
-https://t.co/36gCCHwope",f,t,,f,f
+https://t.co/36gCCHwope",f,t,fun,f,f
 1566894893854752770,1743569782016959630,images_ai,2022-09-05 21:03:48,"Fixing famous paintings with AI (🧵)
 
 First up, the Mona Lisa! Honestly, Da Vinci did a pretty sloppy job on this one by today's standards, but using Stability Diffusion™ we were able to bring her back up-to-date with contemporary trends.
 
-/ https://t.co/suAZ1Eg7Jd",f,t,,f,f
+/ https://t.co/suAZ1Eg7Jd",f,t,fun,f,f
 1568247577845596160,1743656040619873235,aaronhoyland,2022-09-09 14:38:53,"Dear world,
 
 Putting baby change stations in the women’s washroom (and maybe the family washroom if there is one) but not the men’s washroom sends a very clear message about whose responsibility you think raising children is, and frankly, I hate it.
 
 Signed,
-A dad",f,t,,f,f
+A dad",f,t,relatable,f,f
 1568681666893459458,1743660961163240504,gunnarmorling,2022-09-10 19:23:48,"TIL about Apache Doris, yet another contender in the real-time analytics space, and the third one at the ASF, besides Apache Pinot and Druid, go figure. MySQL protocol compatibility is interesting.
 
-https://t.co/fUxek504LN https://t.co/r9rLBs7dWR",f,t,,f,f
-1569245068418252801,1743763074965894182,simonw,2022-09-12 08:42:34,"If you're planning on building software where part of it works by concatenating a prompt together to feed to something like GPT3, you need to think very hard about this example here",f,t,,f,f
-1568233670615666689,1743765840416375651,Percona,2022-09-09 13:43:38,"Peter Zaitsev @PeterZaitsev writes about the trend of companies working to redefine what #OpenSource software means because they want to have their cake and eat it, too.  https://t.co/pjz2bNIjo5 #Percona #Databases #Software",f,t,,f,f
+https://t.co/fUxek504LN https://t.co/r9rLBs7dWR",f,t,data engineering,f,f
+1569245068418252801,1743763074965894182,simonw,2022-09-12 08:42:34,"If you're planning on building software where part of it works by concatenating a prompt together to feed to something like GPT3, you need to think very hard about this example here",f,t,prompt injection,f,f
+1568233670615666689,1743765840416375651,Percona,2022-09-09 13:43:38,"Peter Zaitsev @PeterZaitsev writes about the trend of companies working to redefine what #OpenSource software means because they want to have their cake and eat it, too.  https://t.co/pjz2bNIjo5 #Percona #Databases #Software",f,t,open source software,f,f
 1569348391167197185,1743786276741780483,alexxubyte,2022-09-12 15:33:08,"/1 𝐖𝐡𝐚𝐭 𝐀𝐫𝐞 𝐭𝐡𝐞 𝐆𝐫𝐞𝐞𝐧𝐞𝐬𝐭 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 [1]?
 
-The study below runs 10 benchmark problems in 28 languages. It measures the runtime, memory usage, and energy consumption of each language. The abstract of the paper is shown below. https://t.co/NyQ8ZpowJI",f,t,,f,f
-1563641175017406465,1743789123033609037,aidencoder,2022-08-27 21:34:41,"@simonw Much of the AI stuff happening has ""magic"" feelings I've not felt about computing since in was 8 telnet-ing some random box",f,t,,f,f
-1569548382640930816,1743848974998557375,ktosopl,2022-09-13 04:47:49,Block it all to hell… https://t.co/zHUDmGOpFd,f,t,,f,f
-1569722551156310016,1743873212991330162,klafbang,2022-09-13 16:19:54,"The best way to grow your legitimate crypto business is to acquire a unicorn, because clearly you're dreaming or high if you think legitimate crypto businesses exist.",f,t,,f,f
+The study below runs 10 benchmark problems in 28 languages. It measures the runtime, memory usage, and energy consumption of each language. The abstract of the paper is shown below. https://t.co/NyQ8ZpowJI",f,t,sustainability,f,f
+1563641175017406465,1743789123033609037,aidencoder,2022-08-27 21:34:41,"@simonw Much of the AI stuff happening has ""magic"" feelings I've not felt about computing since in was 8 telnet-ing some random box",f,t,relatable,f,f
+1569548382640930816,1743848974998557375,ktosopl,2022-09-13 04:47:49,Block it all to hell… https://t.co/zHUDmGOpFd,f,t,relatable,f,f
+1569722551156310016,1743873212991330162,klafbang,2022-09-13 16:19:54,"The best way to grow your legitimate crypto business is to acquire a unicorn, because clearly you're dreaming or high if you think legitimate crypto businesses exist.",f,t,crypto,f,f
 1570096782390226944,1744014913214897417,ch402,2022-09-14 17:06:58,"I've never had so many ""this can't possibly be true, we must have a bug"" results in the course of a research project before.
 
 I'd like to take a moment to walk through some of the very strange (and surprisingly beautiful) things we found.",f,t,mechanistic interpretability,f,f
@@ -7914,7 +7914,7 @@ X released part of its source code months ago, but very few have truly dived int
 
 I've read everything that has been published and studied the source code so you don't have to.
 
-In this thread, I'll unveil ALL its secrets 🧵👇 https://t.co/YMN8Pu3Cka",t,f,,f,f
+In this thread, I'll unveil ALL its secrets 🧵👇 https://t.co/YMN8Pu3Cka",t,f,twitter,f,f
 1718831868261335135,1781191442862772809,emollick,2023-10-30 03:27:06,"Rereading @gwern's 2020 experiments with GPT-3, it really does seem prescient (""the 2020s should be quite interesting"").
 
-As he did, I still think there is some insights that come from just playing with LLMs creatively that tech benchmarks alone miss.   https://t.co/PWYzt0HqxN",t,f,,f,f
+As he did, I still think there is some insights that come from just playing with LLMs creatively that tech benchmarks alone miss.   https://t.co/PWYzt0HqxN",t,f,GPT-3,f,f
