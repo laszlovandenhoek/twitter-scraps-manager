@@ -3347,28 +3347,28 @@ Comments? https://t.co/cyOaUQ2j9x",f,t,code style,f,f
 1550093205043044352,1738971808427428684,ejpbruel,2022-07-21 12:19:54,"@GKlijs @mariofusco Imo T is fine when its a type that doesnt have any constraints on it, like an element type in a container or a smart pointer, but otherwise its usually possible to pick something more descriptive.",f,t,code style,f,f
 1544206944616849409,1738994821670749970,tibber_nl,2022-07-05 06:30:00,"Hej Nederländerna, hei Nederland, hallo Niederlande, hoi Nederland 👋 
 
-Het is zover: we zijn officieel live! 🎉 Sluit je energiecontract direct af in de Tibber-app of bereken je maandbedrag op onze website: https://t.co/3CHYJCGTDm https://t.co/O5vQCmkpUQ",f,t,,f,f
+Het is zover: we zijn officieel live! 🎉 Sluit je energiecontract direct af in de Tibber-app of bereken je maandbedrag op onze website: https://t.co/3CHYJCGTDm https://t.co/O5vQCmkpUQ",f,t,energy,f,f
 1550510921201553409,1739131371812074864,atomicthumbs,2022-07-22 15:59:45,"I've discovered something horrible, and I am sorry. I can't undo what I've done.
 
-DALL-E 2 prompt: ""A portrait photograph of Homer Simpson holding his dog"" https://t.co/WQkrzt27SB",f,t,,f,f
+DALL-E 2 prompt: ""A portrait photograph of Homer Simpson holding his dog"" https://t.co/WQkrzt27SB",f,t,weird,f,f
 1551208238581948416,1739304058764584672,AdamMGrant,2022-07-24 14:10:38,"Writing isn't what you do after you have an idea. It's how you develop an inkling into an insight.
 
 Turning thoughts into words sharpens reasoning. What's fuzzy in your head is clear on the page.
 
-""I'm not a writer"" shouldn't stop you from writing. Writing is a tool for thinking. https://t.co/nqRT3gKX9l",f,t,,f,f
-1552439333424353280,1739667788488579884,ZachAMcCoy,2022-07-27 23:42:34,Weirdass Mocks in code are almost always the reason things take forever to change in tests.,f,t,,f,f
-1552709928749522945,1739676421249702278,DrNerdLove,2022-07-28 17:37:49,I’VE BEEN CALLED OUT… https://t.co/NIxHpXai7k,f,t,,f,f
-1553097820860600320,1739766977680163081,lemonodor,2022-07-29 19:19:10,"Finally, the only daily, global, free map of GPS interference has officially launched: https://t.co/4ezvY3PEQN Watch jamming around conflict zones develop over time. Wonder who's jamming GPS all around Moscow. Like all the best maps, it raises more questions than it answers! https://t.co/tHFN8detJw",f,t,,f,f
-1561637440938541056,1741870102119682044,shipilev,2022-08-22 08:52:34,"Java Strings are specified with power-31 polynomial hashcode, which means adding ""Aa"" and ""BB"" to existing String produces two different Strings with same hashcode. Repeat recursively if you need more collisions. Easy and useful for hashcode sensitivity tests. https://t.co/30JxqumVNd",f,t,,f,f
-1561684918199001091,1741884591728888278,halvarflake,2022-08-22 12:01:13,"Today in IP law: someone registered a trademark for CUGGL as a clothing brand in Japan, and sells shirts with the logo partially obscured. GUCCI sued, JP trademark office states that CUGGL is not similar enough to GUCCI to warrant enforcement. https://t.co/FKIyaQBtlE",f,t,,f,f
+""I'm not a writer"" shouldn't stop you from writing. Writing is a tool for thinking. https://t.co/nqRT3gKX9l",f,t,mental model,f,f
+1552439333424353280,1739667788488579884,ZachAMcCoy,2022-07-27 23:42:34,Weirdass Mocks in code are almost always the reason things take forever to change in tests.,f,t,testing,f,f
+1552709928749522945,1739676421249702278,DrNerdLove,2022-07-28 17:37:49,I’VE BEEN CALLED OUT… https://t.co/NIxHpXai7k,f,t,relatable,f,f
+1553097820860600320,1739766977680163081,lemonodor,2022-07-29 19:19:10,"Finally, the only daily, global, free map of GPS interference has officially launched: https://t.co/4ezvY3PEQN Watch jamming around conflict zones develop over time. Wonder who's jamming GPS all around Moscow. Like all the best maps, it raises more questions than it answers! https://t.co/tHFN8detJw",f,t,gps,f,f
+1561637440938541056,1741870102119682044,shipilev,2022-08-22 08:52:34,"Java Strings are specified with power-31 polynomial hashcode, which means adding ""Aa"" and ""BB"" to existing String produces two different Strings with same hashcode. Repeat recursively if you need more collisions. Easy and useful for hashcode sensitivity tests. https://t.co/30JxqumVNd",f,t,programming,f,f
+1561684918199001091,1741884591728888278,halvarflake,2022-08-22 12:01:13,"Today in IP law: someone registered a trademark for CUGGL as a clothing brand in Japan, and sells shirts with the logo partially obscured. GUCCI sued, JP trademark office states that CUGGL is not similar enough to GUCCI to warrant enforcement. https://t.co/FKIyaQBtlE",f,t,fun,f,f
 1561777122082824192,1741975087870050890,EMostaque,2022-08-22 18:07:36,"Delighted to announce the public open source release of #StableDiffusion!
 
 Please see our release post and retweet! https://t.co/dEsBX7cRHw
 
-Proud of everyone involved in releasing this tech that is the first of a series of models to activate the creative potential of humanity",f,t,,f,f
-1562503814422630406,1742156261506327362,tomgoldsteincs,2022-08-24 18:15:13,"Diffusion models like #DALLE and #StableDiffusion are state of the art for image generation, yet our understanding of them is in its infancy. This thread introduces the basics of how diffusion models work, how we understand them, and why I think this understanding is broken.🧵 https://t.co/IuZIVegWGz",f,t,,f,f
-1562218336032886784,1742166925275219013,psa10memes,2022-08-23 23:20:50,Amazing photo of Jupiter https://t.co/ZSMJ7hxWDD,f,t,,f,f
-1564287640366628866,1742528020465553876,onejasonknight,2022-08-29 16:23:31,When the development team meet their first Scrum Master https://t.co/l0R4qMujKy,f,t,,f,f
+Proud of everyone involved in releasing this tech that is the first of a series of models to activate the creative potential of humanity",f,t,open source models,f,f
+1562503814422630406,1742156261506327362,tomgoldsteincs,2022-08-24 18:15:13,"Diffusion models like #DALLE and #StableDiffusion are state of the art for image generation, yet our understanding of them is in its infancy. This thread introduces the basics of how diffusion models work, how we understand them, and why I think this understanding is broken.🧵 https://t.co/IuZIVegWGz",f,t,explainer,f,f
+1562218336032886784,1742166925275219013,psa10memes,2022-08-23 23:20:50,Amazing photo of Jupiter https://t.co/ZSMJ7hxWDD,f,t,fun,f,f
+1564287640366628866,1742528020465553876,onejasonknight,2022-08-29 16:23:31,When the development team meet their first Scrum Master https://t.co/l0R4qMujKy,f,t,agile,f,f
 1564028132772184064,1742603206768843761,philipsu,2022-08-28 23:12:19,My son Caleb (15) just proved @babaisyou_ is Turing complete using a method superior to previously published ones. It uses base-6 and wins iff it halts. @ESAdevlog: lifting the six-item stacking limit would unlock its full potential. His research paper: https://t.co/P4Xosd8Gz4 https://t.co/PeotJM84FO,f,t,inspirational,f,f
 1564364832471928832,1742616105552226272,SteveStuWill,2022-08-29 21:30:15,Fascinating – a rudimentary artistic impulse in a nonhuman primate? https://t.co/Wk5mlXDr9L https://t.co/RIUbqt1rGd,f,t,animals,f,f
 1564601398284664832,1742654920828784971,daniel_eckler,2022-08-30 13:10:16,"AI Art 101 🧵
@@ -3398,7 +3398,7 @@ Let's see if my car can achieve the low-and-slow conditions needed for baking r�
 
 But also things I'm proud of; Better (mental) health and crunched out (distributed) actors in swift
 
-Such weird first 2 years of this decade, huh",f,t,,f,f
+Such weird first 2 years of this decade, huh",f,t,relatable,f,f
 1567830032806035456,1743489925376141817,genmon,2022-09-08 10:59:43,"No I can't believe I watched all 19 mins of this YouTube of a dulcet-toned Irish man narrating his construction of a 1:9 scale diorama of the arrest in Malibu in 2006 of a drunk Mel Gibson
 
 AND YET
