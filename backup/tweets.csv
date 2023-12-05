@@ -2457,7 +2457,7 @@ Okay, so most firms have barely just made the transition to cloud data warehouse
 
 Imagine all the benefits of SQL, its widespread literacy, its broad interoperability with tools (DBT, IDEs, language APIs, BI tools) without the overhead, cost, and potential lock-in of data warehouse.
 
-This is why infrastructure use cases are migrating to DuckDB.",f,t,,f,f
+This is why infrastructure use cases are migrating to DuckDB.",f,t,data engineering,t,f
 1451170866591567875,1714410314057444123,annagranta,2021-10-21 12:57:50,Bedtime revenge procrastination happens when ADHDers don't get enough freedom during the day and stay up late to compensate. Do you do this?,f,t,,f,f
 1452607725771366403,1714593549241647174,GKlijs,2021-10-25 12:07:24,"The whole program for Kotlin Dev day is now available. I'm up second to talk about using coroutines, specifically when combined with Java API's.
 #kotlin #opensource #knowledgesharing #java
@@ -3321,13 +3321,13 @@ https://t.co/MwfoNTv4Tm https://t.co/ld5nozPMsP",f,t,,f,f
 
 He described, for instance, the minimal energy necessary for computation.",f,t,,f,f
 1546621080298835970,1738163472867110499,NASAWebb,2022-07-11 22:22:55,"👀 Sneak a peek at the deepest &amp; sharpest infrared image of the early universe ever taken — all in a day’s work for the Webb telescope. (Literally, capturing it took less than a day!) This is Webb’s first image released as we begin to #UnfoldTheUniverse: https://t.co/tlougFWg8B https://t.co/Y7ebmQwT7j",f,t,,f,f
-1548002887640371200,1738452011373262030,robmanuel,2022-07-15 17:53:43,Going the other way is probably a bit ambitious but it made me laugh https://t.co/DNJr5fKXkP,f,t,,f,f
-1547967709337464833,1738542685722645626,WeirdMedieval,2022-07-15 15:33:56,"""really? with the dragon?"" https://t.co/FVq3Dl2VGD",f,t,,f,f
+1548002887640371200,1738452011373262030,robmanuel,2022-07-15 17:53:43,Going the other way is probably a bit ambitious but it made me laugh https://t.co/DNJr5fKXkP,f,t,fun,f,f
+1547967709337464833,1738542685722645626,WeirdMedieval,2022-07-15 15:33:56,"""really? with the dragon?"" https://t.co/FVq3Dl2VGD",f,t,fun,f,f
 1548394788981858304,1738633892138746727,gunnarmorling,2022-07-16 19:51:00,"📺 ""Monitoring Kafka without instrumentation using eBPF""
 
 Great presentation and demo about @apachekafka observability, by @antonmry.
 
-https://t.co/qKCm186bys https://t.co/4mtxDAaiJg",f,t,,f,f
+https://t.co/qKCm186bys https://t.co/4mtxDAaiJg",f,t,observability,f,f
 1548944426818584578,1738757919010018928,hedgehogsociety,2022-07-18 08:15:04,"🚨 🚨 🚨 🚨 Let's make this viral - hedgehogs are dying of dehydration - please please share this post and offer some shallow bowls of water for wildlife (pop a few pebbles in to make sure insects that fall in can escape) 🦔 💧
 
 🎥 Paul Bunyard https://t.co/HVDczGPoI0",f,t,animals,f,f
@@ -3337,7 +3337,7 @@ https://t.co/qKCm186bys https://t.co/4mtxDAaiJg",f,t,,f,f
 
 Much like this picture, Pijul is a version control system that sees the circles between Git's squares: while Git is a graph of snapshots, Pijul is a graph of changes.
 
-Let's animate what that means! 🧵 👇 https://t.co/UkoWIzbBQM",f,t,,f,f
+Let's animate what that means! 🧵 👇 https://t.co/UkoWIzbBQM",f,t,vcs,f,f
 1550026474744414210,1738963786710669983,mariofusco,2022-07-21 07:54:44,"I don't know from where the convention of using a single letter to denote generics in Java started and I've always done the same since thier introduction.
 
 These days I'm rethinking this and finding it hard to read and understand especially when reviewing old code.
