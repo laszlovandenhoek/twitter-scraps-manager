@@ -50,23 +50,24 @@ pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl 
     let mut query_parameters: Vec<&(dyn ToSql + Sync)> = vec!(&size, &offset);
     search_terms.iter().for_each(|term| query_parameters.push(term));
 
-    let query = format!("SELECT * FROM tweets WHERE {} ORDER BY sort_index DESC LIMIT $1 OFFSET $2", where_clauses.join(" AND "));
+    let query = format!("SELECT * FROM tweets WHERE {} ORDER BY fetched_at, sort_index DESC LIMIT $1 OFFSET $2", where_clauses.join(" AND "));
     let stmt = client.prepare(&query).await.unwrap();
     let rows = client.query(&stmt, &query_parameters).await.unwrap();
 
     // Convert rows to your Tweet struct and then to JSON
     let tweets: Vec<Tweet> = rows.iter().map(|row| {
         Tweet {
-            rest_id: row.get(0),
-            sort_index: row.get(1),
-            screen_name: row.get(2),
-            created_at: row.get(3),
-            full_text: row.get(4),
-            bookmarked: row.get(5),
-            liked: row.get(6),
-            category: row.get(7),
-            important: row.get(8),
-            archived: row.get(9),
+            rest_id: row.get("rest_id"),
+            sort_index: row.get("sort_index"),
+            screen_name: row.get("screen_name"),
+            created_at: row.get("created_at"),
+            fetched_at: row.get("fetched_at"),
+            full_text: row.get("full_text"),
+            bookmarked: row.get("bookmarked"),
+            liked: row.get("liked"),
+            category: row.get("category"),
+            important: row.get("important"),
+            archived: row.get("archived"),
         }
     }).collect();
 

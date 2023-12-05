@@ -15,6 +15,7 @@ pub struct Tweet {
     sort_index: String,
     screen_name: String,
     created_at: chrono::NaiveDateTime,
+    fetched_at: chrono::NaiveDateTime,
     full_text: String,
     bookmarked: bool,
     liked: bool,
