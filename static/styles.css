@@ -35,25 +35,30 @@ p {
     margin: 5px;
 }
 
+span.category {
+    font-size: 80%;
+    border: 1px solid black;
+}
+
 th, td {
     vertical-align: top;
     padding: 5px;
     border: 1px solid silver;
 }
 
-tr.categorized {
+.categorized {
     background: gainsboro;
 }
 
-tr.selected {
+.selected {
     background: yellow;
 }
 
-tr.loading, .loading {
+.loading {
     background: aquamarine;
 }
 
-tr.error {
+.error {
     background: red;
 }
 

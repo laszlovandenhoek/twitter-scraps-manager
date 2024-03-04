@@ -67,14 +67,9 @@ function highlighted(matched) {
 }
 
 function markCategorized() {
-    let inputs = document.querySelectorAll('input[name="category"]');
-    Array.prototype.forEach.call(inputs, function (el) {
-        if (el.value) {
-            // Do something with the tr, such as adding a class
-            el.closest('tr').classList.add('categorized');
-        } else {
-            el.closest('tr').classList.remove('categorized');
-        }
+    let buttons = document.querySelectorAll('button[name="remove-category"]');
+    Array.prototype.forEach.call(buttons, function (el) {
+        el.closest('tr').classList.add('categorized');
     });
 }
 
@@ -104,8 +99,11 @@ function fetchTweets() {
                 row.id = tweet.rest_id;
                 row.className = "";
 
-                let full_text = tweet.full_text.replaceAll("\n", "<br>");
+                let full_text = tweet.full_text;
+
                 let screen_name = tweet.screen_name;
+
+                let categories = tweet.categories.map(category => createCategorySpan(tweet.rest_id, category).outerHTML).join('\n');
 
                 if (textSearch.value !== '') {
                     let words = textSearch.value.split(" ").join("|");
@@ -114,14 +112,17 @@ function fetchTweets() {
                     screen_name = screen_name.replace(regex, highlighted);
                 }
 
+                full_text = full_text.replaceAll("\n", "<br>");
+
                 row.innerHTML = `
                     <td><p>${screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
                     <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')"><p>${full_text}</p></td>
                     <td>
-                        <p><input list="categories" id="category-${tweet.rest_id}" name="category" placeholder="Category..." onchange="updateTweet('${tweet.rest_id}', this.value.trim())" value="${tweet.category ? tweet.category : ''}"></p>
-                        <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, this.checked, undefined)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
-                        <p><input type="checkbox" id="isArchived-${tweet.rest_id}" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="updateTweet('${tweet.rest_id}', undefined, undefined, this.checked)"><label for="isArchived-${tweet.rest_id}">Archived</label></p>
+                        <p><input list="categories" id="category-selector-${tweet.rest_id}" name="category" placeholder="Add category..." onchange="addCategory('${tweet.rest_id}', this.value.trim())" value=""></p>
+                        <p id="categories-${tweet.rest_id}">${categories}</p>
+                        <p><input type="checkbox" id="isImportant-${tweet.rest_id}" name="isImportant" ${tweet.important ? 'checked' : ''} onchange="setImportant('${tweet.rest_id}', this.checked)"><label for="isImportant-${tweet.rest_id}">Important</label></p>
+                        <p><input type="checkbox" id="isArchived-${tweet.rest_id}" name="isArchived" ${tweet.archived ? 'checked' : ''} onchange="setArchived('${tweet.rest_id}', this.checked)"><label for="isArchived-${tweet.rest_id}">Archived</label></p>
                     </td>
                     <td onclick="clearLine('${tweet.rest_id}')">♻</td>
                 `;
@@ -144,6 +145,11 @@ function fetchTweets() {
 
             title.className = undefined;
 
+        })
+        .catch(e => {
+            console.error(e);
+            isLoading = false;
+            title.className = "error";
         });
 }
 
@@ -155,9 +161,38 @@ function updateInfo() {
         });
 }
 
-function updateTweet(id, category, important, archived) {
+function createCategorySpan(id, category) {
+    let span = document.createElement("span");
+    span.className = "category";
+    span.id = `category-${id}-${category}`;
+    span.innerHTML = `${category}<button name="remove-category" onClick="removeCategory('${id}', '${category}')">♻</button>`;
+    return span;
+}
+
+function addCategory(id, category) {
+    updateTweet(id, category, undefined, undefined, undefined);
+    document.getElementById(`category-selector-${id}`).value = '';
+    document.getElementById(`categories-${id}`).appendChild(createCategorySpan(id, category));
+}
+
+function removeCategory(id, category) {
+    updateTweet(id, undefined, category, undefined, undefined);
+    document.getElementById(`category-selector-${id}`).value = '';
+    document.getElementById(`category-${id}-${category}`).remove();
+}
+
+function setImportant(id, important) {
+    updateTweet(id, undefined, undefined, important, undefined);
+}
+
+function setArchived(id, archived) {
+    updateTweet(id, undefined, undefined, undefined, archived);
+}
+
+function updateTweet(id, add_category, remove_category, important, archived) {
     const data = {
-        category,
+        add_category,
+        remove_category,
         important,
         archived
     };
@@ -179,7 +214,7 @@ function updateTweet(id, category, important, archived) {
         console.log(rejection)
         row.classList.add('error');
         setTimeout(reload, 1000);
-    }).then(updateInfo).then(category !== undefined ?
+    }).then(updateInfo).then(add_category !== undefined || remove_category !== undefined ?
         refreshCategories :
         Promise.resolve("categories unchanged"));
 }

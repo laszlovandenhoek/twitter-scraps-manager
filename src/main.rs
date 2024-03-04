@@ -19,7 +19,7 @@ pub struct Tweet {
     full_text: String,
     bookmarked: bool,
     liked: bool,
-    category: Option<String>,
+    categories: Vec<String>,
     important: bool,
     archived: bool,
 }
@@ -44,7 +44,8 @@ pub struct Parameters {
 
 #[derive(Deserialize)]
 pub struct UpdateTweet {
-    category: Option<String>,
+    add_category: Option<String>,
+    remove_category: Option<String>,
     important: Option<bool>,
     archived: Option<bool>,
 }
