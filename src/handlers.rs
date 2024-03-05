@@ -59,7 +59,7 @@ pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl 
         WHERE {} \
         GROUP BY tweets.rest_id, fetched_at, sort_index \
         HAVING {} \
-        ORDER BY fetched_at, sort_index DESC \
+        ORDER BY fetched_at DESC, sort_index DESC \
         LIMIT $1 OFFSET $2", where_clauses.join(" AND "), having_clauses.join(" AND "));
 
     let stmt = client.prepare(&query).await.unwrap();
