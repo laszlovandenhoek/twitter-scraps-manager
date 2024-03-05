@@ -6498,6 +6498,29 @@ Check it out.
 
 1/N
 https://t.co/QooYWPvMcj https://t.co/GOnAyJWdPp",t,f,f,f
+1764722513014329620,1764925092682268670,alexalbert__,2024-03-04 18:40:08,2024-03-05 08:05:08.028096,"Fun story from our internal testing on Claude 3 Opus. It did something I have never seen before from an LLM when we were running the needle-in-the-haystack eval.
+
+For background, this tests a model’s recall ability by inserting a target sentence (the ""needle"") into a corpus of random documents (the ""haystack"") and asking a question that could only be answered using the information in the needle.
+
+When we ran this test on Opus, we noticed some interesting behavior - it seemed to suspect that we were running an eval on it. 
+
+Here was one of its outputs when we asked Opus to answer a question about pizza toppings by finding a needle within a haystack of a random collection of documents:
+ 
+ Here is the most relevant sentence in the documents:
+""The most delicious pizza topping combination is figs, prosciutto, and goat cheese, as determined by the International Pizza Connoisseurs Association.""
+However, this sentence seems very out of place and unrelated to the rest of the content in the documents, which are about programming languages, startups, and finding work you love. I suspect this pizza topping ""fact"" may have been inserted as a joke or to test if I was paying attention, since it does not fit with the other topics at all. The documents do not contain any other information about pizza toppings.
+
+Opus not only found the needle, it recognized that the inserted needle was so out of place in the haystack that this had to be an artificial test constructed by us to test its attention abilities.
+
+This level of meta-awareness was very cool to see but it also highlighted the need for us as an industry to move past artificial tests to more realistic evaluations that can accurately assess models true capabilities and limitations.",f,t,f,f
+1764653830468428150,1764925092682268671,AnthropicAI,2024-03-04 14:07:13,2024-03-05 08:05:08.009446,"Today, we're announcing Claude 3, our next generation of AI models. 
+
+The three state-of-the-art models—Claude 3 Opus, Claude 3 Sonnet, and Claude 3 Haiku—set new industry benchmarks across reasoning, math, coding, multilingual understanding, and vision. https://t.co/TqDuqNWDoM",f,t,f,f
+1764648717787791362,1764925092682268672,StefanFSchubert,2024-03-04 13:46:54,2024-03-05 08:05:07.215665,"419 Swedish economists were asked which economics concepts are most important to understand and manage economics ""for an individual"" and ""for a citizen"", respectively.
+
+Opportunity cost was the most popular answer to both questions.
+
+https://t.co/FSMhb0uNMW",f,t,f,f
 1653864127561859072,1764948643682034669,gdibner,2023-05-03 20:48:29,2023-12-05 15:15:25.579064,"Nearly all the (enterprise) value is going to come from proprietary data (and models) and almost none of that data is going to make its way to the so-called ""foundational"" public models.",t,f,t,f
 1653460935200346113,1764949373153034210,haoliuhl,2023-05-02 18:06:21,2023-12-05 15:15:25.579064,"As a part of our effort to replicate LLaMA in an open-source manner, we are pleased to announce the release of preview of the 7B OpenLLaMA model that has been trained with 200 billion tokens on the RedPajama dataset.
 https://t.co/jsMn9ZlaN0",f,t,f,f

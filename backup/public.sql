@@ -312,6 +312,7 @@ COPY public.categories (id, name) FROM stdin;
 230	solar
 236	standard
 237	HTTP
+241	economics
 \.
 
 
@@ -1346,6 +1347,11 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1533269806731776002	85
 1533908423682756609	236
 1533908423682756609	237
+1764722513014329620	109
+1764722513014329620	27
+1764653830468428150	27
+1764648717787791362	241
+1764648717787791362	11
 \.
 
 
@@ -3864,6 +3870,7 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1720832283026854098	1732056876259999653	getjonwithit	2023-11-04 15:56:02	2023-12-05 15:18:39.42978	The Rabin-Scott theorem is one of the (philosophically) deepest mathematical results I know. When properly understood, I claim that it can't help but alter your view of reality in a fairly foundational way. Yet its typical textbook presentation obscures much of this depth. (1/8) https://t.co/xH5njZDEuW	f	t	f	f
 1720451369004401087	1732056876259999652	RomanAdamczyk5	2023-11-03 14:42:25	2023-12-05 15:18:39.448379	Due to the new EU Digital Service Act (DSA), Twitter had to disclose the number of its staff working on content moderation issues (2294) and their language skills. \n\nIt is even worse than what was expected.\nhttps://t.co/3cx7hBf5bB https://t.co/3ZPtMGNlDU	f	t	f	f
 1720108414049636404	1732056876259999651	mattshumer_	2023-11-02 15:59:38	2023-12-05 15:18:39.466523	Quick GPT-4 tip to improve response quality while using fewer output tokens:\n\nFirst, write your system prompt, but specify that the model should always explain its reasoning after answering, inside parenthesis, like "27 (2 + 4 = 6, and adding 21 to 6 gives us 27)".\n\nNow, you're not going to actually have the model output the reasoning at inference time... so why do we include it? To give the model a sense of how we want it to arrive at the answer.\n\nTo do so, next, you'll add one or two example user-assistant message pairs. In these, you'll show it how to reason well for your task.\n\nOnce you've done this, add `(` as a stop token. This way, the model doesn't include the reasoning in its response at inference time.\n\nThat's all there is to it! This approach works really well to improve response quality for generation, problem-solving, classifiers, etc.\n\nYou'll almost always eek out more performance if you do the reasoning before answering, but that approach is slower and costs more, so this is a great alternative.\n\nSee the screenshot for a working example.	f	t	f	f
+1764294385934414056	1792585844488049392	oldbooksguy	2024-03-03 14:18:55	2024-03-04 21:51:08.84799	John Fowles explains in "The Aristos" (1964) how high IQ can subvert your will to act: "High intelligence leads to multiplicity of interest and a sharpened capacity to foresee the consequences of any action. Will is lost in a labyrinth of hypothesis." Rule 1: Do not lose the will https://t.co/fdGCmyj2cX	t	t	f	f
 1764333482656866429	1764770775660756992	Rainmaker1973	2024-03-03 16:54:16	2024-03-04 21:51:55.165831	The geometry of reflections and mirrors.\n\n[🎞️ Beau Janzen]\nhttps://t.co/W0DlkBtOE3	f	t	f	f
 1542947552156389376	1737187295972223768	gunnarmorling	2022-07-01 19:05:37	2023-12-05 15:15:25.579064	👋 Data tweeps: In a day and age where real-time data pipelines are mainstream, are there scenarios where you'd choose a batch-style architecture instead? If so, which ones, and what would be the reasons for doing so? #DataEngineering	f	t	f	f
 1763892059146948823	1792451564891940305	taz_chu	2024-03-02 11:40:13	2024-03-04 21:51:08.882735	I think proofs like this are absolutely the hardest kind possible. You have to have the eyes of God to see them https://t.co/gdrxS1QCBs	t	f	f	f
@@ -3884,7 +3891,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1764541283370971478	1764770775660756990	Rainmaker1973	2024-03-04 06:40:00	2024-03-04 21:51:56.010432	10 popular tones of voice acting\n\n[📹 tawnyplatis]\nhttps://t.co/yFNuAkoy3r	f	t	f	f
 1764497819791233210	1764770775660756989	IsaacKing314	2024-03-04 03:47:17	2024-03-04 21:51:56.028529	Elaborate jokes that will only be understood by like 5 people on the planet are the actual best https://t.co/0FubABi4RW	f	t	f	f
 1764312921637831156	1764770775660756988	Anthony_Bonato	2024-03-03 15:32:34	2024-03-04 21:51:56.045469	Not your typical math final https://t.co/sikqceLZjI	f	t	f	f
-1764294385934414056	1792585844488049392	oldbooksguy	2024-03-03 14:18:55	2024-03-04 21:51:08.84799	John Fowles explains in "The Aristos" (1964) how high IQ can subvert your will to act: "High intelligence leads to multiplicity of interest and a sharpened capacity to foresee the consequences of any action. Will is lost in a labyrinth of hypothesis." Rule 1: Do not lose the will https://t.co/fdGCmyj2cX	t	t	f	f
 1764356836692562027	1764770775660756986	buccocapital	2024-03-03 18:27:04	2024-03-04 21:51:56.08069	The interns at McKinsey and Morgan Stanley have been hard at work building incredibly precise, definitely correct, and beautifully color-coded predictions on the impact of Generative AI by industry https://t.co/jSYNJFa87b	f	t	f	f
 1747304282448118200	1764770775660756874	BrianLeiter	2024-01-16 17:06:18	2024-03-04 21:52:02.458262	A well-known philosopher of physics writes about his experiences with schizophrenia over the last several decades...https://t.co/GdFpx7ykJr	f	t	f	f
 1755395476289904903	1790369163970287255	dani_avila7	2024-02-08 00:57:49	2024-03-04 21:51:09.123125	Copilot is now completely free and private thanks to @LMStudioAI and the OpenHermes-2.5-Mistral-7B model\n\nFinally, #LMStudio is seamlessly integrated with CodeGPT, allowing you to leverage all models of this incredible platform locally in VSCode.\n\nDownload CodeGPT extension for FREE here: \nhttps://t.co/aAqcwJHWIz\n\nDownload LMStudio here: https://t.co/CHgA6US9On\n\nEnjoy! ✌️\n\n@midudev @MoureDev @DotCSV	t	f	f	f
@@ -4131,6 +4137,9 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1732628937837060272	1764770775660756787	AnneMossYeys	2023-12-07 05:11:44	2024-03-04 21:52:08.483146	https://t.co/KBi1g9Id5q\nI think AI geeks will share my excitement. Everyone else, maybe not so much\n\n(Also, first time for me to reveal this pet project. I know it's a crappy YouTube channel - be gentle)	f	t	f	f
 1732461772794220919	1764770775660756786	goodside	2023-12-06 18:07:28	2024-03-04 21:52:08.50275	Update: With the Gemini release of Google Bard, the practice of threatening to kill an innocent man has been deprecated. https://t.co/GTmOnqWGLf	f	t	f	f
 1732250132614184970	1764770775660756785	deliprao	2023-12-06 04:06:29	2024-03-04 21:52:08.520638	NEWS: Apple just entered the AI open source arena by quietly releasing their new DL framework called MLX! It runs code natively on Apple Silicon with a single pip install and no other dependencies. https://t.co/UGyoLSg0oj\n\nSharing what I discovered from this initial release: https://t.co/m8cfY34a8A	f	t	f	f
+1764648717787791362	1764925092682268672	StefanFSchubert	2024-03-04 13:46:54	2024-03-05 08:05:07.215665	419 Swedish economists were asked which economics concepts are most important to understand and manage economics "for an individual" and "for a citizen", respectively.\n\nOpportunity cost was the most popular answer to both questions.\n\nhttps://t.co/FSMhb0uNMW	f	t	f	f
+1764653830468428150	1764925092682268671	AnthropicAI	2024-03-04 14:07:13	2024-03-05 08:05:08.009446	Today, we're announcing Claude 3, our next generation of AI models. \n\nThe three state-of-the-art models—Claude 3 Opus, Claude 3 Sonnet, and Claude 3 Haiku—set new industry benchmarks across reasoning, math, coding, multilingual understanding, and vision. https://t.co/TqDuqNWDoM	f	t	f	f
+1764722513014329620	1764925092682268670	alexalbert__	2024-03-04 18:40:08	2024-03-05 08:05:08.028096	Fun story from our internal testing on Claude 3 Opus. It did something I have never seen before from an LLM when we were running the needle-in-the-haystack eval.\n\nFor background, this tests a model’s recall ability by inserting a target sentence (the "needle") into a corpus of random documents (the "haystack") and asking a question that could only be answered using the information in the needle.\n\nWhen we ran this test on Opus, we noticed some interesting behavior - it seemed to suspect that we were running an eval on it. \n\nHere was one of its outputs when we asked Opus to answer a question about pizza toppings by finding a needle within a haystack of a random collection of documents:\n \n Here is the most relevant sentence in the documents:\n"The most delicious pizza topping combination is figs, prosciutto, and goat cheese, as determined by the International Pizza Connoisseurs Association."\nHowever, this sentence seems very out of place and unrelated to the rest of the content in the documents, which are about programming languages, startups, and finding work you love. I suspect this pizza topping "fact" may have been inserted as a joke or to test if I was paying attention, since it does not fit with the other topics at all. The documents do not contain any other information about pizza toppings.\n\nOpus not only found the needle, it recognized that the inserted needle was so out of place in the haystack that this had to be an artificial test constructed by us to test its attention abilities.\n\nThis level of meta-awareness was very cool to see but it also highlighted the need for us as an industry to move past artificial tests to more realistic evaluations that can accurately assess models true capabilities and limitations.	f	t	f	f
 \.
 
 
@@ -6559,7 +6568,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 237, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 242, true);
 
 
 --
