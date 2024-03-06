@@ -313,6 +313,7 @@ COPY public.categories (id, name) FROM stdin;
 236	standard
 237	HTTP
 241	economics
+243	duckDB
 \.
 
 
@@ -1352,6 +1353,7 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1764653830468428150	27
 1764648717787791362	241
 1764648717787791362	11
+1626598327495327744	243
 \.
 
 
@@ -6568,7 +6570,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 242, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 243, true);
 
 
 --
