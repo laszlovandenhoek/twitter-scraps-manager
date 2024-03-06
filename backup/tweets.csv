@@ -6646,6 +6646,35 @@ With this analogy in mind, it's awesome that we have models that can reach high 
 
 Rough picture to have in mind maybe. Small models are incapable of in-context learning and will benefit very little from prompt engineering, but depending on the difficulty of the task it may be possible to still finetune them into decent experts.
 Big caveat all of this is still very new.",f,t,t,f
+1764732696108859635,1765489588077330426,dreamingtulpa,2024-03-04 19:20:36,2024-03-06 21:28:15.026729,"VastGaussian is a new 3D Gaussian Splatting method for high-quality reconstruction and real-time rendering of large scenes.
+
+https://t.co/KswLGwEkJs https://t.co/GVwsOWA9zN",f,t,f,f
+1764901418664882327,1765489588077330427,GillVerd,2024-03-05 06:31:03,2024-03-06 21:28:15.001708,"Claude 3 Opus just reinvented this quantum algorithm from scratch in just 2 prompts.
+
+The paper is not on the internet yet. 🔥🤯 https://t.co/rdv0SWAhe7",f,t,f,f
+1764847127220596975,1765489588077330428,chrisalbon,2024-03-05 02:55:19,2024-03-06 21:28:14.939465,"“No yapping” is a pro-level prompt engineering strat, you wouldn’t understand",f,t,f,f
+1764913256102031402,1765489588077330429,mikonvergence,2024-03-05 07:18:05,2024-03-06 21:28:14.829391,"🚨RECORD-BREAKING 🌍EO DATASET in partnership with @huggingface 
+
+Introducing 🗺️MajorTOM-Core: the largest ML-ready Sentinel-2 dataset🤯
+
+We tried to cover... every single point on Earth captured by @esa @CopernicusEU Sentinel-2, and we got pretty close!
+
+More info in thread 🧵 https://t.co/VlHH2M7C9Q",f,t,f,f
+1764786436417507340,1765489588077330430,BenjaminDEKR,2024-03-04 22:54:09,2024-03-06 21:28:14.672549,"AGI for Code (meaning, AI that is better than say 80% of all human devs at common tasks) is inevitable.
+
+End of the year for sure, probably much sooner. 
+
+Many still in denial about this.",f,t,f,f
+1765207842993434880,1765489588077330431,AmandaAskell,2024-03-06 02:48:40,2024-03-06 21:28:14.572999,"Here is Claude 3's system prompt! 
+Let me break it down 🧵 https://t.co/gvdd7hSHUQ",f,t,f,f
+1765111512379855068,1765489588077330432,skalskip92,2024-03-05 20:25:53,2024-03-06 21:28:13.369429,"processing documents with Claude 3
+
+- Good OCR capabilities
+- Process up to 20 images with a single API call
+- API seems slow and a bit unstable; expect a lot of variance in call execution time
+- ~2x cheaper than GPT4-V (please check my math)
+
+↓ read more https://t.co/ha6qQp6XIz",f,t,f,f
 1655982364273831936,1765497916075451091,OpenAI,2023-05-09 17:05:36,2023-12-05 15:15:25.579064,"We applied GPT-4 to interpretability — automatically proposing explanations for GPT-2's 300k neurons — and found neurons responding to concepts like similes, “things done correctly,” or expressions of certainty. We aim to use Al to help us understand Al: https://t.co/mUsGOg6T69 https://t.co/knCUxnL5CY",f,t,f,f
 1655981075301298177,1765498905345511680,DrJimFan,2023-05-09 17:00:29,2023-12-05 15:15:25.579064,"Wow, @MetaAI is on open-source steroids since Llama.
 
