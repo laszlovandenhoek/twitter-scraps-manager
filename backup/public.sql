@@ -360,6 +360,9 @@ COPY public.categories (id, name) FROM stdin;
 414	cookie
 419	open source
 420	domestic
+421	sora
+424	leak
+425	mistral
 \.
 
 
@@ -1568,6 +1571,11 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1758539728444629158	104
 1758539728444629158	419
 1758539728444629158	420
+1758230974700130445	421
+1758230974700130445	87
+1758539335370998154	27
+1758539335370998154	424
+1758539335370998154	425
 \.
 
 
@@ -6796,7 +6804,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 420, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 425, true);
 
 
 --
