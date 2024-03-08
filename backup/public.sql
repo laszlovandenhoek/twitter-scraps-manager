@@ -329,6 +329,28 @@ COPY public.categories (id, name) FROM stdin;
 270	EU
 271	AI
 274	intelligence
+275	benchmark
+279	computer vision
+287	geo
+288	gis
+295	meme
+297	game of life
+298	automata
+303	bullshit
+306	optics
+309	mckinsey
+312	value
+317	proof
+318	google
+329	goalpost
+330	reductionism
+338	fractal
+339	transfer
+347	microsoft
+348	synthetic data
+354	anglocentrism
+357	abstraction
+361	theory of mind
 \.
 
 
@@ -1399,6 +1421,89 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1733292387118510562	31
 1764294385934414056	53
 1764294385934414056	274
+1765774296000172289	275
+1765712612199948480	104
+1765712612199948480	9
+1765466839943950450	245
+1765466839943950450	279
+1765466839943950450	54
+1765396250596184128	104
+1765396250596184128	167
+1765207842993434880	46
+1765207842993434880	87
+1765111512379855068	27
+1764913256102031402	101
+1764913256102031402	287
+1764913256102031402	288
+1764901418664882327	109
+1764901418664882327	128
+1764847127220596975	46
+1764786436417507340	45
+1764732696108859635	122
+1764541283370971478	142
+1764497819791233210	295
+1764497819791233210	143
+1764497819791233210	297
+1764497819791233210	298
+1764416727281287380	269
+1728851164291059948	269
+1728851164291059948	74
+1728851164291059948	4
+1764356836692562027	303
+1764356836692562027	55
+1764333482656866429	142
+1764333482656866429	306
+1764312921637831156	16
+1764312921637831156	6
+1764293167812378871	309
+1764246199492587997	97
+1764246199492587997	53
+1764246199492587997	312
+1764109040219795956	4
+1764109040219795956	143
+1764109040219795956	55
+1763892059146948823	16
+1763892059146948823	317
+1763263384332767392	318
+1763263384332767392	55
+1763263384332767392	77
+1763076952381104335	53
+1763076952381104335	160
+1762982967872508021	31
+1762982967872508021	9
+1762678556641931678	47
+1762600412207894754	329
+1762600412207894754	330
+1762556920823488790	182
+1762556920823488790	105
+1762510554600804439	76
+1762510554600804439	9
+1762508581679640814	137
+1762508581679640814	95
+1762490816646308164	125
+1762490816646308164	338
+1762401390150713639	339
+1762401390150713639	55
+1762374375662350740	104
+1762374375662350740	58
+1762300324671262960	31
+1762300324671262960	48
+1762300324671262960	347
+1762220082560974998	348
+1762220082560974998	54
+1762211365530312766	85
+1762211365530312766	181
+1762211365530312766	269
+1762203615828341151	74
+1762203615828341151	354
+1762128616849072171	27
+1762110222321975442	142
+1762110222321975442	357
+1762110222321975442	45
+1762007801826570725	14
+1762007801826570725	361
+1762007801826570725	274
+1761998473157657054	53
 \.
 
 
@@ -3922,7 +4027,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1542947552156389376	1737187295972223768	gunnarmorling	2022-07-01 19:05:37	2023-12-05 15:15:25.579064	👋 Data tweeps: In a day and age where real-time data pipelines are mainstream, are there scenarios where you'd choose a batch-style architecture instead? If so, which ones, and what would be the reasons for doing so? #DataEngineering	f	t	f	f
 1763892059146948823	1792451564891940305	taz_chu	2024-03-02 11:40:13	2024-03-04 21:51:08.882735	I think proofs like this are absolutely the hardest kind possible. You have to have the eyes of God to see them https://t.co/gdrxS1QCBs	t	f	f	f
 1762678556641931678	1792172301793451118	liuzhuang1234	2024-02-28 03:18:11	2024-03-04 21:51:08.899617	LLMs are great, but their internals are less explored. I'm excited to share very interesting findings in paper\n\n“Massive Activations in Large Language Models”\n\nLLMs have very few internal activations with drastically outsized magnitudes, e.g., 100,000x larger than others. (1/n) https://t.co/DRAgEPRHgw	t	f	f	f
-1762220082560974998	1792087435117133602	migtissera	2024-02-26 20:56:22	2024-03-04 21:51:08.916772	Introducing Sensei (先生): A simple, powerful, minimal codebase to generate synthetic data using OpenAI.\n\nhttps://t.co/ADPVmOtkIe\n\nThis has been my framework for generating synthetic data using GPT-4. It includes Orca system contexts, as well as 10 new system contexts that I've designed for creating my models: Synthia, Tess and HelixNet.\n\nYou have full control over the topics. The best part is that the prompt itself is generated using GPT-4, so there's minimal refusals.\n\nI hope you benefit from this as much as I have. Feel free to open PRs for other APIs, such as Mistral's.	t	f	f	f
 1762490816646308164	1792085892914301114	randall_balestr	2024-02-27 14:52:10	2024-03-04 21:51:08.935387	Keep training your Deep Network past the point of perfect training set accuracy and its robustness will increase. Why? Because the spline partition keeps concentrating near the decision boundary ➡️the DN is affine all around the training samples!\nhttps://t.co/WMYKCidZNI https://t.co/gzGwjeECeG	t	f	f	f
 1761441271724560761	1791874654143093612	natfriedman	2024-02-24 17:21:39	2024-03-04 21:51:08.953376	Suno's new model is quite good: https://t.co/yHHJRjq83v	t	f	f	f
 1761604981885726784	1791874331495527479	docmilanfar	2024-02-25 04:12:11	2024-03-04 21:51:08.969067	What do polar coordinates, polar matrix factorization, &amp; Helmholz decomposition of a vector field have in common?   They’re all implied by Brenier’s Theorem: a cornerstone of Optimal Transport theory. It’s a fundamental decomposition result &amp; deserves to be better known. \n\n1/5 https://t.co/SbZjkVVCAq	t	f	f	f
@@ -3997,7 +4101,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1762600412207894754	1764770775660756978	tsarnick	2024-02-27 22:07:40	2024-03-04 21:51:56.221735	We say ChatGPT is "just" various things, but Scott Aaronson says we are reluctant to apply the same standard to ourselves https://t.co/Svp2pAEGDc	f	t	f	f
 1762556920823488790	1764770775660756977	_akhaliq	2024-02-27 19:14:51	2024-03-04 21:51:56.238859	Apple Cancels Work on Electric Car, Shifts Team to Generative AI\n\nCompany is winding down work on decade-old Project Titan\n\nEmployees on some car teams will move to Apple’s AI division https://t.co/R17HaGT621	f	t	f	f
 1762374375662350740	1764770775660756976	alexkoch_ai	2024-02-27 07:09:29	2024-03-04 21:51:56.255352	Trained a simple world model for my robot arm. It predicts the future over 20000 times faster than real time on a single @nvidia RTX 3090 GPU (128 batch -&gt; 160x faster each). https://t.co/plq0yqsVJP	f	t	f	f
-1762508581679640814	1764770775660756975	klarnaseb	2024-02-27 16:02:46	2024-03-04 21:51:56.27064	This is a breakthrough in practical application of AI!\n\nKlarnas AI assistant, powered by @OpenAI, has in its first 4 weeks handled 2.3 m customer service chats and the data and insights are staggering:\n\n- Handles 2/3 rd of our customer service enquires\n- On par with humans on customer satisfaction\n- Higher accuracy leading to a 25% reduction in repeat inquiries\n- Customer resolves their errands in 2 min vs 11 min\n- Live 24/7 in over 23 markets, communicating in over 35 languages\n\nIt performs the equivalent job of 700 full time agents... read more about this below.\n\nSo while we are happy about the results for our customers, our employees who have developed it and our shareholders, it raises the topic of the implications it will have for society.\n\nIn our case, customer service has been handled by on average 3000 full time agents employed by our customer service / outsourcing partners. Those partners employ 200 000 people, so in the short term this will only mean that those agents will work for other customers of those partners.\n\nBut in the longer term, as more companies adopt these technologies, we believe society needs to consider the impact. While it may be a positive impact for society as a whole, we need to consider the implications for the individuals affected.\n\nWe decided to share these statistics to raise the awareness and encourage a proactive approach to the topic of AI. For decision makers worldwide to recognise this is not just "in the future", this is happening right now.\n\nMore in our press release\nhttps://t.co/vLL05BvbNT	f	t	f	f
 1762203615828341151	1764770775660756974	michaelryan207	2024-02-26 19:50:56	2024-03-04 21:51:56.29059	Aligned LLMs should be helpful, harmless, and adopt user preferences. But whose preferences are we aligning to and what are unintended effects on global representation?\n\nWe find SFT and Preference Tuning steer LLMs towards US English use and opinions.\n\nhttps://t.co/Tgj10nYDQZ\n🧵 https://t.co/bOwSEpQ9fG	f	t	f	f
 1762401390150713639	1764770775660756973	dreamingtulpa	2024-02-27 08:56:49	2024-03-04 21:51:56.312548	Bye bye LoRAs once again 👋\n\nVisual Style Prompting can generate images with a specific style from a reference image and is a lot better at avoiding style leakage from text prompts.\n\nhttps://t.co/1oaCEkh1Y0 https://t.co/ZaGPchvpKU	f	t	f	f
 1762510554600804439	1764770775660756972	togethercompute	2024-02-27 16:10:36	2024-03-04 21:51:57.332262	Introducing Evo: a long-context biological model based on StripedHyena that generalizes across DNA, RNA, and proteins. It is capable of prediction tasks and generative design, from molecular to whole genome scale (over 650k tokens in length). https://t.co/60lVyE3N7g https://t.co/GpxpSig0n9	f	t	f	f
@@ -4199,6 +4302,8 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1765774296000172289	1766081700640587774	lmsysorg	2024-03-07 16:19:33	2024-03-08 12:41:05.106446	🔥Exciting news from Arena\n\n@Anthropic's Claude-3 Ranking is here!📈\nClaude-3 has ignited immense community interest, propelling Arena to unprecedented traffic with over 20,000 votes in just three days!\n\nWe're amazed by Claude-3's extraordinary performance. Opus is making history as the first model to rival GPT-4-Turbo, while Sonnet stands out with its speed and performance, closely matching GPT-4.\n\nHuge congrats to @Anthropic for this remarkable launch! 2024 looks incredibly exciting. Can't wait to see what comes next.	f	t	f	f
 1765466839943950450	1766081700640587773	skalskip92	2024-03-06 19:57:50	2024-03-08 12:41:05.124605	manual data labeling is almost dead \n\ndefine prompts, tweak the confidence threshold, and make manual adjustments if necessary.\n\nthis feature is now available to all users, even on free accounts.\n\nread more: https://t.co/DuDdZdjPgc https://t.co/cDtVT505Tg	f	t	f	f
 1765396250596184128	1766081700640587772	chris_j_paxton	2024-03-06 15:17:20	2024-03-08 12:41:05.149724	There’s a lot of cool stuff going on in robotics research these days. Here’s some cool stuff -- focusing on research papers -- that you might have missed, including work from Meta, TRI, and academia, a thread: https://t.co/BIiuRxR74l	f	t	f	f
+1762508581679640814	1764770775660756975	klarnaseb	2024-02-27 16:02:46	2024-03-04 21:51:56.27064	This is a breakthrough in practical application of AI!\n\nKlarnas AI assistant, powered by @OpenAI, has in its first 4 weeks handled 2.3 m customer service chats and the data and insights are staggering:\n\n- Handles 2/3 rd of our customer service enquires\n- On par with humans on customer satisfaction\n- Higher accuracy leading to a 25% reduction in repeat inquiries\n- Customer resolves their errands in 2 min vs 11 min\n- Live 24/7 in over 23 markets, communicating in over 35 languages\n\nIt performs the equivalent job of 700 full time agents... read more about this below.\n\nSo while we are happy about the results for our customers, our employees who have developed it and our shareholders, it raises the topic of the implications it will have for society.\n\nIn our case, customer service has been handled by on average 3000 full time agents employed by our customer service / outsourcing partners. Those partners employ 200 000 people, so in the short term this will only mean that those agents will work for other customers of those partners.\n\nBut in the longer term, as more companies adopt these technologies, we believe society needs to consider the impact. While it may be a positive impact for society as a whole, we need to consider the implications for the individuals affected.\n\nWe decided to share these statistics to raise the awareness and encourage a proactive approach to the topic of AI. For decision makers worldwide to recognise this is not just "in the future", this is happening right now.\n\nMore in our press release\nhttps://t.co/vLL05BvbNT	f	t	t	f
+1762220082560974998	1792087435117133602	migtissera	2024-02-26 20:56:22	2024-03-04 21:51:08.916772	Introducing Sensei (先生): A simple, powerful, minimal codebase to generate synthetic data using OpenAI.\n\nhttps://t.co/ADPVmOtkIe\n\nThis has been my framework for generating synthetic data using GPT-4. It includes Orca system contexts, as well as 10 new system contexts that I've designed for creating my models: Synthia, Tess and HelixNet.\n\nYou have full control over the topics. The best part is that the prompt itself is generated using GPT-4, so there's minimal refusals.\n\nI hope you benefit from this as much as I have. Feel free to open PRs for other APIs, such as Mistral's.	t	f	f	f
 \.
 
 
@@ -6627,7 +6732,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 274, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 363, true);
 
 
 --
