@@ -354,6 +354,12 @@ COPY public.categories (id, name) FROM stdin;
 364	self
 365	subjective experience
 368	statistics
+387	ghosts
+400	co-pilot
+401	LLM
+414	cookie
+419	open source
+420	domestic
 \.
 
 
@@ -1526,6 +1532,42 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1761094858205229430	318
 1761094858205229430	143
 1761094858205229430	4
+1761027769218347103	31
+1761027769218347103	27
+1761027769218347103	318
+1760870898222170591	142
+1760870898222170591	387
+1760870898222170591	153
+1760580254920212640	139
+1760580254920212640	270
+1760537379369304309	27
+1760537379369304309	109
+1760537379369304309	95
+1760391302997315979	143
+1760391302997315979	16
+1760391302997315979	295
+1760291769252762110	9
+1760291769252762110	318
+1758960951624380831	92
+1758926114339348505	400
+1758926114339348505	401
+1758835210345484551	269
+1758835210345484551	143
+1758835210345484551	271
+1758763907748077705	95
+1758763907748077705	17
+1758686711968882769	55
+1758686711968882769	31
+1758669676534788307	55
+1758669676534788307	31
+1758669676534788307	295
+1758669676534788307	414
+1758599441492201806	4
+1758599441492201806	318
+1758599441492201806	55
+1758539728444629158	104
+1758539728444629158	419
+1758539728444629158	420
 \.
 
 
@@ -4143,7 +4185,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1760305630223479162	1764770775660756956	skalskip92	2024-02-21 14:09:01	2024-03-04 21:51:57.597835	The YOLO-World YouTube tutorial is out! \n\nplease, let us know what you think!\n\n- model architecture \n- processing images and video in Colab \n- prompt engineering and detection refinement \n- pros and cons of the model\n\nwatch here: https://t.co/io9ofg6ZCs\n\n↓ more resources https://t.co/xavCmdMbNe	f	t	f	f
 1760391302997315979	1764770775660756955	CardioidInMyCup	2024-02-21 19:49:27	2024-03-04 21:51:57.614696	https://t.co/o9W0zCfbsu	f	t	f	f
 1760291769252762110	1764770775660756954	JeffDean	2024-02-21 13:13:57	2024-03-04 21:51:57.630654	Introducing Gemma - a family of lightweight, state-of-the-art open models for their class, built from the same research & technology used to create the Gemini models.\n\nBlog post:\nhttps://t.co/JEhKUsLzXI\nTech report:\nhttps://t.co/MCzyojmDV4\n\nThis thread explores some of the performance characteristics of these models.	f	t	f	f
-1758960951624380831	1764770775660756953	HanchungLee	2024-02-17 21:05:45	2024-03-04 21:51:57.647556	For LLM systems design, we can borrow the idea of memory hierarchy from computer architecture and draw a lot of parallels.\n\nLonger context doesn't invalidate the need for "RAG".\nLarger LLMs don't invalidate the need for search engines.\n\nDifferent layers of the stack. https://t.co/dQoJoCf4DG	f	t	f	f
 1758599441492201806	1764770775660756952	NielsRogge	2024-02-16 21:09:14	2024-03-04 21:51:58.513462	Looking at all the research that Google put out before Sora, it's kind of funny to see @OpenAI walking away with all the fame lol\n\nhttps://t.co/I87f5CYqri\nhttps://t.co/e1J2H3sbYI\nhttps://t.co/ktRhlCmU8b\n\nOpenAI is nothing without its people ... and Google's research	f	t	f	f
 1758686711968882769	1764770775660756951	PrinceVogel	2024-02-17 02:56:01	2024-03-04 21:51:58.529902	There are two wolves- \n\noh god\n\noh no https://t.co/RQufTPrCF8	f	t	f	f
 1758669676534788307	1764770775660756950	tim_microbio	2024-02-17 01:48:20	2024-03-04 21:51:58.545804	Biology bake night https://t.co/TZXU3lQiiR	f	t	f	f
@@ -4326,6 +4367,7 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1765396250596184128	1766081700640587772	chris_j_paxton	2024-03-06 15:17:20	2024-03-08 12:41:05.149724	There’s a lot of cool stuff going on in robotics research these days. Here’s some cool stuff -- focusing on research papers -- that you might have missed, including work from Meta, TRI, and academia, a thread: https://t.co/BIiuRxR74l	f	t	f	f
 1762508581679640814	1764770775660756975	klarnaseb	2024-02-27 16:02:46	2024-03-04 21:51:56.27064	This is a breakthrough in practical application of AI!\n\nKlarnas AI assistant, powered by @OpenAI, has in its first 4 weeks handled 2.3 m customer service chats and the data and insights are staggering:\n\n- Handles 2/3 rd of our customer service enquires\n- On par with humans on customer satisfaction\n- Higher accuracy leading to a 25% reduction in repeat inquiries\n- Customer resolves their errands in 2 min vs 11 min\n- Live 24/7 in over 23 markets, communicating in over 35 languages\n\nIt performs the equivalent job of 700 full time agents... read more about this below.\n\nSo while we are happy about the results for our customers, our employees who have developed it and our shareholders, it raises the topic of the implications it will have for society.\n\nIn our case, customer service has been handled by on average 3000 full time agents employed by our customer service / outsourcing partners. Those partners employ 200 000 people, so in the short term this will only mean that those agents will work for other customers of those partners.\n\nBut in the longer term, as more companies adopt these technologies, we believe society needs to consider the impact. While it may be a positive impact for society as a whole, we need to consider the implications for the individuals affected.\n\nWe decided to share these statistics to raise the awareness and encourage a proactive approach to the topic of AI. For decision makers worldwide to recognise this is not just "in the future", this is happening right now.\n\nMore in our press release\nhttps://t.co/vLL05BvbNT	f	t	t	f
 1762220082560974998	1792087435117133602	migtissera	2024-02-26 20:56:22	2024-03-04 21:51:08.916772	Introducing Sensei (先生): A simple, powerful, minimal codebase to generate synthetic data using OpenAI.\n\nhttps://t.co/ADPVmOtkIe\n\nThis has been my framework for generating synthetic data using GPT-4. It includes Orca system contexts, as well as 10 new system contexts that I've designed for creating my models: Synthia, Tess and HelixNet.\n\nYou have full control over the topics. The best part is that the prompt itself is generated using GPT-4, so there's minimal refusals.\n\nI hope you benefit from this as much as I have. Feel free to open PRs for other APIs, such as Mistral's.	t	f	f	f
+1758960951624380831	1764770775660756953	HanchungLee	2024-02-17 21:05:45	2024-03-04 21:51:57.647556	For LLM systems design, we can borrow the idea of memory hierarchy from computer architecture and draw a lot of parallels.\n\nLonger context doesn't invalidate the need for "RAG".\nLarger LLMs don't invalidate the need for search engines.\n\nDifferent layers of the stack. https://t.co/dQoJoCf4DG	f	t	t	f
 \.
 
 
@@ -6754,7 +6796,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 382, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 420, true);
 
 
 --
