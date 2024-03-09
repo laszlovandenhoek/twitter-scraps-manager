@@ -363,6 +363,11 @@ COPY public.categories (id, name) FROM stdin;
 421	sora
 424	leak
 425	mistral
+432	announcement
+439	food
+441	personal
+442	limitation
+444	puzzle
 \.
 
 
@@ -1480,10 +1485,13 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1763263384332767392	55
 1763263384332767392	77
 1763076952381104335	53
+1758276222453485738	143
 1763076952381104335	160
 1762982967872508021	31
 1762982967872508021	9
 1762678556641931678	47
+1758276222453485738	55
+1758229017772044641	64
 1762600412207894754	329
 1762600412207894754	330
 1762556920823488790	182
@@ -1496,7 +1504,9 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1762490816646308164	338
 1762401390150713639	339
 1762401390150713639	55
+1758229017772044641	157
 1762374375662350740	104
+1758229017772044641	58
 1762374375662350740	58
 1762300324671262960	31
 1762300324671262960	48
@@ -1511,6 +1521,7 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1762128616849072171	27
 1762110222321975442	142
 1762110222321975442	357
+1758193609927721350	421
 1762110222321975442	45
 1762007801826570725	14
 1762007801826570725	361
@@ -1557,6 +1568,7 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1758835210345484551	269
 1758835210345484551	143
 1758835210345484551	271
+1758193609927721350	432
 1758763907748077705	95
 1758763907748077705	17
 1758686711968882769	55
@@ -1564,6 +1576,7 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1758669676534788307	55
 1758669676534788307	31
 1758669676534788307	295
+1758176023588577326	124
 1758669676534788307	414
 1758599441492201806	4
 1758599441492201806	318
@@ -1576,6 +1589,18 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1758539335370998154	27
 1758539335370998154	424
 1758539335370998154	425
+1758146022726041615	27
+1758146022726041615	432
+1758146022726041615	318
+1758052521560494237	142
+1758052521560494237	143
+1758052521560494237	439
+1757600075281547344	77
+1757600075281547344	441
+1757557393633038630	442
+1757557393633038630	401
+1757557393633038630	444
+1757503162351604221	92
 \.
 
 
@@ -4104,7 +4129,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1761604981885726784	1791874331495527479	docmilanfar	2024-02-25 04:12:11	2024-03-04 21:51:08.969067	What do polar coordinates, polar matrix factorization, &amp; Helmholz decomposition of a vector field have in common?   They’re all implied by Brenier’s Theorem: a cornerstone of Optimal Transport theory. It’s a fundamental decomposition result &amp; deserves to be better known. \n\n1/5 https://t.co/SbZjkVVCAq	t	f	f	f
 1758926114339348505	1791268458570657717	AndrewCurran_	2024-02-17 18:47:19	2024-03-04 21:51:08.98536	Something's cooking. https://t.co/HNt8d8O1Pq	t	f	f	f
 1758539335370998154	1791146004563183151	_akhaliq	2024-02-16 17:10:24	2024-03-04 21:51:09.002467	mistral-next just dropped  \n\nin a gradio demo on lmsys https://t.co/3DyCV4wiB6	t	f	f	f
-1758229017772044641	1791037865434759202	gd3kr	2024-02-15 20:37:18	2024-03-04 21:51:09.020535	wrote a short script to generate embeddings and structure them in a format compatible with https://t.co/dFOp0PVtHS\n\nhttps://t.co/lH65lLIq2U	t	f	f	f
 1757503162351604221	1790945799536903202	MSFTResearch	2024-02-13 20:33:01	2024-03-04 21:51:09.037201	Microsoft is transforming retrieval-augmented generation with GraphRAG, using LLM-generated knowledge graphs to significantly improve Q&amp;A when analyzing complex information and consistently outperforming baseline RAG. Get the details. https://t.co/QuS5AcAakC https://t.co/gTbbdcfsRN	t	f	f	f
 1757391945813405827	1790817952799671383	reach_vb	2024-02-13 13:11:05	2024-03-04 21:51:09.053394	Welcome Aya-101 🚀\n\n&gt; Follows instructions in 101 languages!\n&gt; 12.9 B parameters\n&gt; Outperforms mT0 &amp; Bloomz\n&gt; Released under Apache 2.0 \n&gt; Training + Evaluation data released too!\n&gt; mt5-xxl architecture!\n\nGG @CohereForAI ♥️\n\nModel ckpt: https://t.co/FSK4E89YbV https://t.co/1ykAHWOP8A	t	f	f	f
 1757028556809355439	1790798495924167371	_willfalcon	2024-02-12 13:07:06	2024-03-04 21:51:09.070221	In this new 90 minute lecture, I show how to pretrain a 3B LLM from scratch. No edits. No detail skipped.\n\nCompanies want you to believe pretraining models is super hard and costly. With the right tools, it's not.\n\n- We start by tuning the model on a cheap A10G.\n- Then we scale to 4 A10G to speed up training by 2x.\n- We handle OOM errors and tune hyperparameters.\n- We end with scaling to 8 H100s (1 machine) to speed up by another 4x.\n- Tune again to scale from 1B to 3B params.\n- Then scale to 16 H100s (multi-node).\n\nAt the end of this video you'll develop a good development workflow for pretraining LLMs.\n\nhttps://t.co/XXhUHhp3bZ	t	f	f	f
@@ -4114,6 +4138,7 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1764541283370971478	1764770775660756990	Rainmaker1973	2024-03-04 06:40:00	2024-03-04 21:51:56.010432	10 popular tones of voice acting\n\n[📹 tawnyplatis]\nhttps://t.co/yFNuAkoy3r	f	t	f	f
 1764497819791233210	1764770775660756989	IsaacKing314	2024-03-04 03:47:17	2024-03-04 21:51:56.028529	Elaborate jokes that will only be understood by like 5 people on the planet are the actual best https://t.co/0FubABi4RW	f	t	f	f
 1764312921637831156	1764770775660756988	Anthony_Bonato	2024-03-03 15:32:34	2024-03-04 21:51:56.045469	Not your typical math final https://t.co/sikqceLZjI	f	t	f	f
+1758229017772044641	1791037865434759202	gd3kr	2024-02-15 20:37:18	2024-03-04 21:51:09.020535	wrote a short script to generate embeddings and structure them in a format compatible with https://t.co/dFOp0PVtHS\n\nhttps://t.co/lH65lLIq2U	t	f	t	f
 1764356836692562027	1764770775660756986	buccocapital	2024-03-03 18:27:04	2024-03-04 21:51:56.08069	The interns at McKinsey and Morgan Stanley have been hard at work building incredibly precise, definitely correct, and beautifully color-coded predictions on the impact of Generative AI by industry https://t.co/jSYNJFa87b	f	t	f	f
 1747304282448118200	1764770775660756874	BrianLeiter	2024-01-16 17:06:18	2024-03-04 21:52:02.458262	A well-known philosopher of physics writes about his experiences with schizophrenia over the last several decades...https://t.co/GdFpx7ykJr	f	t	f	f
 1755395476289904903	1790369163970287255	dani_avila7	2024-02-08 00:57:49	2024-03-04 21:51:09.123125	Copilot is now completely free and private thanks to @LMStudioAI and the OpenHermes-2.5-Mistral-7B model\n\nFinally, #LMStudio is seamlessly integrated with CodeGPT, allowing you to leverage all models of this incredible platform locally in VSCode.\n\nDownload CodeGPT extension for FREE here: \nhttps://t.co/aAqcwJHWIz\n\nDownload LMStudio here: https://t.co/CHgA6US9On\n\nEnjoy! ✌️\n\n@midudev @MoureDev @DotCSV	t	f	f	f
@@ -4210,7 +4235,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1757600075281547344	1764770775660756939	karpathy	2024-02-14 02:58:07	2024-03-04 21:51:58.73215	Hi everyone yes, I left OpenAI yesterday. First of all nothing "happened" and it’s not a result of any particular event, issue or drama (but please keep the conspiracy theories coming as they are highly entertaining :)). Actually, being at OpenAI over the last ~year has been really great - the team is really strong, the people are wonderful, and the roadmap is very exciting, and I think we all have a lot to look forward to. My immediate plan is to work on my personal projects and see what happens. Those of you who’ve followed me for a while may have a sense for what that might look like ;) Cheers	f	t	f	f
 1757518780303892775	1764770775660756938	skalskip92	2024-02-13 21:35:05	2024-03-04 21:51:58.747903	YOLO-World: Real-Time, Zero-Shot Object Detection\n\nlast week, I showed you some demos featuring YOLO-World - naw (almost) real-time zero-shot detector\n\ntoday I spent a few hours diving into paper; here's what I found\n\nblog (read more): https://t.co/3TdwDGF3ic\n\n↓ highlights	f	t	f	f
 1757412612680114199	1764770775660756937	TEDchris	2024-02-13 14:33:12	2024-03-04 21:51:58.763967	Last night I was lucky to be among the first group in New York to get to taste chicken grown from a droplet of muscle cells. It was.... DELICIOUS.  Succulent, moist, the right texture. Chicken as it should be.  Even though full commercialization is a way off, it made me excited for the future.\n\nIt also made me even more frustrated with a tiredly cynical article in the NYT at the weekend "the revolution that died on the way to dinner".   As if it were ever going to be easy to transform the way 8 billion humans feed themselves.\n\nThis chicken came from Upside Foods, whose founder and CEO @UmaValeti is one of the most inspiring and impressive entrepreneurs I've met.  The beautiful facilities he's building will allow this next-gen meat to start to become cost competitive. \n\nLet me tell you something about those facilities. They're housed in glass. Nothing to hide.  Inside are large, clean metal containers for growing this meat, and growing it in half the time it takes for modern, artificially inflated chickens to grow. \n\nThose chickens, by contrast, are not grown behind glass. They're shielded inside closed-off massive meat factories. And for a reason. If we could see the hell-hole of cages, feathers, beaks, chickenshit, bird-flu, antibiotics and, worst of all, brains tortured with a short but horrifying life of suffering, we'd throw up before downing our next drumstick. To imply as the NYT did that next-gen meat will be slowed by some kind of ick factor is a woeful under-estimation of human adaptability. When the truth will out - and it will when there's actually an alternative available - the ick factor will run the other way.\n\nThis technology really matters. It will probably be impossible to lure humans away from our meat addiction. I personally love meat. I want it to be part of my future.  And last night I saw a glimpse of how that can happen in a way that will be both delicious and kind -- to our fellow creatures, and to the planet.  \n\nI'm not an investor in Upside. But I wish I was.  I certainly would not bet against them. When you peel back to the fundamentals, a system in which you're using your nutrients only to grow meat, instead of bone, brain, feathers, claws and beaks, and to do so in a shorter time horizon, has every chance to become cost competitive.  \n\nI predict the New York Times will be proved embarrassingly wrong on this one.  Just because a better future is hard to build, doesn't mean we should stop.  For me, I'll throw my lot in with the determined, the visionary.  Uma, an honor to meet you.	f	t	f	f
-1757557393633038630	1764770775660756936	jeremyphoward	2024-02-14 00:08:31	2024-03-04 21:51:58.785937	@typedfemale I was curious how ChatGPT would go.\n\nAnd wow it's amazing how many ways it manages to get it wrong! https://t.co/pvTEj5mamT	f	t	f	f
 1757228404246777941	1764770775660756935	jessfraz	2024-02-13 02:21:13	2024-03-04 21:51:58.803331	I had been wondering why GPU providers didn't just implement cuda's api.... turns out AMD did and just open sourced it\nhttps://t.co/pgEXjJugQQ	f	t	f	f
 1757429733837418610	1764770775660756934	rowancheung	2024-02-13 15:41:14	2024-03-04 21:51:58.820001	🚨 BREAKING: Nvidia just released Chat with RTX, an AI chatbot that runs locally on your PC.\n\nIt can summarize or search documents across your PC's files and even YouTube videos and playlists.\n\nThe chatbot runs locally, meaning results are fast, you can use it without the internet, and the user's data stays private.\n\nNew day, new chatbot. Let's go.	f	t	f	f
 1755757834036252853	1764770775660756916	emollick	2024-02-09 00:57:42	2024-03-04 21:51:59.93464	Junior lawyers &amp; legal outsourcing (LPOs) compared to AI in a New Zealand study: “Advanced models match or exceed human accuracy in determining legal issues. In speed, LLMs complete reviews in mere seconds… offering a staggering 99.97 percent reduction” https://t.co/Ok1NiA3ieh https://t.co/xw7Zc135a2	f	t	f	f
@@ -4376,6 +4400,7 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1762508581679640814	1764770775660756975	klarnaseb	2024-02-27 16:02:46	2024-03-04 21:51:56.27064	This is a breakthrough in practical application of AI!\n\nKlarnas AI assistant, powered by @OpenAI, has in its first 4 weeks handled 2.3 m customer service chats and the data and insights are staggering:\n\n- Handles 2/3 rd of our customer service enquires\n- On par with humans on customer satisfaction\n- Higher accuracy leading to a 25% reduction in repeat inquiries\n- Customer resolves their errands in 2 min vs 11 min\n- Live 24/7 in over 23 markets, communicating in over 35 languages\n\nIt performs the equivalent job of 700 full time agents... read more about this below.\n\nSo while we are happy about the results for our customers, our employees who have developed it and our shareholders, it raises the topic of the implications it will have for society.\n\nIn our case, customer service has been handled by on average 3000 full time agents employed by our customer service / outsourcing partners. Those partners employ 200 000 people, so in the short term this will only mean that those agents will work for other customers of those partners.\n\nBut in the longer term, as more companies adopt these technologies, we believe society needs to consider the impact. While it may be a positive impact for society as a whole, we need to consider the implications for the individuals affected.\n\nWe decided to share these statistics to raise the awareness and encourage a proactive approach to the topic of AI. For decision makers worldwide to recognise this is not just "in the future", this is happening right now.\n\nMore in our press release\nhttps://t.co/vLL05BvbNT	f	t	t	f
 1762220082560974998	1792087435117133602	migtissera	2024-02-26 20:56:22	2024-03-04 21:51:08.916772	Introducing Sensei (先生): A simple, powerful, minimal codebase to generate synthetic data using OpenAI.\n\nhttps://t.co/ADPVmOtkIe\n\nThis has been my framework for generating synthetic data using GPT-4. It includes Orca system contexts, as well as 10 new system contexts that I've designed for creating my models: Synthia, Tess and HelixNet.\n\nYou have full control over the topics. The best part is that the prompt itself is generated using GPT-4, so there's minimal refusals.\n\nI hope you benefit from this as much as I have. Feel free to open PRs for other APIs, such as Mistral's.	t	f	f	f
 1758960951624380831	1764770775660756953	HanchungLee	2024-02-17 21:05:45	2024-03-04 21:51:57.647556	For LLM systems design, we can borrow the idea of memory hierarchy from computer architecture and draw a lot of parallels.\n\nLonger context doesn't invalidate the need for "RAG".\nLarger LLMs don't invalidate the need for search engines.\n\nDifferent layers of the stack. https://t.co/dQoJoCf4DG	f	t	t	f
+1757557393633038630	1764770775660756936	jeremyphoward	2024-02-14 00:08:31	2024-03-04 21:51:58.785937	@typedfemale I was curious how ChatGPT would go.\n\nAnd wow it's amazing how many ways it manages to get it wrong! https://t.co/pvTEj5mamT	f	t	t	f
 \.
 
 
@@ -6804,7 +6829,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 425, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 445, true);
 
 
 --
