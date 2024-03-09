@@ -375,6 +375,7 @@ COPY public.categories (id, name) FROM stdin;
 459	artificial
 461	learning
 462	deception
+466	CUDA
 \.
 
 
@@ -1628,6 +1629,9 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1757244005639766157	17
 1757244005639766157	87
 1757244005639766157	91
+1757228404246777941	466
+1757228404246777941	132
+1757228404246777941	456
 \.
 
 
@@ -6856,7 +6860,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 465, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 468, true);
 
 
 --
