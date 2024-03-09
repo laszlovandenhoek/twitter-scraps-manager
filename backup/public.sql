@@ -384,6 +384,10 @@ COPY public.categories (id, name) FROM stdin;
 511	WFH
 516	egress
 517	pricing
+522	legal
+526	workflow
+530	forgetting
+531	research
 \.
 
 
@@ -1687,6 +1691,29 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1755923381038289157	204
 1755923381038289157	516
 1755923381038289157	517
+1755783001831833603	160
+1755783001831833603	365
+1755757834036252853	95
+1755757834036252853	522
+1755596564817699049	387
+1755596564817699049	27
+1755596564817699049	318
+1755509528521822637	526
+1755509528521822637	77
+1755509528521822637	153
+1709630145651482665	111
+1709630145651482665	530
+1709630145651482665	531
+1755476468157833593	31
+1755476468157833593	442
+1755476468157833593	497
+1755395476289904903	54
+1755395476289904903	149
+1755395476289904903	79
+1755290860948799804	140
+1755290860948799804	92
+1755290860948799804	149
+1755290860948799804	58
 \.
 
 
@@ -4219,7 +4246,6 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1757391945813405827	1790817952799671383	reach_vb	2024-02-13 13:11:05	2024-03-04 21:51:09.053394	Welcome Aya-101 🚀\n\n&gt; Follows instructions in 101 languages!\n&gt; 12.9 B parameters\n&gt; Outperforms mT0 &amp; Bloomz\n&gt; Released under Apache 2.0 \n&gt; Training + Evaluation data released too!\n&gt; mt5-xxl architecture!\n\nGG @CohereForAI ♥️\n\nModel ckpt: https://t.co/FSK4E89YbV https://t.co/1ykAHWOP8A	t	f	f	f
 1757028556809355439	1790798495924167371	_willfalcon	2024-02-12 13:07:06	2024-03-04 21:51:09.070221	In this new 90 minute lecture, I show how to pretrain a 3B LLM from scratch. No edits. No detail skipped.\n\nCompanies want you to believe pretraining models is super hard and costly. With the right tools, it's not.\n\n- We start by tuning the model on a cheap A10G.\n- Then we scale to 4 A10G to speed up training by 2x.\n- We handle OOM errors and tune hyperparameters.\n- We end with scaling to 8 H100s (1 machine) to speed up by another 4x.\n- Tune again to scale from 1B to 3B params.\n- Then scale to 16 H100s (multi-node).\n\nAt the end of this video you'll develop a good development workflow for pretraining LLMs.\n\nhttps://t.co/XXhUHhp3bZ	t	f	f	f
 1756694204867355041	1790674571178788523	SheriefFYI	2024-02-11 14:58:30	2024-03-04 21:51:09.088354	It seems that OpenAI's Whisper was trained on unofficial subtitles of Arabic movies, and a big problem there is that the Arab culture doesn't care about content quality that much and considers everything an opportunity to advertise and / or soapbox - leading to a weird issue	t	f	f	f
-1755290860948799804	1790369314248955702	ashpreetbedi	2024-02-07 18:02:07	2024-03-04 21:51:09.105953	Fully local RAG using @Teknium1 OpenHermes, @ollama and @streamlit . GPT4 level performance at 0% of the cost 🔥\n\nCode: https://t.co/wekqCGqXhk https://t.co/Q6unAaumJx	t	f	f	f
 1764293167812378871	1764770775660756991	agazdecki	2024-03-03 14:14:04	2024-03-04 21:51:55.993647	This is hilarious and also why startups should never hire MBA consultants who have never built a company before. https://t.co/nhQXVLbNJh	f	t	f	f
 1764541283370971478	1764770775660756990	Rainmaker1973	2024-03-04 06:40:00	2024-03-04 21:51:56.010432	10 popular tones of voice acting\n\n[📹 tawnyplatis]\nhttps://t.co/yFNuAkoy3r	f	t	f	f
 1764497819791233210	1764770775660756989	IsaacKing314	2024-03-04 03:47:17	2024-03-04 21:51:56.028529	Elaborate jokes that will only be understood by like 5 people on the planet are the actual best https://t.co/0FubABi4RW	f	t	f	f
@@ -4227,6 +4253,7 @@ COPY public.tweets (rest_id, sort_index, screen_name, created_at, fetched_at, fu
 1758229017772044641	1791037865434759202	gd3kr	2024-02-15 20:37:18	2024-03-04 21:51:09.020535	wrote a short script to generate embeddings and structure them in a format compatible with https://t.co/dFOp0PVtHS\n\nhttps://t.co/lH65lLIq2U	t	f	t	f
 1764356836692562027	1764770775660756986	buccocapital	2024-03-03 18:27:04	2024-03-04 21:51:56.08069	The interns at McKinsey and Morgan Stanley have been hard at work building incredibly precise, definitely correct, and beautifully color-coded predictions on the impact of Generative AI by industry https://t.co/jSYNJFa87b	f	t	f	f
 1747304282448118200	1764770775660756874	BrianLeiter	2024-01-16 17:06:18	2024-03-04 21:52:02.458262	A well-known philosopher of physics writes about his experiences with schizophrenia over the last several decades...https://t.co/GdFpx7ykJr	f	t	f	f
+1755290860948799804	1790369314248955702	ashpreetbedi	2024-02-07 18:02:07	2024-03-04 21:51:09.105953	Fully local RAG using @Teknium1 OpenHermes, @ollama and @streamlit . GPT4 level performance at 0% of the cost 🔥\n\nCode: https://t.co/wekqCGqXhk https://t.co/Q6unAaumJx	t	f	t	f
 1755395476289904903	1790369163970287255	dani_avila7	2024-02-08 00:57:49	2024-03-04 21:51:09.123125	Copilot is now completely free and private thanks to @LMStudioAI and the OpenHermes-2.5-Mistral-7B model\n\nFinally, #LMStudio is seamlessly integrated with CodeGPT, allowing you to leverage all models of this incredible platform locally in VSCode.\n\nDownload CodeGPT extension for FREE here: \nhttps://t.co/aAqcwJHWIz\n\nDownload LMStudio here: https://t.co/CHgA6US9On\n\nEnjoy! ✌️\n\n@midudev @MoureDev @DotCSV	t	f	f	f
 1755509528521822637	1790357489764949869	Carnage4Life	2024-02-08 08:31:02	2024-03-04 21:51:09.179291	OpenAI is working on “agents” that can perform tasks by taking over your device using clicking through multiple apps to get the task done.\n\nThis is similar to what automation startups like UI Path do.\n\nThe vision of automating white collar work expands. https://t.co/Lqa4dkPhD4	t	f	f	f
 1755122786014724125	1790311810040742409	krishnanrohit	2024-02-07 06:54:15	2024-03-04 21:51:09.194662	The system prompt for ChatGPT is absurd! h/t @dylan522p, and I independently verified across a couple devices. No wonder it's screwed up!\n\n(full output in the next tweet) https://t.co/uoXIaQ17Bm	t	f	f	f
@@ -6915,7 +6942,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 517, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 541, true);
 
 
 --
