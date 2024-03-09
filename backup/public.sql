@@ -1632,6 +1632,8 @@ COPY public.tweet_categories (tweet_id, category_id) FROM stdin;
 1757228404246777941	466
 1757228404246777941	132
 1757228404246777941	456
+1757166124339437714	225
+1757166124339437714	90
 \.
 
 
@@ -6860,7 +6862,7 @@ COPY public.tweets_old (rest_id, sort_index, screen_name, created_at, full_text,
 -- Name: categories_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categories_id_seq', 468, true);
+SELECT pg_catalog.setval('public.categories_id_seq', 470, true);
 
 
 --
