@@ -10159,7 +10159,7 @@ This is distilled from our 70B model, and performs around as well* as GPT-4 for 
 We'd been sitting on this one for a while, and this launch was inspired by the excellent natural-sql-7b that
 @calebfahlgren launched today. 
 
-We expect to improve this model quite significantly over this week with better data (specially for joins and group bys), and will also launch a GUI + webserver where you can connect this with your database and start talking to it.  Shipping is fun :D",t,f,f,f
+We expect to improve this model quite significantly over this week with better data (specially for joins and group bys), and will also launch a GUI + webserver where you can connect this with your database and start talking to it.  Shipping is fun :D",t,f,t,f
 1754223187842552134,1790097210950231931,sh_reya,2024-02-04 19:19:34,2024-03-04 21:51:09.208629,"has anyone created a taxonomy of the tasks people use LLMs for? not talking about prompting &amp; training/fine-tuning strategies. just the tasks. eg question-answering, document summarization, writing code,…?",t,f,f,f
 1755122786014724125,1790311810040742409,krishnanrohit,2024-02-07 06:54:15,2024-03-04 21:51:09.194662,"The system prompt for ChatGPT is absurd! h/t @dylan522p, and I independently verified across a couple devices. No wonder it's screwed up!
 
