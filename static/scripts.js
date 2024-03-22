@@ -100,6 +100,7 @@ function fetchTweets() {
                 row.className = "";
 
                 let full_text = tweet.full_text;
+                let quoted_text = tweet.quoted_text;
 
                 let screen_name = tweet.screen_name;
 
@@ -109,15 +110,17 @@ function fetchTweets() {
                     let words = textSearch.value.split(" ").join("|");
                     let regex = new RegExp(words, 'gi');
                     full_text = full_text.replace(regex, highlighted);
+                    quoted_text = quoted_text?.replace(regex, highlighted) || quoted_text;
                     screen_name = screen_name.replace(regex, highlighted);
                 }
 
                 full_text = full_text.replaceAll("\n", "<br>");
+                quoted_text = quoted_text.replaceAll("\n", "<br>");
 
                 row.innerHTML = `
                     <td><p>${screen_name}</p> <p>${tweet.created_at}</p> <p>${tweet.rest_id}</p></td>
                     <td>${tweet.liked ? '❤' : ''}${tweet.bookmarked ? '🔖' : ''}</td>
-                    <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')"><p>${full_text}</p></td>
+                    <td onclick="previewTweet('${tweet.screen_name}', '${tweet.rest_id}')"><p>${full_text}</p><blockquote>${quoted_text}</blockquote></td>
                     <td>
                         <p><input list="categories" id="category-selector-${tweet.rest_id}" name="category" placeholder="Add category..." onchange="addCategory('${tweet.rest_id}', this.value.trim())" value=""></p>
                         <p id="categories-${tweet.rest_id}">${categories}</p>

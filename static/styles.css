@@ -35,6 +35,13 @@ p {
     margin: 5px;
 }
 
+blockquote {
+    border-left: 3px solid grey;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
 span.category {
     font-size: 80%;
     border: 1px solid black;

@@ -17,6 +17,7 @@ pub struct Tweet {
     created_at: chrono::NaiveDateTime,
     fetched_at: chrono::NaiveDateTime,
     full_text: String,
+    quoted_text: String,
     bookmarked: bool,
     liked: bool,
     categories: Vec<String>,

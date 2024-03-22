@@ -42,7 +42,7 @@ pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl 
     let mut argument_index = 3;
     let mut terms_clauses: Vec<String> = Vec::new();
     for _ in 0..search_terms.len() {
-        let string = format!("(screen_name ILIKE ${} OR full_text ILIKE ${} OR BOOL_OR(c.name ILIKE ${}))", argument_index, argument_index, argument_index);
+        let string = format!("(rest_id ILIKE ${} OR screen_name ILIKE ${} OR full_text ILIKE ${} OR quoted_text ILIKE ${} OR BOOL_OR(c.name ILIKE ${}))", argument_index, argument_index, argument_index, argument_index, argument_index);
         argument_index += 1;
         terms_clauses.push(string);
     }
@@ -53,7 +53,19 @@ pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl 
     let mut query_parameters: Vec<&(dyn ToSql + Sync)> = vec!(&size, &offset);
     search_terms.iter().for_each(|term| query_parameters.push(term));
 
-    let query = format!("SELECT tweets.*, array_remove(array_agg(c.name), NULL) as categories FROM tweets \
+    let query = format!("SELECT \
+        tweets.rest_id, \
+        tweets.sort_index, \
+        tweets.screen_name, \
+        tweets.created_at, \
+        tweets.fetched_at, \
+        tweets.full_text, \
+        tweets.bookmarked, \
+        tweets.liked, \
+        tweets.important, \
+        tweets.archived, \
+        COALESCE(tweets.quoted_text, '') as quoted_text, \
+        array_remove(array_agg(c.name), NULL) as categories FROM tweets \
         LEFT JOIN tweet_categories ON tweets.rest_id = tweet_categories.tweet_id \
         LEFT JOIN categories c ON tweet_categories.category_id = c.id \
         WHERE {} \
@@ -74,6 +86,7 @@ pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl 
             created_at: row.get("created_at"),
             fetched_at: row.get("fetched_at"),
             full_text: row.get("full_text"),
+            quoted_text: row.get("quoted_text"),
             bookmarked: row.get("bookmarked"),
             liked: row.get("liked"),
             categories: row.get("categories"),
