@@ -6,11 +6,6 @@ use tokio_postgres::types::ToSql;
 
 use crate::{Info, Parameters, Tweet, UpdateTweet};
 
-#[derive(Debug)]
-struct CustomRejection(String);
-
-impl warp::reject::Reject for CustomRejection {}
-
 const STATIC_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/static");
 
 pub async fn get_tweets(parameters: Parameters, pool: Arc<Pool>) -> Result<impl warp::Reply, warp::Rejection> {
@@ -165,7 +160,7 @@ pub async fn patch_tweet(rest_id: String, update: UpdateTweet, pool: Arc<Pool>) 
     }
 
     if !changed {
-        return Err(warp::reject::custom(CustomRejection(String::from("No valid fields provided for update"))));
+        return Ok(warp::reply::with_status("No valid fields provided", warp::http::StatusCode::BAD_REQUEST));
     }
 
     Ok(warp::reply::with_status("Updated", warp::http::StatusCode::NO_CONTENT))
